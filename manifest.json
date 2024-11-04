@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.RegistroFacturaType.html",
-          "hash": "DH0jjo/vpAyRPYzFPAp5P/iIiLfcWPyVDrSZCAfKpss="
+          "hash": "TIZbvI856KpCXv66Jefo6FD9hPPBT1QsSwQ+0EnyRrc="
         }
       },
       "is_incremental": false,
@@ -714,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.html",
-          "hash": "SsUc14PTZoyV+veqtZ3RypmkybAPUeV1Mknk4x8slK8="
+          "hash": "VA8LuwhViQn60g8GWGBsdoAfWeJ7o1m0+d+ZSwPFW0w="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "MPKOi1LQfuaVoOyYCe40mydoRPhZebUFWNdcCxxje+8="
+          "hash": "wN2xQBtImXUrBApW+JTVqpxONE+Ps1sE95s/JK1qad8="
         }
       },
       "is_incremental": false,
@@ -1078,7 +1078,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 80,
-          "skipped_file_count": 80
+          "skipped_file_count": 79
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
