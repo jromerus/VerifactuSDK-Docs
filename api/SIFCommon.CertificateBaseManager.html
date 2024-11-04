@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CertificateHelper
+    <title>Class CertificateBaseManager
    | Verifactu API SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CertificateHelper
+    <meta name="title" content="Class CertificateBaseManager
    | Verifactu API SDK ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,17 +78,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VerifactuSDK.Utils.CertificateHelper">
+            <article class="content wrap" id="_content" data-uid="SIFCommon.CertificateBaseManager">
   
   
-  <h1 id="VerifactuSDK_Utils_CertificateHelper" data-uid="VerifactuSDK.Utils.CertificateHelper" class="text-break">Class CertificateHelper
+  <h1 id="SIFCommon_CertificateBaseManager" data-uid="SIFCommon.CertificateBaseManager" class="text-break">Class CertificateBaseManager
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CertificateHelper</span></div>
+    <div class="level1"><span class="xref">CertificateBaseManager</span></div>
+      <div class="level2"><a class="xref" href="VerifactuSDK.VerifactuManager.html">VerifactuManager</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,22 +115,22 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.Utils.html">VerifactuSDK.Utils</a></h6>
-  <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
-  <h5 id="VerifactuSDK_Utils_CertificateHelper_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SIFCommon.html">SIFCommon</a></h6>
+  <h6><strong>Assembly</strong>: SIFCommon.dll</h6>
+  <h5 id="SIFCommon_CertificateBaseManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class CertificateHelper</code></pre>
+    <pre><code class="lang-csharp hljs">public class CertificateBaseManager</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
-  <a id="VerifactuSDK_Utils_CertificateHelper_LastCertificate_" data-uid="VerifactuSDK.Utils.CertificateHelper.LastCertificate*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_LastCertificate" data-uid="VerifactuSDK.Utils.CertificateHelper.LastCertificate">LastCertificate</h4>
+  <a id="SIFCommon_CertificateBaseManager_LastCertificate_" data-uid="SIFCommon.CertificateBaseManager.LastCertificate*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_LastCertificate" data-uid="SIFCommon.CertificateBaseManager.LastCertificate">LastCertificate</h4>
   <div class="markdown level1 summary"><p>Último certificado usado</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static X509Certificate2 LastCertificate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public X509Certificate2 LastCertificate { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,8 +147,8 @@
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_LastDistinguissedName_" data-uid="VerifactuSDK.Utils.CertificateHelper.LastDistinguissedName*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_LastDistinguissedName" data-uid="VerifactuSDK.Utils.CertificateHelper.LastDistinguissedName">LastDistinguissedName</h4>
+  <a id="SIFCommon_CertificateBaseManager_LastDistinguissedName_" data-uid="SIFCommon.CertificateBaseManager.LastDistinguissedName*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_LastDistinguissedName" data-uid="SIFCommon.CertificateBaseManager.LastDistinguissedName">LastDistinguissedName</h4>
   <div class="markdown level1 summary"><p>Devuelve el DistinguissedName (DN) del certificado utilizado para la firma. Dado que se puede puede parametrizar o no
 el DN que identifica el certificado en el proceso de firma, resulta de utilidad qué certificado se ha utilizado
 en los casos en los que no se pasa por parámetro y se deja al usuario su elección.</p>
@@ -155,7 +156,7 @@ en los casos en los que no se pasa por parámetro y se deja al usuario su elecci
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string LastDistinguissedName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LastDistinguissedName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,14 +173,14 @@ en los casos en los que no se pasa por parámetro y se deja al usuario su elecci
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_LastExpirationDate_" data-uid="VerifactuSDK.Utils.CertificateHelper.LastExpirationDate*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_LastExpirationDate" data-uid="VerifactuSDK.Utils.CertificateHelper.LastExpirationDate">LastExpirationDate</h4>
+  <a id="SIFCommon_CertificateBaseManager_LastExpirationDate_" data-uid="SIFCommon.CertificateBaseManager.LastExpirationDate*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_LastExpirationDate" data-uid="SIFCommon.CertificateBaseManager.LastExpirationDate">LastExpirationDate</h4>
   <div class="markdown level1 summary"><p>Devuelva la fecha de expiración del último certificado seleccionado</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string LastExpirationDate { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LastExpirationDate { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,15 +197,15 @@ en los casos en los que no se pasa por parámetro y se deja al usuario su elecci
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_LastSerialNumber_" data-uid="VerifactuSDK.Utils.CertificateHelper.LastSerialNumber*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_LastSerialNumber" data-uid="VerifactuSDK.Utils.CertificateHelper.LastSerialNumber">LastSerialNumber</h4>
+  <a id="SIFCommon_CertificateBaseManager_LastSerialNumber_" data-uid="SIFCommon.CertificateBaseManager.LastSerialNumber*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_LastSerialNumber" data-uid="SIFCommon.CertificateBaseManager.LastSerialNumber">LastSerialNumber</h4>
   <div class="markdown level1 summary"><p>Devuelve el SerialNumber del certificado utilizado en la firma. Dado que se puede inficar o no el identificador del certificado
 durante el proceso de firma, resulta de utilidad saber qué certificado se ha usado cuando se deja al usuario elegirlo.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string LastSerialNumber { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LastSerialNumber { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -223,14 +224,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
   </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="VerifactuSDK_Utils_CertificateHelper_GetAllDNCertificado_" data-uid="VerifactuSDK.Utils.CertificateHelper.GetAllDNCertificado*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_GetAllDNCertificado" data-uid="VerifactuSDK.Utils.CertificateHelper.GetAllDNCertificado">GetAllDNCertificado()</h4>
+  <a id="SIFCommon_CertificateBaseManager_GetAllDNCertificado_" data-uid="SIFCommon.CertificateBaseManager.GetAllDNCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_GetAllDNCertificado" data-uid="SIFCommon.CertificateBaseManager.GetAllDNCertificado">GetAllDNCertificado()</h4>
   <div class="markdown level1 summary"><p>Muestra una lista de certificados válidos (no caducados y emitidos por cualquier autoridad de certificación) y permite seleccionar un certificado local y obtener el identificador unívoco DN (Distinguished Name) del certificado seleccionado</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetAllDNCertificado()</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetAllDNCertificado()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -248,14 +249,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_GetAllSerialNumberCertificado_" data-uid="VerifactuSDK.Utils.CertificateHelper.GetAllSerialNumberCertificado*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_GetAllSerialNumberCertificado" data-uid="VerifactuSDK.Utils.CertificateHelper.GetAllSerialNumberCertificado">GetAllSerialNumberCertificado()</h4>
+  <a id="SIFCommon_CertificateBaseManager_GetAllSerialNumberCertificado_" data-uid="SIFCommon.CertificateBaseManager.GetAllSerialNumberCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_GetAllSerialNumberCertificado" data-uid="SIFCommon.CertificateBaseManager.GetAllSerialNumberCertificado">GetAllSerialNumberCertificado()</h4>
   <div class="markdown level1 summary"><p>Muestra una lista de certificados válidos (no caducados y emitidos por cualquier autoridad de certificación) y permite seleccionar un certificado local y obtener el identificador unívoco Serial Number del certificado seleccionado</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetAllSerialNumberCertificado()</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetAllSerialNumberCertificado()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -273,14 +274,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_GetDNCertificado_" data-uid="VerifactuSDK.Utils.CertificateHelper.GetDNCertificado*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_GetDNCertificado" data-uid="VerifactuSDK.Utils.CertificateHelper.GetDNCertificado">GetDNCertificado()</h4>
+  <a id="SIFCommon_CertificateBaseManager_GetDNCertificado_" data-uid="SIFCommon.CertificateBaseManager.GetDNCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_GetDNCertificado" data-uid="SIFCommon.CertificateBaseManager.GetDNCertificado">GetDNCertificado()</h4>
   <div class="markdown level1 summary"><p>Muestra una lista de certificados válidos (no caducados y emitidos por una autoridad de certificación de confianza instalada en el almacén raíz) y permite seleccionar un certificado local y obtener el identificador unívoco DN (Distinguished Name) del certificado seleccionado</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetDNCertificado()</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetDNCertificado()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,14 +299,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_GetSerialNumberCertificado_" data-uid="VerifactuSDK.Utils.CertificateHelper.GetSerialNumberCertificado*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_GetSerialNumberCertificado" data-uid="VerifactuSDK.Utils.CertificateHelper.GetSerialNumberCertificado">GetSerialNumberCertificado()</h4>
+  <a id="SIFCommon_CertificateBaseManager_GetSerialNumberCertificado_" data-uid="SIFCommon.CertificateBaseManager.GetSerialNumberCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_GetSerialNumberCertificado" data-uid="SIFCommon.CertificateBaseManager.GetSerialNumberCertificado">GetSerialNumberCertificado()</h4>
   <div class="markdown level1 summary"><p>Muestra una lista de certificados válidos (no caducados y emitidos por una autoridad de certificación de confianza instalada en el almacén raíz) y permite seleccionar un certificado local y obtener el identificador unívoco DN (Distinguished Name) del certificado seleccionado</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetSerialNumberCertificado()</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetSerialNumberCertificado()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -323,14 +324,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_LastSelectedCertificate_" data-uid="VerifactuSDK.Utils.CertificateHelper.LastSelectedCertificate*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_LastSelectedCertificate" data-uid="VerifactuSDK.Utils.CertificateHelper.LastSelectedCertificate">LastSelectedCertificate()</h4>
+  <a id="SIFCommon_CertificateBaseManager_LastSelectedCertificate_" data-uid="SIFCommon.CertificateBaseManager.LastSelectedCertificate*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_LastSelectedCertificate" data-uid="SIFCommon.CertificateBaseManager.LastSelectedCertificate">LastSelectedCertificate()</h4>
   <div class="markdown level1 summary"><p>Devuelve el último certificado seleccionado por el usuario</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static X509Certificate2 LastSelectedCertificate()</code></pre>
+    <pre><code class="lang-csharp hljs">public X509Certificate2 LastSelectedCertificate()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -347,14 +348,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_ObtenerCertificado_" data-uid="VerifactuSDK.Utils.CertificateHelper.ObtenerCertificado*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_ObtenerCertificado_System_String_VerifactuSDK_Utils_TipoIdCertificado_" data-uid="VerifactuSDK.Utils.CertificateHelper.ObtenerCertificado(System.String,VerifactuSDK.Utils.TipoIdCertificado)">ObtenerCertificado(String, TipoIdCertificado)</h4>
+  <a id="SIFCommon_CertificateBaseManager_ObtenerCertificado_" data-uid="SIFCommon.CertificateBaseManager.ObtenerCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_ObtenerCertificado_System_String_SIFCommon_TipoIdCertificado_" data-uid="SIFCommon.CertificateBaseManager.ObtenerCertificado(System.String,SIFCommon.TipoIdCertificado)">ObtenerCertificado(String, TipoIdCertificado)</h4>
   <div class="markdown level1 summary"><p>Obtiene el certificado identificado según los parámetros</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static X509Certificate2 ObtenerCertificado(string id, TipoIdCertificado tipoId = TipoIdCertificado.DN)</code></pre>
+    <pre><code class="lang-csharp hljs">public X509Certificate2 ObtenerCertificado(string id, TipoIdCertificado tipoId = TipoIdCertificado.DN)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -373,7 +374,7 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="VerifactuSDK.Utils.TipoIdCertificado.html">TipoIdCertificado</a></td>
+        <td><a class="xref" href="SIFCommon.TipoIdCertificado.html">TipoIdCertificado</a></td>
         <td><span class="parametername">tipoId</span></td>
         <td><p>(Opcional) Tipo de identificador {DN, SerialName}. Si no se indica el valor por defecto es DN (Distinguissed Name)</p>
 </td>
@@ -395,14 +396,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_SaveSelectedCertificate_" data-uid="VerifactuSDK.Utils.CertificateHelper.SaveSelectedCertificate*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_SaveSelectedCertificate_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="VerifactuSDK.Utils.CertificateHelper.SaveSelectedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2)">SaveSelectedCertificate(X509Certificate2)</h4>
+  <a id="SIFCommon_CertificateBaseManager_SaveSelectedCertificate_" data-uid="SIFCommon.CertificateBaseManager.SaveSelectedCertificate*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_SaveSelectedCertificate_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="SIFCommon.CertificateBaseManager.SaveSelectedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2)">SaveSelectedCertificate(X509Certificate2)</h4>
   <div class="markdown level1 summary"><p>Almacena el identificador SN del certificado en la carpeta especial del usuario</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveSelectedCertificate(X509Certificate2 cert)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SaveSelectedCertificate(X509Certificate2 cert)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -421,14 +422,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_SeleccionaEstableceCertificado_" data-uid="VerifactuSDK.Utils.CertificateHelper.SeleccionaEstableceCertificado*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_SeleccionaEstableceCertificado_System_String_" data-uid="VerifactuSDK.Utils.CertificateHelper.SeleccionaEstableceCertificado(System.String)">SeleccionaEstableceCertificado(String)</h4>
+  <a id="SIFCommon_CertificateBaseManager_SeleccionaEstableceCertificado_" data-uid="SIFCommon.CertificateBaseManager.SeleccionaEstableceCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_SeleccionaEstableceCertificado_System_String_" data-uid="SIFCommon.CertificateBaseManager.SeleccionaEstableceCertificado(System.String)">SeleccionaEstableceCertificado(String)</h4>
   <div class="markdown level1 summary"><p>Muestra la pantalla de selección de certificado válido (no caducados y emitidos por una autoridad de certificación de confianza instalada en el almacén raíz) y lo establece para la firma</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool SeleccionaEstableceCertificado(string message = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SeleccionaEstableceCertificado(string message = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -464,14 +465,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_SeleccionaEstableceCertificadoSinVerificar_" data-uid="VerifactuSDK.Utils.CertificateHelper.SeleccionaEstableceCertificadoSinVerificar*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_SeleccionaEstableceCertificadoSinVerificar_System_String_" data-uid="VerifactuSDK.Utils.CertificateHelper.SeleccionaEstableceCertificadoSinVerificar(System.String)">SeleccionaEstableceCertificadoSinVerificar(String)</h4>
+  <a id="SIFCommon_CertificateBaseManager_SeleccionaEstableceCertificadoSinVerificar_" data-uid="SIFCommon.CertificateBaseManager.SeleccionaEstableceCertificadoSinVerificar*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_SeleccionaEstableceCertificadoSinVerificar_System_String_" data-uid="SIFCommon.CertificateBaseManager.SeleccionaEstableceCertificadoSinVerificar(System.String)">SeleccionaEstableceCertificadoSinVerificar(String)</h4>
   <div class="markdown level1 summary"><p>Muestra la pantalla de selección de certificado válido (no caducados y emitidos por cualquier autoridad de certificación) y lo establece para la firma</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool SeleccionaEstableceCertificadoSinVerificar(string message = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SeleccionaEstableceCertificadoSinVerificar(string message = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -507,14 +508,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_SelectCertificate_" data-uid="VerifactuSDK.Utils.CertificateHelper.SelectCertificate*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_SelectCertificate_System_Boolean_System_String_System_String_" data-uid="VerifactuSDK.Utils.CertificateHelper.SelectCertificate(System.Boolean,System.String,System.String)">SelectCertificate(Boolean, String, String)</h4>
+  <a id="SIFCommon_CertificateBaseManager_SelectCertificate_" data-uid="SIFCommon.CertificateBaseManager.SelectCertificate*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_SelectCertificate_System_Boolean_System_String_System_String_" data-uid="SIFCommon.CertificateBaseManager.SelectCertificate(System.Boolean,System.String,System.String)">SelectCertificate(Boolean, String, String)</h4>
   <div class="markdown level1 summary"><p>Muestra una lista de certificados válidos (no caducados y emitidos por una autoridad de certificación de confianza instalada en el almacén raíz) y permite seleccionar un certificado del almacén de certificados</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static X509Certificate2 SelectCertificate(bool verifyRootAuthority = true, string message = null, string title = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public X509Certificate2 SelectCertificate(bool verifyRootAuthority = true, string message = null, string title = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -558,14 +559,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_Utils_CertificateHelper_SetParentSelectCertificateForm_" data-uid="VerifactuSDK.Utils.CertificateHelper.SetParentSelectCertificateForm*"></a>
-  <h4 id="VerifactuSDK_Utils_CertificateHelper_SetParentSelectCertificateForm_System_IntPtr_" data-uid="VerifactuSDK.Utils.CertificateHelper.SetParentSelectCertificateForm(System.IntPtr)">SetParentSelectCertificateForm(IntPtr)</h4>
+  <a id="SIFCommon_CertificateBaseManager_SetParentSelectCertificateForm_" data-uid="SIFCommon.CertificateBaseManager.SetParentSelectCertificateForm*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_SetParentSelectCertificateForm_System_IntPtr_" data-uid="SIFCommon.CertificateBaseManager.SetParentSelectCertificateForm(System.IntPtr)">SetParentSelectCertificateForm(IntPtr)</h4>
   <div class="markdown level1 summary"><p>Establece el handle o puntero al form que actúa de ancestro del formulario modal de selección de certificado. Resulta de utilidad cuando se desee establecer una jerarquía que asegure el foco en primer plano del formulario de selección.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetParentSelectCertificateForm(IntPtr handle)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetParentSelectCertificateForm(IntPtr handle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

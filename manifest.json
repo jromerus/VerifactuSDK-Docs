@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Desarrollo/DesInterno/Vortex/Extensiones/VeriFactu/master/VerifactuSDK/ApiDoc",
+  "source_base_path": "C:/Desarrollo/DesInterno/Vortex/Extensiones/VeriFactu/master/ApiDoc",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -14,11 +14,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SIFCommon.CertificateBaseManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SIFCommon.CertificateBaseManager.html",
+          "hash": "MFT3w3tIpnplnVCS33ln41H8tt/4FDyuzEcshBlEpWg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SIFCommon.TipoIdCertificado.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SIFCommon.TipoIdCertificado.html",
+          "hash": "cu4UAzATeO0aNVu+2V06fkExe/MZUvi6ATg1HxuJodQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SIFCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SIFCommon.html",
+          "hash": "e3J6MyJgGGQOAG3DkBPHvWx8Y7vH8lECzNwo6Sq8CIc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VerifactuSDK.DTO.Alta.CalificacionOperacionType.yml",
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.CalificacionOperacionType.html",
-          "hash": "fHXjnsuGZkiqmspepuiUZLZdoGF6v2YGdILLybqvyC4="
+          "hash": "pu/ivI84supcPy3fbvbyVl250zpTyd6uk0hiBhtx1UE="
         }
       },
       "is_incremental": false,
@@ -30,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.ClaveTipoFacturaType.html",
-          "hash": "rlJciOIKQogMDPK0/JTotOXjF6u8h82A7tlG7O2lcHI="
+          "hash": "Hb7DsAv7FYanxQg9Ggkqq9whP5E6m8BJ9uZqkZFHcwo="
         }
       },
       "is_incremental": false,
@@ -42,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.ClaveTipoRectificativaType.html",
-          "hash": "Hjll8sBQqcno5som0RPN8SVTXiwp0GkNWLoFy8xsoZI="
+          "hash": "jKIIxonBWv1f0Se0tOHZDrwY8xC6++dKkbd57an89Bc="
         }
       },
       "is_incremental": false,
@@ -54,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.CompletaSinDestinatarioType.html",
-          "hash": "3+vERK6g5/MkyhXuL9gXX9sanwDQp9/lm3XzIvSevn4="
+          "hash": "eu8VPFt1li+3nBhbThucN3VPVXDxiODecY0U0xX6YtU="
         }
       },
       "is_incremental": false,
@@ -66,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.CuponType.html",
-          "hash": "ldUexmHRrM6+IyYomkRw7D6IppHOSIpw9gkgomJpPfI="
+          "hash": "i11dUsnYS91AAGZmSafYmXBOh94GD47Tn/xJt7I7vbg="
         }
       },
       "is_incremental": false,
@@ -78,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.DesgloseRectificacionType.html",
-          "hash": "ElxJAvpDyq7zdWWWV0fmf9ZY1B18BXJYpuC3kswdZ8I="
+          "hash": "dtMbvaD1PXBM1YfUumGk8gXU7fjEKhBiXKDPGkK6sy8="
         }
       },
       "is_incremental": false,
@@ -90,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.DetalleType.html",
-          "hash": "1/A0vkXYQzPpiMJ4qyCthdzraCpwtAnOdys2I++/VC8="
+          "hash": "YVjfDXTiO9ojya7tSjq68MZ66SVOiTf9caqU87W11Eo="
         }
       },
       "is_incremental": false,
@@ -102,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.IDFacturaARType.html",
-          "hash": "MlP2qRApE1hEGssnWRCbsOqRlEghW/u1CPn8gDzUbg8="
+          "hash": "rhNFQQHq0eBgh0GacFiDTGdgnX9/0mvjggi80KkHFas="
         }
       },
       "is_incremental": false,
@@ -114,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.IDFacturaExpedidaType.html",
-          "hash": "Mqlkzn+SN9iU3QAFo+GX3ZlfZSfK2PQBFzQUP738B/0="
+          "hash": "MJpWPdyLpj6c9N7aOEtlwIuuIkHIlst0IR/1jJa9OgM="
         }
       },
       "is_incremental": false,
@@ -126,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.IdOperacionesTrascendenciaTributariaType.html",
-          "hash": "5aVf/8eoKJZ3rBvsFClHUkEo9PsdqWQQdquVi3gnskA="
+          "hash": "dMfcTMRXJEZZCKV/++vGiwr/aY3Eu8vS1qnzDGUO+Z4="
         }
       },
       "is_incremental": false,
@@ -138,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.ImpuestoType.html",
-          "hash": "JSRfAziOY5un5t8VAEt22j4W6mkKQjscIDpy2dsC1ik="
+          "hash": "DfJPFY0LbNUfmeLtVU2pB4utLQwcAJV8qE+gwT8l4h4="
         }
       },
       "is_incremental": false,
@@ -150,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.MacrodatoType.html",
-          "hash": "72vomT7pUZ0L8sgbJAOLq0hUt4k5sfaTuarBNiD/krg="
+          "hash": "pyULxrbqrWp6t4av2zNWloJELtX2/d4jXWRV5eyrL6Q="
         }
       },
       "is_incremental": false,
@@ -162,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.OperacionExentaType.html",
-          "hash": "5W7ZLQFJG904kPt0g543aIlusM2PNpsSC00H1DEXoaY="
+          "hash": "X+2hNLgVdtXe9gkHFzRr0PEl1hAz+Du3453sep0jHFo="
         }
       },
       "is_incremental": false,
@@ -174,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.RechazoPrevioType.html",
-          "hash": "gKTVuOBQZ4/JgkwskhlYW+x2fmKdsfvjxbCd3260nk0="
+          "hash": "1jwZNLjQ2f6LPlRtIpkgf6xiCp+CDdzBIwNs6paswX8="
         }
       },
       "is_incremental": false,
@@ -186,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html",
-          "hash": "J7oDyacMddFKKdid0/7zqSyvuFT6MjH5YXRMIiRYYDw="
+          "hash": "xXLlzsnOunGuS9R7yydqQH3LBFth6K/p8ufO4+HYnDM="
         }
       },
       "is_incremental": false,
@@ -198,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.SimplificadaCualificadaType.html",
-          "hash": "dQuH8reYoT2lrWZUFVjXbA6uUlVHptoTNJFDW69ItYs="
+          "hash": "5/hi4hqgZgUBX5xmW9Lf65ejOghuS6Yum9KjcHEmFBg="
         }
       },
       "is_incremental": false,
@@ -210,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.SubsanacionType.html",
-          "hash": "PR2TxSU6iS02whea3D3TpaYsej6wS7oUmsgbl/N2u/U="
+          "hash": "lifIzuHNkWcVfvC6vnC5F7OPFR4MBgDLj+YilbTt+Pk="
         }
       },
       "is_incremental": false,
@@ -222,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.TercerosODestinatarioType.html",
-          "hash": "6cHxDnaWvplD55PeIA+nG9g2j/yO6uEgwdozTY3gMHA="
+          "hash": "XJ7Ycs55CfN9CA6R+nqO0Hd2UUn6xn83334qUaSAviU="
         }
       },
       "is_incremental": false,
@@ -234,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.html",
-          "hash": "So51RfQ37a5WpDoMREu8UdSRXZQR6pT5mZJS2M6zYp4="
+          "hash": "nLBg1hpNdn9rHbpepf1VO97nAS6PvKCXNXcSfTic1F8="
         }
       },
       "is_incremental": false,
@@ -246,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Anulacion.GeneradoPorType.html",
-          "hash": "QgrcJ69noqUZ2X63awt90u/SxVbRIcqcuXn90GmYVfo="
+          "hash": "lVx3GISsrwKxuaWtdSrTDrmWRZMTg9/dcvqTag/A0Lw="
         }
       },
       "is_incremental": false,
@@ -258,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Anulacion.IDFacturaExpedidaBajaType.html",
-          "hash": "9LGUYgEms2s58nezw+9xyyalp09F+nnPZ6svSRUBJVQ="
+          "hash": "79OkTYWO8kjcFDzvf1QC0zax2GBdW34vuR6jgyCJr/U="
         }
       },
       "is_incremental": false,
@@ -270,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Anulacion.RechazoPrevioAnulacionType.html",
-          "hash": "J6XMl3MkPY7gv8UZDZCJ5PqnpHA4Q8ZfPevMfqxZ3CA="
+          "hash": "YQo2tuO3CK21c0hfB9GMP0veMZrtGUdSkvMkZhGaL7A="
         }
       },
       "is_incremental": false,
@@ -282,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Anulacion.RegistroFacturacionAnulacionType.html",
-          "hash": "vMr5Pq/m5Gj877ePmuTA39QGGLyGmqkeYbxPTIGADXc="
+          "hash": "73eb4DnDl5XEuWEnzc5v3riW+mKF6mYDuiKiOGJrAnE="
         }
       },
       "is_incremental": false,
@@ -294,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Anulacion.SinRegistroPrevioType.html",
-          "hash": "zJooiJyP/dLYQlxdRgi7+mApbFGvbb416R5qsmtoTLA="
+          "hash": "F/73D24Gp8D/6VCA3kuSR0eQRSWriT/g7O7+fsLojMs="
         }
       },
       "is_incremental": false,
@@ -306,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Anulacion.html",
-          "hash": "pfRebX+fPVdQLMMq05G3NTfO9YAQ3TB/o2I2VwL7grs="
+          "hash": "a8N2WA4i+pMo7gUvakclx4pr7zda5gkadsddvhiANY4="
         }
       },
       "is_incremental": false,
@@ -318,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.CabeceraRemisionVoluntaria.html",
-          "hash": "TpIrjtzfe44fKKXrnvHlC9fYuFBS0U5e4SeX/DryxZk="
+          "hash": "vGtYbdnbwI2dG82j9FinuNMCVFCHUpFhjE87TYF3TLk="
         }
       },
       "is_incremental": false,
@@ -330,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.CabeceraType.html",
-          "hash": "+jIYubFKXA+WPs0Sn+LPhBIH6/QKHU/sq7igwEs7Xcg="
+          "hash": "msBxvF/DSv3sqD/Dk/Yl8Gw/wqh+ErGICJKrrzi9s0A="
         }
       },
       "is_incremental": false,
@@ -342,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.CountryType2.html",
-          "hash": "VhnSmPL5LphzPhq7X3JJY2VvmyOu7TibmxgU/UOx/Go="
+          "hash": "xuNa+0stL6lCq7pxv1YkjCP7jY476XNB6EH6ergcKZo="
         }
       },
       "is_incremental": false,
@@ -354,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.EncadenamientoFacturaAnteriorType.html",
-          "hash": "ILUDWfXpD0RHL0dbbfLVNoeutwRWSKMFEf8h4x/pWRA="
+          "hash": "FXU2NiaYlcDXXLqaL9xAafWaI6y4F6xyO8loKMZL8hA="
         }
       },
       "is_incremental": false,
@@ -366,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.IDOtroType.html",
-          "hash": "T4+vORZfs3vFN3Z57JvTT7DP00GP15H1PRQBA+vs8Ds="
+          "hash": "ldRsCqi4o/eCXxVhOWQpDN/pJF8Sch031GSixhfdi90="
         }
       },
       "is_incremental": false,
@@ -378,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.IncidenciaType.html",
-          "hash": "Xi4urn3fLa4OlFGUZ6W/g9nxb1ovnsXBP9QSY85hhuM="
+          "hash": "5zlCEUiHx1RRxoWLEZjMLkMIkUQn51Ep2c4bzMIh6Ec="
         }
       },
       "is_incremental": false,
@@ -390,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.PersonaFisicaJuridicaESType.html",
-          "hash": "JHWzSKg1MzsCzxll8LvNs/eMSTnN2jVbefTQD5BaOMg="
+          "hash": "LpO5L8L8dRMr7mAEBEpsRpuOf35c6FVDdSg4Wui+faU="
         }
       },
       "is_incremental": false,
@@ -402,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.PersonaFisicaJuridicaIDTypeType.html",
-          "hash": "N8hrnRAaUrgYWXjl8WqHhdNnbyKja4zYCkB6lRNSvnU="
+          "hash": "tyBjaPBBYHUqb914rA75WHM54ZeJnrGnZzG59EnQKco="
         }
       },
       "is_incremental": false,
@@ -414,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.PersonaFisicaJuridicaType.html",
-          "hash": "IqzvqEtvwCi1KWQPsWYgwVV0I9RiMnL4dFu9kD7ftFI="
+          "hash": "jxtWLOAeeeLOuSsoGw1BUOt2twyT1nx4xR2PNvXfbaw="
         }
       },
       "is_incremental": false,
@@ -426,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.PrimerRegistroCadenaType.html",
-          "hash": "+4jTuf3BwdvCvgCYGNXCz+kg4e8BeCt2s3Z2WfaeCLM="
+          "hash": "LMhqsnE190kMqZxXWt/lxmCJNC4ItRroOw3dWrIdmBE="
         }
       },
       "is_incremental": false,
@@ -438,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html",
-          "hash": "0Mf3rjB8TqyDC52vU2UEkkbbXhA+jGDlYNj9jwZDf0Q="
+          "hash": "U3WnquC07BsGCEd1i3hgEE1TAC4EuEukm2GmjTbJzo0="
         }
       },
       "is_incremental": false,
@@ -450,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.RegistroFacturaType.html",
-          "hash": "TIZbvI856KpCXv66Jefo6FD9hPPBT1QsSwQ+0EnyRrc="
+          "hash": "Y3ZyG1PFeWArC2DxelKJkARc1Gl+iWbf39t1BbTvxJA="
         }
       },
       "is_incremental": false,
@@ -462,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.html",
-          "hash": "D/ktdqMtjf+ULv5cyBkv1GX6xCSvpFVpytt3m0wVa74="
+          "hash": "FF5v/+JdeEyRjrgQgqIaZAd9VVhu0TC4y1bUYwxknmU="
         }
       },
       "is_incremental": false,
@@ -474,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.DatosPresentacionType.html",
-          "hash": "4vQjMwfobpN58fORmwRwUrBjfEAFY40uo9AUhAC+yYg="
+          "hash": "Y9BwCQNqP05Hn9UL/KT4mUBDXTr2h/IEV1dkVEoKwOU="
         }
       },
       "is_incremental": false,
@@ -486,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.EstadoEnvioType.html",
-          "hash": "G1/vLDCdhvQC9HSogspKZR4NfdJImLS2zF+7zGJQZUM="
+          "hash": "Lg/9C+GlTjz7HyUGyoBzcppQgdI28TYJ+gnx9i8niBk="
         }
       },
       "is_incremental": false,
@@ -498,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.EstadoRegistroSFType.html",
-          "hash": "dKSxLQY8m8K/WeYJ1z8L/OBlL2XTdRqo4YykvCwqi58="
+          "hash": "/1SeOkfp0cRMX4SzbNtqzlNL6QE/CosCIezPVGG7YcY="
         }
       },
       "is_incremental": false,
@@ -510,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.EstadoRegistroType.html",
-          "hash": "5l7tLXqrloIHYZS7j6Clfdqoa458+qUZbQjJSS9aVH0="
+          "hash": "fm7yx3PM39mN9TzNieSZyO1oMGpmUbhZLURcCZWcr5E="
         }
       },
       "is_incremental": false,
@@ -522,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.OperacionType.html",
-          "hash": "VlZwlBCJZqXwsaKrRbybmnEHHIO2EDsYeXmzabk20Mg="
+          "hash": "jsb/U7bosBUEvjVVZ70FDBJMfPJzR00KRZFccfGFq3c="
         }
       },
       "is_incremental": false,
@@ -534,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.RechazoPrevioType.html",
-          "hash": "vpW9+0iyClP2gPApl9wVfzDXbtUGQJWM/GSs7/xD6CI="
+          "hash": "db+JE7ckemGKX2NA6/jUFIikrGnrA9wvQ29cdxBDkAQ="
         }
       },
       "is_incremental": false,
@@ -546,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html",
-          "hash": "nvtJF2Ck4211Xfofm//GU3CJwhl8txrSjaXIooCcF8o="
+          "hash": "QVm1QuoUkqM4Y6Lkh9tlvDz4u+MoWl3jQXiWYFq5q58="
         }
       },
       "is_incremental": false,
@@ -558,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.RegistroDuplicadoType.html",
-          "hash": "jbrKzFto04TD/4d9fadVMkhbriuUIUxKGeYg7xeL5g0="
+          "hash": "4QU/xfshBM5dBdQA+FOrk/cDt79lQOFEfzocBNdBWb8="
         }
       },
       "is_incremental": false,
@@ -570,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.ResponseParser.html",
-          "hash": "bwW4INPFgc5E+ZDlOA3pk4OckyLhQHwrvaWqyY7aeJA="
+          "hash": "gb5hqtAL7IFQXKldx7/YrPDLbHgDFRUUM0miCf3Z8vY="
         }
       },
       "is_incremental": false,
@@ -582,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.RespuestaBaseType.html",
-          "hash": "RgPzf/wXr8giczJ/QAjNz8LatZc6R22dLs/lt6PNDcQ="
+          "hash": "pAMBB3OH6GRSbJYlXi2ZzRpG47x/G+guJOLdDYqq4GA="
         }
       },
       "is_incremental": false,
@@ -594,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.RespuestaExpedidaType.html",
-          "hash": "loP8EWSCs0L04Jyh2Ewr45/a5jptjhl4unba16wVyww="
+          "hash": "LaQm+mHZusfHIczHi6SGAQ1fxdLHpbsB5G7T3bpq3gQ="
         }
       },
       "is_incremental": false,
@@ -606,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.RespuestaRegFactuSistemaFacturacionType.html",
-          "hash": "MCml1ckk18KQCIoJS7d+4TV5NRwnSNbH/IOHUX30Nko="
+          "hash": "IpXNDcaB2gXHkWltrfiguM2YtgGB/eEbkyIulWtmfCc="
         }
       },
       "is_incremental": false,
@@ -618,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.SinRegistroPrevioType.html",
-          "hash": "9FKMZGjvZ8oOD9AD3Gn6oAEhQAasiGf7lPL5M72PZc4="
+          "hash": "LttJl2K2zr0uxYC3A3nwb6DE2rWXuXeZ4rmyOR2bSPM="
         }
       },
       "is_incremental": false,
@@ -630,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.SubsanacionType.html",
-          "hash": "7Pc/CRQdyIUQUo2hrGZwwNhplzRrAofPMbVCLyZKU8w="
+          "hash": "MV/oQdILwyej1bO3IulOxtyarirSZSZWxfoGWPlorWc="
         }
       },
       "is_incremental": false,
@@ -642,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.TipoOperacionType.html",
-          "hash": "gEc3VgG7nTbrqAuek9j0DQR5/4OXbjF/Ug+/MvsoQHA="
+          "hash": "T8C4zmJcFGGhnGw3cx/18VSuQ7dzuevViYqQj90VrEY="
         }
       },
       "is_incremental": false,
@@ -654,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.html",
-          "hash": "PeM56etOoBJxRzUKrnPSr36lIXazZKfBNiKQdHpwaPw="
+          "hash": "MRvFEGghiZk5s7iYoAJwsMpgsDxOlz3QhykYbx5lRb8="
         }
       },
       "is_incremental": false,
@@ -666,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.SiNoType.html",
-          "hash": "tTMISPHKidLxeLQAzPHWAD+lV6h9c9SCJX9Jp7aIh3c="
+          "hash": "GAX53YzsRJCuQANoTVJZbzzDnqIJKJid2lJY5Hdc6lw="
         }
       },
       "is_incremental": false,
@@ -678,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.SistemaInformaticoType.html",
-          "hash": "Qq3+D03F5To+Z99DkPWEXSbG5JGjbHz/rigbwpTFtyg="
+          "hash": "VkvzkDJB+KZ22bcFNlDqTnjtpOu9Cdn06l3YK38MW54="
         }
       },
       "is_incremental": false,
@@ -690,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.TipoHuellaType.html",
-          "hash": "cykuEYqIQuKm8hGd02qQaeke2fGScrCvq5bfgfIS5YU="
+          "hash": "7j0XfFD0Z24sFfE31w73yZJHCZN2wOYWeOG6wCx13Fg="
         }
       },
       "is_incremental": false,
@@ -702,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.VersionType.html",
-          "hash": "BC+gj33NOc+vd4hGz1xou9RuYCo/7iBjBOfupq+ys1k="
+          "hash": "+2ljxsxM8iRqVztIci886pmjOqvquJcF7ge48AQVEkI="
         }
       },
       "is_incremental": false,
@@ -714,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.html",
-          "hash": "VA8LuwhViQn60g8GWGBsdoAfWeJ7o1m0+d+ZSwPFW0w="
+          "hash": "iC5O1NPNuL+v7t7/0q3iU26Ceacr2sZqarKEPXhBLNM="
         }
       },
       "is_incremental": false,
@@ -726,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.ImageType.html",
-          "hash": "lo0BV9e/2t69B3wpqNN7N9WWjb9R6q5HE/gwLvdaxDY="
+          "hash": "3foBL2tpAa8n1vOzhrqel04tR6g0TW9hYxV9+0q6R3M="
         }
       },
       "is_incremental": false,
@@ -738,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.InfoFactura.html",
-          "hash": "Fv0xLAOPjidyPy+j7aCFnVpx2Gt7iXxr2iaUnRhc9Tk="
+          "hash": "n2j6EHKvj1FfiT+5DPUT8xREVIV4VMUj8VyVbJwieME="
         }
       },
       "is_incremental": false,
@@ -750,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.InfoQR.html",
-          "hash": "T7Mk69PMVHzW5nSeCsOpM6t0zV9SgzkKzs7mPEqhirA="
+          "hash": "VBbbWB8Q69k7LwiTxWe+8TyqfByLXPSz4G44P4XsgCY="
         }
       },
       "is_incremental": false,
@@ -762,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.TipoPlataforma.html",
-          "hash": "ErWSvKzjsDM6QHCwcAkrEOHv6CDqquhq9Vyif+GMeBY="
+          "hash": "WT7VcCqgOJEUvyeqVGQDe6r61rr819G4BWGQmNy31oA="
         }
       },
       "is_incremental": false,
@@ -774,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.CertificateHelper.html",
-          "hash": "9ydony4DOQgBQxtrpiu880anGrLIIFcMcALWryy2IAs="
+          "hash": "1Pk1h5cpVggskGvXPXUnLaDB1a6uFpwKBJhlfoXxNi8="
         }
       },
       "is_incremental": false,
@@ -786,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.DynamicXml.html",
-          "hash": "mbpJ8FVxf5+7Zir+AsVb8ZU6UZpziohCS81ndavR6+0="
+          "hash": "wy5oHNlHbolLVjY6iJNEBYSOa/bkYB1U/4d5X3JjmKY="
         }
       },
       "is_incremental": false,
@@ -798,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.Hash.html",
-          "hash": "oQswHzoMkQPUQMD/DNKxpmweOfAcf1kVMuDbwhb8kEA="
+          "hash": "UIQQ4r6Mq1P+OAg5GbRzQ8he25WP+hPGbP4/AmKZT9w="
         }
       },
       "is_incremental": false,
@@ -810,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.IgnoreNamespaceXmlTextReader.html",
-          "hash": "pP0HLk+IQlVgsxVIJieqHgS5tWPHvWeuwowU3gM6r0A="
+          "hash": "01KsR5HRsxIwRluLP0w4hiidDQ6fT8wGGfm/ImRHiPM="
         }
       },
       "is_incremental": false,
@@ -822,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.StringExtension.html",
-          "hash": "8UL4ELyX0/JV7P2cj+Jtz9n+c9ATlitsChdKaCGJy94="
+          "hash": "lNR3jlaw/FX5IERFqSqurHWDNoxw/4wIpezljB0D4Ls="
         }
       },
       "is_incremental": false,
@@ -834,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.TipoIdCertificado.html",
-          "hash": "zXt8IZODV82FKvPAGTjcl+Ra4oF1Eo3az1ufEkUinj4="
+          "hash": "tDdgAG4j3T8GlLIn58MVyzrkx7m76H0V8PRcABKlNC4="
         }
       },
       "is_incremental": false,
@@ -846,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.Utf8StringWriter.html",
-          "hash": "frW9XzdDJyZkmJPIhPgDDlIChg9UnaS53uV7gUOyO1A="
+          "hash": "exuhCrW56+mpCAQPxNX8n2ySDlnPmRgnVr7cRF8uNOg="
         }
       },
       "is_incremental": false,
@@ -858,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.html",
-          "hash": "kv3o4zNyqLMFOOgRC4sTc60qnthuoNcV4MTMoo+sdjQ="
+          "hash": "UZ8keeXi00ShxovAyan+e/mQ5WxXiaknQmefBCHcsBE="
         }
       },
       "is_incremental": false,
@@ -870,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.VerifactuManager.html",
-          "hash": "nBs5HxE4B/L9DXBYAin3ly/91JHP2FT9e/BPwV8fb80="
+          "hash": "OkCUAgRcf2s6FFEfDomPPhzDZyD90I8tSr4EivcnZsY="
         }
       },
       "is_incremental": false,
@@ -882,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.Body.html",
-          "hash": "LkuiFBiuL3NXefDsWLH8HAhEuPWUbuKWogmJzMt10RY="
+          "hash": "StV4D9JwQ/AoX3HiYUToh7qN0EJQYs3VGBJ9DPwCEP8="
         }
       },
       "is_incremental": false,
@@ -894,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.Envelope.html",
-          "hash": "phMCewtNd5nrJAtJnlPNz+SF4j/Eb7SRnlaiCsrZIAw="
+          "hash": "MMXlRv/NDwkNv2241oeFOuFZi3fsz1OhpXfTCFXdSDs="
         }
       },
       "is_incremental": false,
@@ -906,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.Header.html",
-          "hash": "Qn23NwOT2H70+6IrjVwtC3sYhW1/VqfkryokR2fHlto="
+          "hash": "YwyZWl3Ug/YrZ/xzkoIfv+swSTxRO12D2j8yROEUHw0="
         }
       },
       "is_incremental": false,
@@ -918,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.RegFactuSistemaFacturacionRequest.html",
-          "hash": "BNPKNJ+DWGyyoV8sA9OEAn8tnNy/1+ljA2IBjqAlnS0="
+          "hash": "7TudSPwsdwpIRyVr3dPQoMEl4VND8mT7Kcta+kG3Ztk="
         }
       },
       "is_incremental": false,
@@ -930,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.RespuestaEntrega.html",
-          "hash": "JRjHmKjjLMs3AVsWw7zNS6jPiBtiBkEUaPSMZgS6yBY="
+          "hash": "OpnCAgT7htoSbqJ2nX3VqEVeLty9d423ILH9zGImTKI="
         }
       },
       "is_incremental": false,
@@ -942,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.ServiceClient.html",
-          "hash": "virmgttotRvm65JeP5A6aqN3sGJkBPDJDW8VklHCxvQ="
+          "hash": "UiAaBtbYscc94sxaC5jd8aGGRHn3jYevXrxboEL6p6Q="
         }
       },
       "is_incremental": false,
@@ -954,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.html",
-          "hash": "Sc8at6EH2SmqcuxKxlxW31oLPgf7yfckZWSm+jF2Bho="
+          "hash": "RjnuV4lo4xWMgXINS66ZNw3gphJfJd3/pw0KtisN7lY="
         }
       },
       "is_incremental": false,
@@ -966,19 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.html",
-          "hash": "oYLgv7+X8lXBODvDHn9qrPxxlH5YCV9JeHTMyPbYwRM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "api/index.html",
-          "hash": "cdgftBAhpHSckHJi/QeWoB3Y5KZPiP4dnsIEOvjRtgw="
+          "hash": "INmPeTv87aDRF2ZLONXvNef8TRi0jkIYMbgmPlT+GHk="
         }
       },
       "is_incremental": false,
@@ -990,69 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "BplvxHQnqA56yqvwTun04GXIIt6zt2GoSBrqelAijXI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "wN2xQBtImXUrBApW+JTVqpxONE+Ps1sE95s/JK1qad8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "iQHQnUfNNRAXplIICF44iwxbNaOX2x5LebOHRI2leYc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html",
-          "hash": "6/3YeqmBgus4wpdv3l5rplWRpCokwJXe9hYh482dC7c="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "logo.svg",
-      "output": {
-        "resource": {
-          "relative_path": "logo.svg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html",
-          "hash": "hYQAAAoz2UeSnkS9UVbcTRARqZP4faI7T/P8BR9NeJE="
+          "hash": "nSwiCAjbfWIJm7LK46b36y82bfuohkKF/Qq231z4iCY="
         }
       },
       "is_incremental": false,
@@ -1068,24 +1030,11 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 2
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 80,
-          "skipped_file_count": 79
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 83,
+          "skipped_file_count": 83
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

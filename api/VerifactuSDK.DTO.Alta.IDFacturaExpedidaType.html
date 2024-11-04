@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:navrel" content="">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
@@ -131,7 +131,9 @@ Alfanumérico 10 en formato de fecha dd-mm-aaaa (ej: 02-12-2024)</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string FechaExpedicionFactura { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[MaxLength(10)]
+[RegularExpression(&quot;\\d{2,2}-\\d{2,2}-\\d{4,4}&quot;, ErrorMessage = &quot;Formato incorrecto. Fecha en formato dd-mm-YYYY&quot;)]
+public string FechaExpedicionFactura { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,7 +158,10 @@ Alfanumérico 9</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IDEmisorFactura { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+[MaxLength(9)]
+[RegularExpression(&quot;(([a-z|A-Z]{1}\\d{7}[a-z|A-Z]{1})|(\\d{8}[a-z|A-Z]{1})|([a-z|A-Z]{1}\\d{8}))&quot;, ErrorMessage = &quot;Formato incorrecto.&quot;)]
+public string IDEmisorFactura { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,7 +186,10 @@ Alfanumérico 60</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NumSerieFactura { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+[MaxLength(60)]
+[MinLength(1)]
+public string NumSerieFactura { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

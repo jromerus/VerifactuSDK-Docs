@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:navrel" content="">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
@@ -131,7 +131,8 @@ Decimal 12, 2</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal CuotaTotal { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[RegularExpression(&quot;(\\+|-)?\\d{1,12}(\\.\\d{0,2})?&quot;, ErrorMessage = &quot;Formato incorrecto. Num&#233;rico 2 decimales&quot;)]
+public decimal CuotaTotal { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -230,7 +231,8 @@ Alfanumérico 250</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DescripcionOperacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[MaxLength(250)]
+public string DescripcionOperacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -254,7 +256,8 @@ Alfanumérico 250</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DetalleType[] Desglose { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public DetalleType[] Desglose { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -279,7 +282,8 @@ Límite de 1.000 registros máximo</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PersonaFisicaJuridicaType[] Destinatarios { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public PersonaFisicaJuridicaType[] Destinatarios { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -350,7 +354,8 @@ Límite de 1.000 registros máximo</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RegistroFacturacionEncadenamiento Encadenamiento { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public RegistroFacturacionEncadenamiento Encadenamiento { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -520,7 +525,8 @@ DateTime. Formato: YYYY-MM-DDThh:mm:ssTZD (ej: 2024-01-01T19:20:30+01:00) (ISO 8
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime FechaHoraHusoGenRegistro { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public DateTime FechaHoraHusoGenRegistro { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -544,7 +550,8 @@ DateTime. Formato: YYYY-MM-DDThh:mm:ssTZD (ej: 2024-01-01T19:20:30+01:00) (ISO 8
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Browsable(false)]
+    <pre><code class="lang-csharp hljs">[RegularExpression(&quot;\\d{2,2}-\\d{2,2}-\\d{4,4} \\d{2,2}:\\d{2,2}:\\d{2,2}&quot;, ErrorMessage = &quot;Formato incorrecto. Fecha en formato dd-mm-YYYY hh:mm:ss&quot;)]
+[Browsable(false)]
 public string FechaHoraHusoGenRegistroString { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -570,7 +577,9 @@ Alfanumérico 10 en formato de fecha dd-mm-aaaa (ej: 02-12-2024)</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string FechaOperacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[MaxLength(10)]
+[RegularExpression(&quot;\\d{2,2}-\\d{2,2}-\\d{4,4}&quot;, ErrorMessage = &quot;Formato incorrecto. Fecha en formato dd-mm-YYYY&quot;)]
+public string FechaOperacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -595,7 +604,8 @@ El algoritmo de generación está detallado en la documentación correspondiente
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Huella { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public string Huella { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -621,7 +631,8 @@ Alfanumérico 16 max</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IdAcuerdoSistemaInformatico { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[MaxLength(16)]
+public string IdAcuerdoSistemaInformatico { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -644,7 +655,8 @@ Alfanumérico 16 max</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDFacturaExpedidaType IDFactura { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public IDFacturaExpedidaType IDFactura { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -670,7 +682,8 @@ Este campo forma parte del detalle de las circunstancias de generación</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public VersionType IDVersion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public VersionType IDVersion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -719,7 +732,8 @@ Decimal 12, 2</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal ImporteTotal { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[RegularExpression(&quot;(\\+|-)?\\d{1,12}(\\.\\d{0,2})?&quot;, ErrorMessage = &quot;Formato incorrecto. Num&#233;rico 2 decimales&quot;)]
+public decimal ImporteTotal { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -817,7 +831,9 @@ Si no se informa este campo se entenderá que tiene valor “N”</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NombreRazonEmisor { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+[MaxLength(120)]
+public string NombreRazonEmisor { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -844,7 +860,8 @@ Alfanumérico 15 max</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NumRegistroAcuerdoFacturacion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[MaxLength(15)]
+public string NumRegistroAcuerdoFacturacion { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -922,7 +939,8 @@ completar la identificación o calificación de la factura y/o su registro de fa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RefExterna { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[MaxLength(60)]
+public string RefExterna { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -946,7 +964,8 @@ completar la identificación o calificación de la factura y/o su registro de fa
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SistemaInformaticoType SistemaInformatico { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public SistemaInformaticoType SistemaInformatico { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1046,7 +1065,8 @@ factura emitida en sustitución de facturas simplificadas o factura rectificativ
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ClaveTipoFacturaType TipoFactura { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public ClaveTipoFacturaType TipoFactura { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1070,7 +1090,8 @@ factura emitida en sustitución de facturas simplificadas o factura rectificativ
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TipoHuellaType TipoHuella { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public TipoHuellaType TipoHuella { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
