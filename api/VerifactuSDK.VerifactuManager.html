@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class VerifactuManager
+   | Verifactu API SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class VerifactuManager
+   | Verifactu API SDK ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VerifactuSDK.VerifactuManager">
+  
+  
+  <h1 id="VerifactuSDK_VerifactuManager" data-uid="VerifactuSDK.VerifactuManager" class="text-break">Class VerifactuManager
+  </h1>
+  <div class="markdown level0 summary"><p>Clase &quot;Helper&quot; que agrupa las funcionalidades necesarias para la generación de los mensajes xml-soap, la comunicación con el servicio para el registro de facturas y la gestión de certificados.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SIFCommon.CertificateBaseManager</span></div>
+    <div class="level2"><span class="xref">VerifactuManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.SetParentSelectCertificateForm(System.IntPtr)</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.LastCertificate</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.ObtenerCertificado(System.String, SIFCommon.TipoIdCertificado)</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.LastDistinguissedName</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.LastSerialNumber</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.LastExpirationDate</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.GetDNCertificado()</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.GetAllDNCertificado()</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.GetSerialNumberCertificado()</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.GetAllSerialNumberCertificado()</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.SeleccionaEstableceCertificado(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.SeleccionaEstableceCertificadoSinVerificar(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.SelectCertificate(System.Boolean, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.LastSelectedCertificate()</span>
+    </div>
+    <div>
+      <span class="xref">SIFCommon.CertificateBaseManager.SaveSelectedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.html">VerifactuSDK</a></h6>
+  <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
+  <h5 id="VerifactuSDK_VerifactuManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ClassInterface(ClassInterfaceType.AutoDual)]
+public class VerifactuManager : CertificateBaseManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="VerifactuSDK_VerifactuManager__ctor_" data-uid="VerifactuSDK.VerifactuManager.#ctor*"></a>
+  <h4 id="VerifactuSDK_VerifactuManager__ctor" data-uid="VerifactuSDK.VerifactuManager.#ctor">VerifactuManager()</h4>
+  <div class="markdown level1 summary"><p>Constructor de VerifactuManager. Por defecto asigna la propiedad Plataforma a Produccion.
+Si se desea utilizar la plataforma de pruebas se debe asignar el valor TipoPlataforma.Pruebas a la propiedad Plataforma
+o utilizar el constructor adecuado.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VerifactuManager()</code></pre>
+  </div>
+  <a id="VerifactuSDK_VerifactuManager__ctor_" data-uid="VerifactuSDK.VerifactuManager.#ctor*"></a>
+  <h4 id="VerifactuSDK_VerifactuManager__ctor_VerifactuSDK_TipoPlataforma_" data-uid="VerifactuSDK.VerifactuManager.#ctor(VerifactuSDK.TipoPlataforma)">VerifactuManager(TipoPlataforma)</h4>
+  <div class="markdown level1 summary"><p>Constructor de VerifactuManager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VerifactuManager(TipoPlataforma plataforma)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.TipoPlataforma.html">TipoPlataforma</a></td>
+        <td><span class="parametername">plataforma</span></td>
+        <td><p>Establece la plataforma deseada {Pruebas, Produccion)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="VerifactuSDK_VerifactuManager_Plataforma_" data-uid="VerifactuSDK.VerifactuManager.Plataforma*"></a>
+  <h4 id="VerifactuSDK_VerifactuManager_Plataforma" data-uid="VerifactuSDK.VerifactuManager.Plataforma">Plataforma</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TipoPlataforma Plataforma { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.TipoPlataforma.html">TipoPlataforma</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="VerifactuSDK_VerifactuManager_AltaRegistro_" data-uid="VerifactuSDK.VerifactuManager.AltaRegistro*"></a>
+  <h4 id="VerifactuSDK_VerifactuManager_AltaRegistro_VerifactuSDK_DTO_RegFactuSistemaFacturacion_System_String_System_String_" data-uid="VerifactuSDK.VerifactuManager.AltaRegistro(VerifactuSDK.DTO.RegFactuSistemaFacturacion,System.String,System.String)">AltaRegistro(RegFactuSistemaFacturacion, String, String)</h4>
+  <div class="markdown level1 summary"><p>Realiza el alta del registro de facturación.
+Si no se indica un certificado exportado se usará el último certificado establecido (ver EstableceCertificado).
+Si no se ha esteblecido un certificado ni se ha indicado una ruta, el sistema mostrará un diálogo de selección de certificado (sólo en plataforma windows).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RegFactuSistemaFacturacionResponse AltaRegistro(RegFactuSistemaFacturacion registroFactura, string rutaCertificado = null, string passwordCertificado = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.RegFactuSistemaFacturacion.html">RegFactuSistemaFacturacion</a></td>
+        <td><span class="parametername">registroFactura</span></td>
+        <td><p>Objeto que representa el registro de facturación</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rutaCertificado</span></td>
+        <td><p>Opcionalmente se puede indicar la ruta a un certificado exportado</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">passwordCertificado</span></td>
+        <td><p>Clave del certificado exportado (en caso de haberse indicado</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html">RegFactuSistemaFacturacionResponse</a></td>
+        <td><p>Devuelve la respuesta del servicio con información esencial del estado de la operación</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_VerifactuManager_AltaRegistroXml_" data-uid="VerifactuSDK.VerifactuManager.AltaRegistroXml*"></a>
+  <h4 id="VerifactuSDK_VerifactuManager_AltaRegistroXml_System_String_System_String_System_String_" data-uid="VerifactuSDK.VerifactuManager.AltaRegistroXml(System.String,System.String,System.String)">AltaRegistroXml(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RegFactuSistemaFacturacionResponse AltaRegistroXml(string soapXml, string rutaCertificado = null, string passwordCertificado = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">soapXml</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rutaCertificado</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">passwordCertificado</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html">RegFactuSistemaFacturacionResponse</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

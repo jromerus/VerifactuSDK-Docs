@@ -1,0 +1,704 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DetalleType
+   | Verifactu API SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DetalleType
+   | Verifactu API SDK ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VerifactuSDK.DTO.Alta.DetalleType">
+  
+  
+  <h1 id="VerifactuSDK_DTO_Alta_DetalleType" data-uid="VerifactuSDK.DTO.Alta.DetalleType" class="text-break">Class DetalleType
+  </h1>
+  <div class="markdown level0 summary"><p>Representa el detalle de un desglose con las cantidades totales acumuladas para tipo impositivo aplicado</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DetalleType</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.DTO.Alta.html">VerifactuSDK.DTO.Alta</a></h6>
+  <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
+  <h5 id="VerifactuSDK_DTO_Alta_DetalleType_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DetalleType</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_BaseImponibleACoste_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.BaseImponibleACoste*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_BaseImponibleACoste" data-uid="VerifactuSDK.DTO.Alta.DetalleType.BaseImponibleACoste">BaseImponibleACoste</h4>
+  <div class="markdown level1 summary"><p>Magnitud dineraria sobre la que se aplica el tipo impositivo en régimen especial de grupos nivel avanzado
+Decimal 12, 2</p>
+<p>Validaciones: El campo BaseImponibleACoste solo puede estar cumplimentado si la ClaveRegimen es = “06” o Impuesto = “02” (IPSI) o Impuesto = “05” (Otros).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal BaseImponibleACoste { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_BaseImponibleACosteString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.BaseImponibleACosteString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_BaseImponibleACosteString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.BaseImponibleACosteString">BaseImponibleACosteString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public string BaseImponibleACosteString { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_BaseImponibleOimporteNoSujeto_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.BaseImponibleOimporteNoSujeto*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_BaseImponibleOimporteNoSujeto" data-uid="VerifactuSDK.DTO.Alta.DetalleType.BaseImponibleOimporteNoSujeto">BaseImponibleOimporteNoSujeto</h4>
+  <div class="markdown level1 summary"><p>Magnitud dineraria sobre la que se aplica el tipo impositivo / Importe no sujeto
+Decimal 12, 2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal BaseImponibleOimporteNoSujeto { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_BaseImponibleOimporteNoSujetoString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.BaseImponibleOimporteNoSujetoString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_BaseImponibleOimporteNoSujetoString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.BaseImponibleOimporteNoSujetoString">BaseImponibleOimporteNoSujetoString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public string BaseImponibleOimporteNoSujetoString { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_ClaveRegimen_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ClaveRegimen*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_ClaveRegimen" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ClaveRegimen">ClaveRegimen</h4>
+  <div class="markdown level1 summary"><p>Clave que identificará el tipo de régimen del impuesto o una operación con trascendencia tributaria</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IdOperacionesTrascendenciaTributariaType? ClaveRegimen { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VerifactuSDK.DTO.Alta.IdOperacionesTrascendenciaTributariaType.html">IdOperacionesTrascendenciaTributariaType</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_ClaveRegimenSpecified_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ClaveRegimenSpecified*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_ClaveRegimenSpecified" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ClaveRegimenSpecified">ClaveRegimenSpecified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ClaveRegimenSpecified { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_CuotaRecargoEquivalencia_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.CuotaRecargoEquivalencia*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_CuotaRecargoEquivalencia" data-uid="VerifactuSDK.DTO.Alta.DetalleType.CuotaRecargoEquivalencia">CuotaRecargoEquivalencia</h4>
+  <div class="markdown level1 summary"><p>Cuota resultante de aplicar a la base imponible el tipo de recargo de equivalencia
+Decimal 12, 2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal CuotaRecargoEquivalencia { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_CuotaRecargoEquivalenciaString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.CuotaRecargoEquivalenciaString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_CuotaRecargoEquivalenciaString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.CuotaRecargoEquivalenciaString">CuotaRecargoEquivalenciaString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public string CuotaRecargoEquivalenciaString { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_CuotaRepercutida_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.CuotaRepercutida*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_CuotaRepercutida" data-uid="VerifactuSDK.DTO.Alta.DetalleType.CuotaRepercutida">CuotaRepercutida</h4>
+  <div class="markdown level1 summary"><p>Cuota resultante de aplicar a la base imponible el tipo impositivo
+Decimal 12, 2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal CuotaRepercutida { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_CuotaRepercutidaString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.CuotaRepercutidaString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_CuotaRepercutidaString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.CuotaRepercutidaString">CuotaRepercutidaString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public string CuotaRepercutidaString { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_Impuesto_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.Impuesto*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_Impuesto" data-uid="VerifactuSDK.DTO.Alta.DetalleType.Impuesto">Impuesto</h4>
+  <div class="markdown level1 summary"><p>Impuesto de aplicación. Si no se informa este campo se entenderá que el impuesto de aplicación es el IVA. Este campo es necesario porque contribuye a completar el detalle de la tipología de la factura</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImpuestoType Impuesto { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Alta.ImpuestoType.html">ImpuestoType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_ImpuestoSpecified_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ImpuestoSpecified*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_ImpuestoSpecified" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ImpuestoSpecified">ImpuestoSpecified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ImpuestoSpecified { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_Item_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.Item*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_Item" data-uid="VerifactuSDK.DTO.Alta.DetalleType.Item">Item</h4>
+  <div class="markdown level1 summary"><p>Identifica un elemento de CalificacionOperacion (CalificacionOperacionType) o de OperacionExenta (OperacionExentaType)
+CalificacionOperacion -&gt; Clave de la operación sujeta y no exenta o de la operación no sujeta
+OperacionExenta -&gt; Especifica la causa de exención</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Item { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_TipoImpositivo_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.TipoImpositivo*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_TipoImpositivo" data-uid="VerifactuSDK.DTO.Alta.DetalleType.TipoImpositivo">TipoImpositivo</h4>
+  <div class="markdown level1 summary"><p>Porcentaje aplicado sobre la base imponible para calcular la cuota
+Decimal 3, 2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal TipoImpositivo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_TipoImpositivoString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.TipoImpositivoString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_TipoImpositivoString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.TipoImpositivoString">TipoImpositivoString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public string TipoImpositivoString { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_TipoRecargoEquivalencia_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.TipoRecargoEquivalencia*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_TipoRecargoEquivalencia" data-uid="VerifactuSDK.DTO.Alta.DetalleType.TipoRecargoEquivalencia">TipoRecargoEquivalencia</h4>
+  <div class="markdown level1 summary"><p>Porcentaje asociado en función del impuesto y tipo impositivo
+Decimal 3, 2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal TipoRecargoEquivalencia { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_TipoRecargoEquivalenciaString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.TipoRecargoEquivalenciaString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_TipoRecargoEquivalenciaString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.TipoRecargoEquivalenciaString">TipoRecargoEquivalenciaString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public string TipoRecargoEquivalenciaString { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_SetCalificacionOperacion_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.SetCalificacionOperacion*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_SetCalificacionOperacion_VerifactuSDK_DTO_Alta_CalificacionOperacionType_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.SetCalificacionOperacion(VerifactuSDK.DTO.Alta.CalificacionOperacionType)">SetCalificacionOperacion(CalificacionOperacionType)</h4>
+  <div class="markdown level1 summary"><ul>
+<li>Establece el elemento de CalificacionOperacion en la propiedad Item.</li>
+<li>Clave de la operación sujeta y no exenta o de la operación no sujeta</li>
+<li>Es excluyente con OperacionExenta, por lo que la asignación de un valor a través de este método anula un valor previo.</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCalificacionOperacion(CalificacionOperacionType calificacionOperacion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Alta.CalificacionOperacionType.html">CalificacionOperacionType</a></td>
+        <td><span class="parametername">calificacionOperacion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_SetOperacionExentaType_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.SetOperacionExentaType*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_SetOperacionExentaType_VerifactuSDK_DTO_Alta_OperacionExentaType_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.SetOperacionExentaType(VerifactuSDK.DTO.Alta.OperacionExentaType)">SetOperacionExentaType(OperacionExentaType)</h4>
+  <div class="markdown level1 summary"><ul>
+<li>Establece un elemento de OperacionExenta en la propiedad Item.</li>
+<li>Especifica la causa de xención.</li>
+<li>Es excluyente con CalificacionOperacion, por lo que la asignación de un valor a través de este método anula un valor previo.</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOperacionExentaType(OperacionExentaType operacionExenta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Alta.OperacionExentaType.html">OperacionExentaType</a></td>
+        <td><span class="parametername">operacionExenta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_ShouldSerializeBaseImponibleACosteString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ShouldSerializeBaseImponibleACosteString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_ShouldSerializeBaseImponibleACosteString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ShouldSerializeBaseImponibleACosteString">ShouldSerializeBaseImponibleACosteString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldSerializeBaseImponibleACosteString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_ShouldSerializeCuotaRecargoEquivalenciaString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ShouldSerializeCuotaRecargoEquivalenciaString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_ShouldSerializeCuotaRecargoEquivalenciaString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ShouldSerializeCuotaRecargoEquivalenciaString">ShouldSerializeCuotaRecargoEquivalenciaString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldSerializeCuotaRecargoEquivalenciaString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_DetalleType_ShouldSerializeTipoRecargoEquivalenciaString_" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ShouldSerializeTipoRecargoEquivalenciaString*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_DetalleType_ShouldSerializeTipoRecargoEquivalenciaString" data-uid="VerifactuSDK.DTO.Alta.DetalleType.ShouldSerializeTipoRecargoEquivalenciaString">ShouldSerializeTipoRecargoEquivalenciaString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldSerializeTipoRecargoEquivalenciaString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
