@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SIFCommon.CertificateBaseManager.html",
-          "hash": "MFT3w3tIpnplnVCS33ln41H8tt/4FDyuzEcshBlEpWg="
+          "hash": "W4Zk+/MR0BvQuFdhGX4ZREMo/tmNCUe2SybRSyBeLUI="
         }
       },
       "is_incremental": false,
@@ -902,11 +902,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Validation.ResultadoValidacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Validation.ResultadoValidacion.html",
+          "hash": "1vpgTC7RgAkRap+u6O0ePZ9pv0pMa7Wg31+RB4SNxTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Validation.ResultadoValidacionEsquema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Validation.ResultadoValidacionEsquema.html",
+          "hash": "rSSBH6yVDgGGWn4S/4BWKypzwloAaEY+u6niaf2IyTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Validation.html",
+          "hash": "QqcC4XfcLN1bykhbzKH7KH/qHyKp+rQ7K6R4gnYKk4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VerifactuSDK.VerifactuManager.yml",
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.VerifactuManager.html",
-          "hash": "OkCUAgRcf2s6FFEfDomPPhzDZyD90I8tSr4EivcnZsY="
+          "hash": "WJ/MHBs6gKpNKdUO1ZiP+ei+uTg32JNqrhDZ/ZDaWnc="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "nSwiCAjbfWIJm7LK46b36y82bfuohkKF/Qq231z4iCY="
+          "hash": "depbGTmoEeSDVY6QYYicejBu2n6JsCwJVGm7xWDQNhA="
         }
       },
       "is_incremental": false,
@@ -1033,8 +1069,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 83,
-          "skipped_file_count": 83
+          "total_file_count": 86,
+          "skipped_file_count": 80
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

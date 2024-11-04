@@ -13,6 +13,47 @@ references:
   commentId: T:SIFCommon.CertificateBaseManager
   fullName: SIFCommon.CertificateBaseManager
   nameWithType: CertificateBaseManager
+- uid: SIFCommon.CertificateBaseManager.EstableceCertificado(System.Byte[],System.String)
+  name: EstableceCertificado(Byte[], String)
+  href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_EstableceCertificado_System_Byte___System_String_
+  commentId: M:SIFCommon.CertificateBaseManager.EstableceCertificado(System.Byte[],System.String)
+  name.vb: EstableceCertificado(Byte(), String)
+  fullName: SIFCommon.CertificateBaseManager.EstableceCertificado(System.Byte[], System.String)
+  fullName.vb: SIFCommon.CertificateBaseManager.EstableceCertificado(System.Byte(), System.String)
+  nameWithType: CertificateBaseManager.EstableceCertificado(Byte[], String)
+  nameWithType.vb: CertificateBaseManager.EstableceCertificado(Byte(), String)
+- uid: SIFCommon.CertificateBaseManager.EstableceCertificado(System.Security.Cryptography.X509Certificates.X509Certificate2)
+  name: EstableceCertificado(X509Certificate2)
+  href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_EstableceCertificado_System_Security_Cryptography_X509Certificates_X509Certificate2_
+  commentId: M:SIFCommon.CertificateBaseManager.EstableceCertificado(System.Security.Cryptography.X509Certificates.X509Certificate2)
+  fullName: SIFCommon.CertificateBaseManager.EstableceCertificado(System.Security.Cryptography.X509Certificates.X509Certificate2)
+  nameWithType: CertificateBaseManager.EstableceCertificado(X509Certificate2)
+- uid: SIFCommon.CertificateBaseManager.EstableceCertificado(System.String,SIFCommon.TipoIdCertificado)
+  name: EstableceCertificado(String, TipoIdCertificado)
+  href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_EstableceCertificado_System_String_SIFCommon_TipoIdCertificado_
+  commentId: M:SIFCommon.CertificateBaseManager.EstableceCertificado(System.String,SIFCommon.TipoIdCertificado)
+  fullName: SIFCommon.CertificateBaseManager.EstableceCertificado(System.String, SIFCommon.TipoIdCertificado)
+  nameWithType: CertificateBaseManager.EstableceCertificado(String, TipoIdCertificado)
+- uid: SIFCommon.CertificateBaseManager.EstableceCertificado*
+  name: EstableceCertificado
+  href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_EstableceCertificado_
+  commentId: Overload:SIFCommon.CertificateBaseManager.EstableceCertificado
+  isSpec: "True"
+  fullName: SIFCommon.CertificateBaseManager.EstableceCertificado
+  nameWithType: CertificateBaseManager.EstableceCertificado
+- uid: SIFCommon.CertificateBaseManager.EstableceCertificadoExportado(System.String,System.String)
+  name: EstableceCertificadoExportado(String, String)
+  href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_EstableceCertificadoExportado_System_String_System_String_
+  commentId: M:SIFCommon.CertificateBaseManager.EstableceCertificadoExportado(System.String,System.String)
+  fullName: SIFCommon.CertificateBaseManager.EstableceCertificadoExportado(System.String, System.String)
+  nameWithType: CertificateBaseManager.EstableceCertificadoExportado(String, String)
+- uid: SIFCommon.CertificateBaseManager.EstableceCertificadoExportado*
+  name: EstableceCertificadoExportado
+  href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_EstableceCertificadoExportado_
+  commentId: Overload:SIFCommon.CertificateBaseManager.EstableceCertificadoExportado
+  isSpec: "True"
+  fullName: SIFCommon.CertificateBaseManager.EstableceCertificadoExportado
+  nameWithType: CertificateBaseManager.EstableceCertificadoExportado
 - uid: SIFCommon.CertificateBaseManager.GetAllDNCertificado
   name: GetAllDNCertificado()
   href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_GetAllDNCertificado
@@ -143,6 +184,19 @@ references:
   isSpec: "True"
   fullName: SIFCommon.CertificateBaseManager.ObtenerCertificado
   nameWithType: CertificateBaseManager.ObtenerCertificado
+- uid: SIFCommon.CertificateBaseManager.ResetCertificado
+  name: ResetCertificado()
+  href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_ResetCertificado
+  commentId: M:SIFCommon.CertificateBaseManager.ResetCertificado
+  fullName: SIFCommon.CertificateBaseManager.ResetCertificado()
+  nameWithType: CertificateBaseManager.ResetCertificado()
+- uid: SIFCommon.CertificateBaseManager.ResetCertificado*
+  name: ResetCertificado
+  href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_ResetCertificado_
+  commentId: Overload:SIFCommon.CertificateBaseManager.ResetCertificado
+  isSpec: "True"
+  fullName: SIFCommon.CertificateBaseManager.ResetCertificado
+  nameWithType: CertificateBaseManager.ResetCertificado
 - uid: SIFCommon.CertificateBaseManager.SaveSelectedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2)
   name: SaveSelectedCertificate(X509Certificate2)
   href: api/SIFCommon.CertificateBaseManager.html#SIFCommon_CertificateBaseManager_SaveSelectedCertificate_System_Security_Cryptography_X509Certificates_X509Certificate2_
@@ -5432,6 +5486,102 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.Utils.Utf8StringWriter.WriteToPath
   nameWithType: Utf8StringWriter.WriteToPath
+- uid: VerifactuSDK.Validation
+  name: VerifactuSDK.Validation
+  href: api/VerifactuSDK.Validation.html
+  commentId: N:VerifactuSDK.Validation
+  fullName: VerifactuSDK.Validation
+  nameWithType: VerifactuSDK.Validation
+- uid: VerifactuSDK.Validation.ResultadoValidacion
+  name: ResultadoValidacion
+  href: api/VerifactuSDK.Validation.ResultadoValidacion.html
+  commentId: T:VerifactuSDK.Validation.ResultadoValidacion
+  fullName: VerifactuSDK.Validation.ResultadoValidacion
+  nameWithType: ResultadoValidacion
+- uid: VerifactuSDK.Validation.ResultadoValidacion.Correcto
+  name: Correcto
+  href: api/VerifactuSDK.Validation.ResultadoValidacion.html#VerifactuSDK_Validation_ResultadoValidacion_Correcto
+  commentId: P:VerifactuSDK.Validation.ResultadoValidacion.Correcto
+  fullName: VerifactuSDK.Validation.ResultadoValidacion.Correcto
+  nameWithType: ResultadoValidacion.Correcto
+- uid: VerifactuSDK.Validation.ResultadoValidacion.Correcto*
+  name: Correcto
+  href: api/VerifactuSDK.Validation.ResultadoValidacion.html#VerifactuSDK_Validation_ResultadoValidacion_Correcto_
+  commentId: Overload:VerifactuSDK.Validation.ResultadoValidacion.Correcto
+  isSpec: "True"
+  fullName: VerifactuSDK.Validation.ResultadoValidacion.Correcto
+  nameWithType: ResultadoValidacion.Correcto
+- uid: VerifactuSDK.Validation.ResultadoValidacion.Errores
+  name: Errores
+  href: api/VerifactuSDK.Validation.ResultadoValidacion.html#VerifactuSDK_Validation_ResultadoValidacion_Errores
+  commentId: P:VerifactuSDK.Validation.ResultadoValidacion.Errores
+  fullName: VerifactuSDK.Validation.ResultadoValidacion.Errores
+  nameWithType: ResultadoValidacion.Errores
+- uid: VerifactuSDK.Validation.ResultadoValidacion.Errores*
+  name: Errores
+  href: api/VerifactuSDK.Validation.ResultadoValidacion.html#VerifactuSDK_Validation_ResultadoValidacion_Errores_
+  commentId: Overload:VerifactuSDK.Validation.ResultadoValidacion.Errores
+  isSpec: "True"
+  fullName: VerifactuSDK.Validation.ResultadoValidacion.Errores
+  nameWithType: ResultadoValidacion.Errores
+- uid: VerifactuSDK.Validation.ResultadoValidacion.ErroresArray
+  name: ErroresArray
+  href: api/VerifactuSDK.Validation.ResultadoValidacion.html#VerifactuSDK_Validation_ResultadoValidacion_ErroresArray
+  commentId: P:VerifactuSDK.Validation.ResultadoValidacion.ErroresArray
+  fullName: VerifactuSDK.Validation.ResultadoValidacion.ErroresArray
+  nameWithType: ResultadoValidacion.ErroresArray
+- uid: VerifactuSDK.Validation.ResultadoValidacion.ErroresArray*
+  name: ErroresArray
+  href: api/VerifactuSDK.Validation.ResultadoValidacion.html#VerifactuSDK_Validation_ResultadoValidacion_ErroresArray_
+  commentId: Overload:VerifactuSDK.Validation.ResultadoValidacion.ErroresArray
+  isSpec: "True"
+  fullName: VerifactuSDK.Validation.ResultadoValidacion.ErroresArray
+  nameWithType: ResultadoValidacion.ErroresArray
+- uid: VerifactuSDK.Validation.ResultadoValidacionEsquema
+  name: ResultadoValidacionEsquema
+  href: api/VerifactuSDK.Validation.ResultadoValidacionEsquema.html
+  commentId: T:VerifactuSDK.Validation.ResultadoValidacionEsquema
+  fullName: VerifactuSDK.Validation.ResultadoValidacionEsquema
+  nameWithType: ResultadoValidacionEsquema
+- uid: VerifactuSDK.Validation.ResultadoValidacionEsquema.Correcto
+  name: Correcto
+  href: api/VerifactuSDK.Validation.ResultadoValidacionEsquema.html#VerifactuSDK_Validation_ResultadoValidacionEsquema_Correcto
+  commentId: P:VerifactuSDK.Validation.ResultadoValidacionEsquema.Correcto
+  fullName: VerifactuSDK.Validation.ResultadoValidacionEsquema.Correcto
+  nameWithType: ResultadoValidacionEsquema.Correcto
+- uid: VerifactuSDK.Validation.ResultadoValidacionEsquema.Correcto*
+  name: Correcto
+  href: api/VerifactuSDK.Validation.ResultadoValidacionEsquema.html#VerifactuSDK_Validation_ResultadoValidacionEsquema_Correcto_
+  commentId: Overload:VerifactuSDK.Validation.ResultadoValidacionEsquema.Correcto
+  isSpec: "True"
+  fullName: VerifactuSDK.Validation.ResultadoValidacionEsquema.Correcto
+  nameWithType: ResultadoValidacionEsquema.Correcto
+- uid: VerifactuSDK.Validation.ResultadoValidacionEsquema.Errores
+  name: Errores
+  href: api/VerifactuSDK.Validation.ResultadoValidacionEsquema.html#VerifactuSDK_Validation_ResultadoValidacionEsquema_Errores
+  commentId: P:VerifactuSDK.Validation.ResultadoValidacionEsquema.Errores
+  fullName: VerifactuSDK.Validation.ResultadoValidacionEsquema.Errores
+  nameWithType: ResultadoValidacionEsquema.Errores
+- uid: VerifactuSDK.Validation.ResultadoValidacionEsquema.Errores*
+  name: Errores
+  href: api/VerifactuSDK.Validation.ResultadoValidacionEsquema.html#VerifactuSDK_Validation_ResultadoValidacionEsquema_Errores_
+  commentId: Overload:VerifactuSDK.Validation.ResultadoValidacionEsquema.Errores
+  isSpec: "True"
+  fullName: VerifactuSDK.Validation.ResultadoValidacionEsquema.Errores
+  nameWithType: ResultadoValidacionEsquema.Errores
+- uid: VerifactuSDK.Validation.ResultadoValidacionEsquema.TicketBaiXml
+  name: TicketBaiXml
+  href: api/VerifactuSDK.Validation.ResultadoValidacionEsquema.html#VerifactuSDK_Validation_ResultadoValidacionEsquema_TicketBaiXml
+  commentId: P:VerifactuSDK.Validation.ResultadoValidacionEsquema.TicketBaiXml
+  fullName: VerifactuSDK.Validation.ResultadoValidacionEsquema.TicketBaiXml
+  nameWithType: ResultadoValidacionEsquema.TicketBaiXml
+- uid: VerifactuSDK.Validation.ResultadoValidacionEsquema.TicketBaiXml*
+  name: TicketBaiXml
+  href: api/VerifactuSDK.Validation.ResultadoValidacionEsquema.html#VerifactuSDK_Validation_ResultadoValidacionEsquema_TicketBaiXml_
+  commentId: Overload:VerifactuSDK.Validation.ResultadoValidacionEsquema.TicketBaiXml
+  isSpec: "True"
+  fullName: VerifactuSDK.Validation.ResultadoValidacionEsquema.TicketBaiXml
+  nameWithType: ResultadoValidacionEsquema.TicketBaiXml
 - uid: VerifactuSDK.VerifactuManager
   name: VerifactuManager
   href: api/VerifactuSDK.VerifactuManager.html
@@ -5496,6 +5646,45 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.VerifactuManager.Plataforma
   nameWithType: VerifactuManager.Plataforma
+- uid: VerifactuSDK.VerifactuManager.ValidarVerifactuSoapXml(System.String)
+  name: ValidarVerifactuSoapXml(String)
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_ValidarVerifactuSoapXml_System_String_
+  commentId: M:VerifactuSDK.VerifactuManager.ValidarVerifactuSoapXml(System.String)
+  fullName: VerifactuSDK.VerifactuManager.ValidarVerifactuSoapXml(System.String)
+  nameWithType: VerifactuManager.ValidarVerifactuSoapXml(String)
+- uid: VerifactuSDK.VerifactuManager.ValidarVerifactuSoapXml*
+  name: ValidarVerifactuSoapXml
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_ValidarVerifactuSoapXml_
+  commentId: Overload:VerifactuSDK.VerifactuManager.ValidarVerifactuSoapXml
+  isSpec: "True"
+  fullName: VerifactuSDK.VerifactuManager.ValidarVerifactuSoapXml
+  nameWithType: VerifactuManager.ValidarVerifactuSoapXml
+- uid: VerifactuSDK.VerifactuManager.ValidateObject(System.Object)
+  name: ValidateObject(Object)
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_ValidateObject_System_Object_
+  commentId: M:VerifactuSDK.VerifactuManager.ValidateObject(System.Object)
+  fullName: VerifactuSDK.VerifactuManager.ValidateObject(System.Object)
+  nameWithType: VerifactuManager.ValidateObject(Object)
+- uid: VerifactuSDK.VerifactuManager.ValidateObject*
+  name: ValidateObject
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_ValidateObject_
+  commentId: Overload:VerifactuSDK.VerifactuManager.ValidateObject
+  isSpec: "True"
+  fullName: VerifactuSDK.VerifactuManager.ValidateObject
+  nameWithType: VerifactuManager.ValidateObject
+- uid: VerifactuSDK.VerifactuManager.ValidateScheme(System.String,System.IO.Stream)
+  name: ValidateScheme(String, Stream)
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_ValidateScheme_System_String_System_IO_Stream_
+  commentId: M:VerifactuSDK.VerifactuManager.ValidateScheme(System.String,System.IO.Stream)
+  fullName: VerifactuSDK.VerifactuManager.ValidateScheme(System.String, System.IO.Stream)
+  nameWithType: VerifactuManager.ValidateScheme(String, Stream)
+- uid: VerifactuSDK.VerifactuManager.ValidateScheme*
+  name: ValidateScheme
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_ValidateScheme_
+  commentId: Overload:VerifactuSDK.VerifactuManager.ValidateScheme
+  isSpec: "True"
+  fullName: VerifactuSDK.VerifactuManager.ValidateScheme
+  nameWithType: VerifactuManager.ValidateScheme
 - uid: VerifactuSDK.WebService
   name: VerifactuSDK.WebService
   href: api/VerifactuSDK.WebService.html

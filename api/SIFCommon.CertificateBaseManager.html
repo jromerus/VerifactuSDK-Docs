@@ -224,6 +224,193 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
   </table>
   <h3 id="methods">Methods
   </h3>
+  <a id="SIFCommon_CertificateBaseManager_EstableceCertificado_" data-uid="SIFCommon.CertificateBaseManager.EstableceCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_EstableceCertificado_System_Byte___System_String_" data-uid="SIFCommon.CertificateBaseManager.EstableceCertificado(System.Byte[],System.String)">EstableceCertificado(Byte[], String)</h4>
+  <div class="markdown level1 summary"><p>Establece o fija el certificado a usar en la firma en base a un certificado exportado, típicamente almacenado en un blob</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EstableceCertificado(byte[] certificado, string passwordCertificado)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">certificado</span></td>
+        <td><p>Certificado en una matriz de bytes</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">passwordCertificado</span></td>
+        <td><p>Contraseña del certificado</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true si el certificado existe y es válido, false si no existe o no es válido (ha expirado)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="SIFCommon_CertificateBaseManager_EstableceCertificado_" data-uid="SIFCommon.CertificateBaseManager.EstableceCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_EstableceCertificado_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="SIFCommon.CertificateBaseManager.EstableceCertificado(System.Security.Cryptography.X509Certificates.X509Certificate2)">EstableceCertificado(X509Certificate2)</h4>
+  <div class="markdown level1 summary"><p>Establece o fija el certificado a usar en la firma en base a un objeto X509Certificate2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EstableceCertificado(X509Certificate2 certificado)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.X509Certificates.X509Certificate2</span></td>
+        <td><span class="parametername">certificado</span></td>
+        <td><p>Certificado X509Certificate2</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true si el certificado existe y es válido, false si no existe o no es válido (ha expirado)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="SIFCommon_CertificateBaseManager_EstableceCertificado_" data-uid="SIFCommon.CertificateBaseManager.EstableceCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_EstableceCertificado_System_String_SIFCommon_TipoIdCertificado_" data-uid="SIFCommon.CertificateBaseManager.EstableceCertificado(System.String,SIFCommon.TipoIdCertificado)">EstableceCertificado(String, TipoIdCertificado)</h4>
+  <div class="markdown level1 summary"><p>Establece o fija el certificado a usar para las firmas en base al DN (Distinguissed Name)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EstableceCertificado(string id, TipoIdCertificado tipoId = TipoIdCertificado.DN)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>Identificador necesario para seleccionar unívocamente el certificado</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SIFCommon.TipoIdCertificado.html">TipoIdCertificado</a></td>
+        <td><span class="parametername">tipoId</span></td>
+        <td><p>(Opcional) Tipo de identificador {DN, SerialName}. Si no se indica el valor por defecto es DN (Distinguissed Name)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true si el certificado existe y es válido, false si no existe o no es válido (ha expirado)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="SIFCommon_CertificateBaseManager_EstableceCertificadoExportado_" data-uid="SIFCommon.CertificateBaseManager.EstableceCertificadoExportado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_EstableceCertificadoExportado_System_String_System_String_" data-uid="SIFCommon.CertificateBaseManager.EstableceCertificadoExportado(System.String,System.String)">EstableceCertificadoExportado(String, String)</h4>
+  <div class="markdown level1 summary"><p>Establece como predeterminado un certificado exportado para su posterior uso en la firma o en la comunicación</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EstableceCertificadoExportado(string rutaCertificado, string passwordCertificado)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rutaCertificado</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">passwordCertificado</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="SIFCommon_CertificateBaseManager_GetAllDNCertificado_" data-uid="SIFCommon.CertificateBaseManager.GetAllDNCertificado*"></a>
   <h4 id="SIFCommon_CertificateBaseManager_GetAllDNCertificado" data-uid="SIFCommon.CertificateBaseManager.GetAllDNCertificado">GetAllDNCertificado()</h4>
   <div class="markdown level1 summary"><p>Muestra una lista de certificados válidos (no caducados y emitidos por cualquier autoridad de certificación) y permite seleccionar un certificado local y obtener el identificador unívoco DN (Distinguished Name) del certificado seleccionado</p>
@@ -396,6 +583,14 @@ durante el proceso de firma, resulta de utilidad saber qué certificado se ha us
       </tr>
     </tbody>
   </table>
+  <a id="SIFCommon_CertificateBaseManager_ResetCertificado_" data-uid="SIFCommon.CertificateBaseManager.ResetCertificado*"></a>
+  <h4 id="SIFCommon_CertificateBaseManager_ResetCertificado" data-uid="SIFCommon.CertificateBaseManager.ResetCertificado">ResetCertificado()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetCertificado()</code></pre>
+  </div>
   <a id="SIFCommon_CertificateBaseManager_SaveSelectedCertificate_" data-uid="SIFCommon.CertificateBaseManager.SaveSelectedCertificate*"></a>
   <h4 id="SIFCommon_CertificateBaseManager_SaveSelectedCertificate_System_Security_Cryptography_X509Certificates_X509Certificate2_" data-uid="SIFCommon.CertificateBaseManager.SaveSelectedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2)">SaveSelectedCertificate(X509Certificate2)</h4>
   <div class="markdown level1 summary"><p>Almacena el identificador SN del certificado en la carpeta especial del usuario</p>
