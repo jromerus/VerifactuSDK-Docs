@@ -1033,6 +1033,18 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "cdgftBAhpHSckHJi/QeWoB3Y5KZPiP4dnsIEOvjRtgw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
@@ -1095,15 +1107,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "1/uABRMBgeA7Cx4RHHQP+FFMHA7QA4NTQIaxW8Pb73s="
+          "hash": "hYQAAAoz2UeSnkS9UVbcTRARqZP4faI7T/P8BR9NeJE="
         }
       },
       "is_incremental": false,
@@ -1120,17 +1129,16 @@
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ConceptualDocumentProcessor disable incremental build because last build doesn't contain version .",
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
+          "total_file_count": 3,
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 85,
-          "skipped_file_count": 73
+          "skipped_file_count": 80
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

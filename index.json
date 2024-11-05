@@ -1,4 +1,9 @@
 {
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "Documentación API SDK | Verifactu API SDK",
+    "keywords": "Documentación API SDK Navega a través del menú de la izquierda y localiza la clase que deseas inspeccionar."
+  },
   "api/SIFCommon.CertificateBaseManager.html": {
     "href": "api/SIFCommon.CertificateBaseManager.html",
     "title": "Class CertificateBaseManager | Verifactu API SDK",
