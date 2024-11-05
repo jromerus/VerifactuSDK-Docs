@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
@@ -125,8 +125,17 @@ public class InfoQR</code></pre>
   <h3 id="constructors">Constructors
   </h3>
   <a id="VerifactuSDK_InfoQR__ctor_" data-uid="VerifactuSDK.InfoQR.#ctor*"></a>
-  <h4 id="VerifactuSDK_InfoQR__ctor_VerifactuSDK_TipoPlataforma_System_String_System_String_System_String_System_Decimal_" data-uid="VerifactuSDK.InfoQR.#ctor(VerifactuSDK.TipoPlataforma,System.String,System.String,System.String,System.Decimal)">InfoQR(TipoPlataforma, String, String, String, Decimal)</h4>
+  <h4 id="VerifactuSDK_InfoQR__ctor" data-uid="VerifactuSDK.InfoQR.#ctor">InfoQR()</h4>
   <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InfoQR()</code></pre>
+  </div>
+  <a id="VerifactuSDK_InfoQR__ctor_" data-uid="VerifactuSDK.InfoQR.#ctor*"></a>
+  <h4 id="VerifactuSDK_InfoQR__ctor_VerifactuSDK_TipoPlataforma_System_String_System_String_System_String_System_Decimal_" data-uid="VerifactuSDK.InfoQR.#ctor(VerifactuSDK.TipoPlataforma,System.String,System.String,System.String,System.Decimal)">InfoQR(TipoPlataforma, String, String, String, Decimal)</h4>
+  <div class="markdown level1 summary"><p>Instancia un objeto de tipo InfoQR y genera el código asignándolo a la propiedad CodigoQR</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -145,27 +154,32 @@ public class InfoQR</code></pre>
       <tr>
         <td><a class="xref" href="VerifactuSDK.TipoPlataforma.html">TipoPlataforma</a></td>
         <td><span class="parametername">plataforma</span></td>
-        <td></td>
+        <td><p>Informa si se está trabajando con la plataforma de  Pruebas o Produccion</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">nif</span></td>
-        <td></td>
+        <td><p>NIF del obligado a expedir la factura</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">numSerie</span></td>
-        <td></td>
+        <td><p>Número de serie y número de la factura expedida</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">fecha</span></td>
-        <td></td>
+        <td><p>Fecha de expedición de la factura en formato dd-mm-aaaa</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Decimal</span></td>
         <td><span class="parametername">importe</span></td>
-        <td></td>
+        <td><p>Importe total de la factura</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -197,11 +211,15 @@ public class InfoQR</code></pre>
   </table>
   <a id="VerifactuSDK_InfoQR_Fecha_" data-uid="VerifactuSDK.InfoQR.Fecha*"></a>
   <h4 id="VerifactuSDK_InfoQR_Fecha" data-uid="VerifactuSDK.InfoQR.Fecha">Fecha</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Fecha de expedición de la factura
+Alfanumérico 10 en formato de fecha dd-mm-aaaa (ej: 02-12-2024)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Fecha { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[MaxLength(10)]
+[RegularExpression(&quot;\\d{2,2}-\\d{2,2}-\\d{4,4}&quot;, ErrorMessage = &quot;Formato incorrecto. Fecha en formato dd-mm-YYYY&quot;)]
+public string Fecha { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -220,11 +238,12 @@ public class InfoQR</code></pre>
   </table>
   <a id="VerifactuSDK_InfoQR_Importe_" data-uid="VerifactuSDK.InfoQR.Importe*"></a>
   <h4 id="VerifactuSDK_InfoQR_Importe" data-uid="VerifactuSDK.InfoQR.Importe">Importe</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Importe total de la factura</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal Importe { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public decimal Importe { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -243,11 +262,12 @@ public class InfoQR</code></pre>
   </table>
   <a id="VerifactuSDK_InfoQR_NIF_" data-uid="VerifactuSDK.InfoQR.NIF*"></a>
   <h4 id="VerifactuSDK_InfoQR_NIF" data-uid="VerifactuSDK.InfoQR.NIF">NIF</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>NIF del obligado a expedir la factura</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NIF { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string NIF { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -266,11 +286,12 @@ public class InfoQR</code></pre>
   </table>
   <a id="VerifactuSDK_InfoQR_NumSerie_" data-uid="VerifactuSDK.InfoQR.NumSerie*"></a>
   <h4 id="VerifactuSDK_InfoQR_NumSerie" data-uid="VerifactuSDK.InfoQR.NumSerie">NumSerie</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Número de serie y número de la factura expedida</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NumSerie { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string NumSerie { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,6 +304,29 @@ public class InfoQR</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_InfoQR_Plataforma_" data-uid="VerifactuSDK.InfoQR.Plataforma*"></a>
+  <h4 id="VerifactuSDK_InfoQR_Plataforma" data-uid="VerifactuSDK.InfoQR.Plataforma">Plataforma</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TipoPlataforma Plataforma { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.TipoPlataforma.html">TipoPlataforma</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -342,14 +386,14 @@ public class InfoQR</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_InfoQR_BuildQRPNG_" data-uid="VerifactuSDK.InfoQR.BuildQRPNG*"></a>
-  <h4 id="VerifactuSDK_InfoQR_BuildQRPNG" data-uid="VerifactuSDK.InfoQR.BuildQRPNG">BuildQRPNG()</h4>
+  <a id="VerifactuSDK_InfoQR_BuildQRPng_" data-uid="VerifactuSDK.InfoQR.BuildQRPng*"></a>
+  <h4 id="VerifactuSDK_InfoQR_BuildQRPng" data-uid="VerifactuSDK.InfoQR.BuildQRPng">BuildQRPng()</h4>
   <div class="markdown level1 summary"><p>Genera una imagen QR a partir del contenido de la propiedad CodigoQR</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] BuildQRPNG()</code></pre>
+    <pre><code class="lang-csharp hljs">public byte[] BuildQRPng()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -427,6 +471,15 @@ public class InfoQR</code></pre>
       </tr>
     </tbody>
   </table>
+  <a id="VerifactuSDK_InfoQR_CalculaCodigo_" data-uid="VerifactuSDK.InfoQR.CalculaCodigo*"></a>
+  <h4 id="VerifactuSDK_InfoQR_CalculaCodigo" data-uid="VerifactuSDK.InfoQR.CalculaCodigo">CalculaCodigo()</h4>
+  <div class="markdown level1 summary"><p>Calcula el código y lo asigna a la propiedad CodigoQR</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CalculaCodigo()</code></pre>
+  </div>
 </article>
           </div>
           

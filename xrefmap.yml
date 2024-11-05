@@ -4002,12 +4002,12 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetEncadenamientoFacturaAnterior
   nameWithType: RegistroFacturacionEncadenamiento.SetEncadenamientoFacturaAnterior
-- uid: VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType(VerifactuSDK.DTO.PrimerRegistroCadenaType)
-  name: SetPrimerRegistroCadenaType(PrimerRegistroCadenaType)
-  href: api/VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.html#VerifactuSDK_DTO_RegistroFacturacionEncadenamiento_SetPrimerRegistroCadenaType_VerifactuSDK_DTO_PrimerRegistroCadenaType_
-  commentId: M:VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType(VerifactuSDK.DTO.PrimerRegistroCadenaType)
-  fullName: VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType(VerifactuSDK.DTO.PrimerRegistroCadenaType)
-  nameWithType: RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType(PrimerRegistroCadenaType)
+- uid: VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType
+  name: SetPrimerRegistroCadenaType()
+  href: api/VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.html#VerifactuSDK_DTO_RegistroFacturacionEncadenamiento_SetPrimerRegistroCadenaType
+  commentId: M:VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType
+  fullName: VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType()
+  nameWithType: RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType()
 - uid: VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType*
   name: SetPrimerRegistroCadenaType
   href: api/VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.html#VerifactuSDK_DTO_RegistroFacturacionEncadenamiento_SetPrimerRegistroCadenaType_
@@ -4329,19 +4329,19 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.ErrorEntrega
   nameWithType: RegFactuSistemaFacturacionResponse.ErrorEntrega
-- uid: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensageErrorEntrega
-  name: MensageErrorEntrega
-  href: api/VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html#VerifactuSDK_DTO_Respuesta_RegFactuSistemaFacturacionResponse_MensageErrorEntrega
-  commentId: P:VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensageErrorEntrega
-  fullName: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensageErrorEntrega
-  nameWithType: RegFactuSistemaFacturacionResponse.MensageErrorEntrega
-- uid: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensageErrorEntrega*
-  name: MensageErrorEntrega
-  href: api/VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html#VerifactuSDK_DTO_Respuesta_RegFactuSistemaFacturacionResponse_MensageErrorEntrega_
-  commentId: Overload:VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensageErrorEntrega
+- uid: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensajeErrorEntrega
+  name: MensajeErrorEntrega
+  href: api/VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html#VerifactuSDK_DTO_Respuesta_RegFactuSistemaFacturacionResponse_MensajeErrorEntrega
+  commentId: P:VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensajeErrorEntrega
+  fullName: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensajeErrorEntrega
+  nameWithType: RegFactuSistemaFacturacionResponse.MensajeErrorEntrega
+- uid: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensajeErrorEntrega*
+  name: MensajeErrorEntrega
+  href: api/VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html#VerifactuSDK_DTO_Respuesta_RegFactuSistemaFacturacionResponse_MensajeErrorEntrega_
+  commentId: Overload:VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensajeErrorEntrega
   isSpec: "True"
-  fullName: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensageErrorEntrega
-  nameWithType: RegFactuSistemaFacturacionResponse.MensageErrorEntrega
+  fullName: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.MensajeErrorEntrega
+  nameWithType: RegFactuSistemaFacturacionResponse.MensajeErrorEntrega
 - uid: VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.RawResponse
   name: RawResponse
   href: api/VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html#VerifactuSDK_DTO_Respuesta_RegFactuSistemaFacturacionResponse_RawResponse
@@ -4932,31 +4932,18 @@ references:
   commentId: F:VerifactuSDK.ImageType.Png
   fullName: VerifactuSDK.ImageType.Png
   nameWithType: ImageType.Png
-- uid: VerifactuSDK.InfoFactura
-  name: InfoFactura
-  href: api/VerifactuSDK.InfoFactura.html
-  commentId: T:VerifactuSDK.InfoFactura
-  fullName: VerifactuSDK.InfoFactura
-  nameWithType: InfoFactura
-- uid: VerifactuSDK.InfoFactura.QR
-  name: QR
-  href: api/VerifactuSDK.InfoFactura.html#VerifactuSDK_InfoFactura_QR
-  commentId: P:VerifactuSDK.InfoFactura.QR
-  fullName: VerifactuSDK.InfoFactura.QR
-  nameWithType: InfoFactura.QR
-- uid: VerifactuSDK.InfoFactura.QR*
-  name: QR
-  href: api/VerifactuSDK.InfoFactura.html#VerifactuSDK_InfoFactura_QR_
-  commentId: Overload:VerifactuSDK.InfoFactura.QR
-  isSpec: "True"
-  fullName: VerifactuSDK.InfoFactura.QR
-  nameWithType: InfoFactura.QR
 - uid: VerifactuSDK.InfoQR
   name: InfoQR
   href: api/VerifactuSDK.InfoQR.html
   commentId: T:VerifactuSDK.InfoQR
   fullName: VerifactuSDK.InfoQR
   nameWithType: InfoQR
+- uid: VerifactuSDK.InfoQR.#ctor
+  name: InfoQR()
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR__ctor
+  commentId: M:VerifactuSDK.InfoQR.#ctor
+  fullName: VerifactuSDK.InfoQR.InfoQR()
+  nameWithType: InfoQR.InfoQR()
 - uid: VerifactuSDK.InfoQR.#ctor(VerifactuSDK.TipoPlataforma,System.String,System.String,System.String,System.Decimal)
   name: InfoQR(TipoPlataforma, String, String, String, Decimal)
   href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR__ctor_VerifactuSDK_TipoPlataforma_System_String_System_String_System_String_System_Decimal_
@@ -4996,19 +4983,19 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.InfoQR.BuildQRJpeg
   nameWithType: InfoQR.BuildQRJpeg
-- uid: VerifactuSDK.InfoQR.BuildQRPNG
-  name: BuildQRPNG()
-  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_BuildQRPNG
-  commentId: M:VerifactuSDK.InfoQR.BuildQRPNG
-  fullName: VerifactuSDK.InfoQR.BuildQRPNG()
-  nameWithType: InfoQR.BuildQRPNG()
-- uid: VerifactuSDK.InfoQR.BuildQRPNG*
-  name: BuildQRPNG
-  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_BuildQRPNG_
-  commentId: Overload:VerifactuSDK.InfoQR.BuildQRPNG
+- uid: VerifactuSDK.InfoQR.BuildQRPng
+  name: BuildQRPng()
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_BuildQRPng
+  commentId: M:VerifactuSDK.InfoQR.BuildQRPng
+  fullName: VerifactuSDK.InfoQR.BuildQRPng()
+  nameWithType: InfoQR.BuildQRPng()
+- uid: VerifactuSDK.InfoQR.BuildQRPng*
+  name: BuildQRPng
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_BuildQRPng_
+  commentId: Overload:VerifactuSDK.InfoQR.BuildQRPng
   isSpec: "True"
-  fullName: VerifactuSDK.InfoQR.BuildQRPNG
-  nameWithType: InfoQR.BuildQRPNG
+  fullName: VerifactuSDK.InfoQR.BuildQRPng
+  nameWithType: InfoQR.BuildQRPng
 - uid: VerifactuSDK.InfoQR.BuildQRToPath(System.String)
   name: BuildQRToPath(String)
   href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_BuildQRToPath_System_String_
@@ -5028,6 +5015,19 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.InfoQR.BuildQRToPath
   nameWithType: InfoQR.BuildQRToPath
+- uid: VerifactuSDK.InfoQR.CalculaCodigo
+  name: CalculaCodigo()
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_CalculaCodigo
+  commentId: M:VerifactuSDK.InfoQR.CalculaCodigo
+  fullName: VerifactuSDK.InfoQR.CalculaCodigo()
+  nameWithType: InfoQR.CalculaCodigo()
+- uid: VerifactuSDK.InfoQR.CalculaCodigo*
+  name: CalculaCodigo
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_CalculaCodigo_
+  commentId: Overload:VerifactuSDK.InfoQR.CalculaCodigo
+  isSpec: "True"
+  fullName: VerifactuSDK.InfoQR.CalculaCodigo
+  nameWithType: InfoQR.CalculaCodigo
 - uid: VerifactuSDK.InfoQR.CodigoQR
   name: CodigoQR
   href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_CodigoQR
@@ -5093,6 +5093,19 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.InfoQR.NumSerie
   nameWithType: InfoQR.NumSerie
+- uid: VerifactuSDK.InfoQR.Plataforma
+  name: Plataforma
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_Plataforma
+  commentId: P:VerifactuSDK.InfoQR.Plataforma
+  fullName: VerifactuSDK.InfoQR.Plataforma
+  nameWithType: InfoQR.Plataforma
+- uid: VerifactuSDK.InfoQR.Plataforma*
+  name: Plataforma
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_Plataforma_
+  commentId: Overload:VerifactuSDK.InfoQR.Plataforma
+  isSpec: "True"
+  fullName: VerifactuSDK.InfoQR.Plataforma
+  nameWithType: InfoQR.Plataforma
 - uid: VerifactuSDK.TipoPlataforma
   name: TipoPlataforma
   href: api/VerifactuSDK.TipoPlataforma.html
