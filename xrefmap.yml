@@ -280,6 +280,47 @@ references:
   commentId: F:SIFCommon.TipoIdCertificado.SerialNumber
   fullName: SIFCommon.TipoIdCertificado.SerialNumber
   nameWithType: TipoIdCertificado.SerialNumber
+- uid: SIFCommon.Utils
+  name: SIFCommon.Utils
+  href: api/SIFCommon.Utils.html
+  commentId: N:SIFCommon.Utils
+  fullName: SIFCommon.Utils
+  nameWithType: SIFCommon.Utils
+- uid: SIFCommon.Utils.SerializationUtils
+  name: SerializationUtils
+  href: api/SIFCommon.Utils.SerializationUtils.html
+  commentId: T:SIFCommon.Utils.SerializationUtils
+  fullName: SIFCommon.Utils.SerializationUtils
+  nameWithType: SerializationUtils
+- uid: SIFCommon.Utils.SerializationUtils.Deserialize*
+  name: Deserialize
+  href: api/SIFCommon.Utils.SerializationUtils.html#SIFCommon_Utils_SerializationUtils_Deserialize_
+  commentId: Overload:SIFCommon.Utils.SerializationUtils.Deserialize
+  isSpec: "True"
+  fullName: SIFCommon.Utils.SerializationUtils.Deserialize
+  nameWithType: SerializationUtils.Deserialize
+- uid: SIFCommon.Utils.SerializationUtils.Deserialize``1(System.String)
+  name: Deserialize<T>(String)
+  href: api/SIFCommon.Utils.SerializationUtils.html#SIFCommon_Utils_SerializationUtils_Deserialize__1_System_String_
+  commentId: M:SIFCommon.Utils.SerializationUtils.Deserialize``1(System.String)
+  name.vb: Deserialize(Of T)(String)
+  fullName: SIFCommon.Utils.SerializationUtils.Deserialize<T>(System.String)
+  fullName.vb: SIFCommon.Utils.SerializationUtils.Deserialize(Of T)(System.String)
+  nameWithType: SerializationUtils.Deserialize<T>(String)
+  nameWithType.vb: SerializationUtils.Deserialize(Of T)(String)
+- uid: SIFCommon.Utils.SerializationUtils.Serialize(System.Object)
+  name: Serialize(Object)
+  href: api/SIFCommon.Utils.SerializationUtils.html#SIFCommon_Utils_SerializationUtils_Serialize_System_Object_
+  commentId: M:SIFCommon.Utils.SerializationUtils.Serialize(System.Object)
+  fullName: SIFCommon.Utils.SerializationUtils.Serialize(System.Object)
+  nameWithType: SerializationUtils.Serialize(Object)
+- uid: SIFCommon.Utils.SerializationUtils.Serialize*
+  name: Serialize
+  href: api/SIFCommon.Utils.SerializationUtils.html#SIFCommon_Utils_SerializationUtils_Serialize_
+  commentId: Overload:SIFCommon.Utils.SerializationUtils.Serialize
+  isSpec: "True"
+  fullName: SIFCommon.Utils.SerializationUtils.Serialize
+  nameWithType: SerializationUtils.Serialize
 - uid: VerifactuSDK
   name: VerifactuSDK
   href: api/VerifactuSDK.html
@@ -1130,6 +1171,58 @@ references:
   commentId: T:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType
   fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType
   nameWithType: RegistroFacturacionAltaType
+- uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDesglose(VerifactuSDK.DTO.Alta.DetalleType)
+  name: AgregarDesglose(DetalleType)
+  href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarDesglose_VerifactuSDK_DTO_Alta_DetalleType_
+  commentId: M:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDesglose(VerifactuSDK.DTO.Alta.DetalleType)
+  fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDesglose(VerifactuSDK.DTO.Alta.DetalleType)
+  nameWithType: RegistroFacturacionAltaType.AgregarDesglose(DetalleType)
+- uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDesglose*
+  name: AgregarDesglose
+  href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarDesglose_
+  commentId: Overload:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDesglose
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDesglose
+  nameWithType: RegistroFacturacionAltaType.AgregarDesglose
+- uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDestinatario(VerifactuSDK.DTO.PersonaFisicaJuridicaType)
+  name: AgregarDestinatario(PersonaFisicaJuridicaType)
+  href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarDestinatario_VerifactuSDK_DTO_PersonaFisicaJuridicaType_
+  commentId: M:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDestinatario(VerifactuSDK.DTO.PersonaFisicaJuridicaType)
+  fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDestinatario(VerifactuSDK.DTO.PersonaFisicaJuridicaType)
+  nameWithType: RegistroFacturacionAltaType.AgregarDestinatario(PersonaFisicaJuridicaType)
+- uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDestinatario*
+  name: AgregarDestinatario
+  href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarDestinatario_
+  commentId: Overload:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDestinatario
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDestinatario
+  nameWithType: RegistroFacturacionAltaType.AgregarDestinatario
+- uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaRectificada(VerifactuSDK.DTO.Alta.IDFacturaARType)
+  name: AgregarFacturaRectificada(IDFacturaARType)
+  href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarFacturaRectificada_VerifactuSDK_DTO_Alta_IDFacturaARType_
+  commentId: M:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaRectificada(VerifactuSDK.DTO.Alta.IDFacturaARType)
+  fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaRectificada(VerifactuSDK.DTO.Alta.IDFacturaARType)
+  nameWithType: RegistroFacturacionAltaType.AgregarFacturaRectificada(IDFacturaARType)
+- uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaRectificada*
+  name: AgregarFacturaRectificada
+  href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarFacturaRectificada_
+  commentId: Overload:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaRectificada
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaRectificada
+  nameWithType: RegistroFacturacionAltaType.AgregarFacturaRectificada
+- uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaSustituida(VerifactuSDK.DTO.Alta.IDFacturaARType)
+  name: AgregarFacturaSustituida(IDFacturaARType)
+  href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarFacturaSustituida_VerifactuSDK_DTO_Alta_IDFacturaARType_
+  commentId: M:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaSustituida(VerifactuSDK.DTO.Alta.IDFacturaARType)
+  fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaSustituida(VerifactuSDK.DTO.Alta.IDFacturaARType)
+  nameWithType: RegistroFacturacionAltaType.AgregarFacturaSustituida(IDFacturaARType)
+- uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaSustituida*
+  name: AgregarFacturaSustituida
+  href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarFacturaSustituida_
+  commentId: Overload:VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaSustituida
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaSustituida
+  nameWithType: RegistroFacturacionAltaType.AgregarFacturaSustituida
 - uid: VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.CuotaTotal
   name: CuotaTotal
   href: api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html#VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_CuotaTotal
@@ -2119,6 +2212,19 @@ references:
   commentId: T:VerifactuSDK.DTO.CabeceraType
   fullName: VerifactuSDK.DTO.CabeceraType
   nameWithType: CabeceraType
+- uid: VerifactuSDK.DTO.CabeceraType.MarcarConIncidencia
+  name: MarcarConIncidencia()
+  href: api/VerifactuSDK.DTO.CabeceraType.html#VerifactuSDK_DTO_CabeceraType_MarcarConIncidencia
+  commentId: M:VerifactuSDK.DTO.CabeceraType.MarcarConIncidencia
+  fullName: VerifactuSDK.DTO.CabeceraType.MarcarConIncidencia()
+  nameWithType: CabeceraType.MarcarConIncidencia()
+- uid: VerifactuSDK.DTO.CabeceraType.MarcarConIncidencia*
+  name: MarcarConIncidencia
+  href: api/VerifactuSDK.DTO.CabeceraType.html#VerifactuSDK_DTO_CabeceraType_MarcarConIncidencia_
+  commentId: Overload:VerifactuSDK.DTO.CabeceraType.MarcarConIncidencia
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.CabeceraType.MarcarConIncidencia
+  nameWithType: CabeceraType.MarcarConIncidencia
 - uid: VerifactuSDK.DTO.CabeceraType.ObligadoEmision
   name: ObligadoEmision
   href: api/VerifactuSDK.DTO.CabeceraType.html#VerifactuSDK_DTO_CabeceraType_ObligadoEmision
@@ -3931,6 +4037,32 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura
   nameWithType: RegFactuSistemaFacturacion.AgregarRegistroFactura
+- uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old(VerifactuSDK.DTO.RegistroFacturaType)
+  name: AgregarRegistroFactura_old(RegistroFacturaType)
+  href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFactura_old_VerifactuSDK_DTO_RegistroFacturaType_
+  commentId: M:VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old(VerifactuSDK.DTO.RegistroFacturaType)
+  fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old(VerifactuSDK.DTO.RegistroFacturaType)
+  nameWithType: RegFactuSistemaFacturacion.AgregarRegistroFactura_old(RegistroFacturaType)
+- uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old*
+  name: AgregarRegistroFactura_old
+  href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFactura_old_
+  commentId: Overload:VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old
+  nameWithType: RegFactuSistemaFacturacion.AgregarRegistroFactura_old
+- uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml(System.String)
+  name: AgregarRegistroFacturaFromXml(String)
+  href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFacturaFromXml_System_String_
+  commentId: M:VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml(System.String)
+  fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml(System.String)
+  nameWithType: RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml(String)
+- uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml*
+  name: AgregarRegistroFacturaFromXml
+  href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFacturaFromXml_
+  commentId: Overload:VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml
+  nameWithType: RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml
 - uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.Cabecera
   name: Cabecera
   href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_Cabecera
@@ -3944,19 +4076,6 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.Cabecera
   nameWithType: RegFactuSistemaFacturacion.Cabecera
-- uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.GetHuellaFactura(System.String)
-  name: GetHuellaFactura(String)
-  href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_GetHuellaFactura_System_String_
-  commentId: M:VerifactuSDK.DTO.RegFactuSistemaFacturacion.GetHuellaFactura(System.String)
-  fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.GetHuellaFactura(System.String)
-  nameWithType: RegFactuSistemaFacturacion.GetHuellaFactura(String)
-- uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.GetHuellaFactura*
-  name: GetHuellaFactura
-  href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_GetHuellaFactura_
-  commentId: Overload:VerifactuSDK.DTO.RegFactuSistemaFacturacion.GetHuellaFactura
-  isSpec: "True"
-  fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.GetHuellaFactura
-  nameWithType: RegFactuSistemaFacturacion.GetHuellaFactura
 - uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.RegistroFactura
   name: RegistroFactura
   href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_RegistroFactura
@@ -4015,6 +4134,51 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.DTO.RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType
   nameWithType: RegistroFacturacionEncadenamiento.SetPrimerRegistroCadenaType
+- uid: VerifactuSDK.DTO.RegistroFacturaExtendido
+  name: RegistroFacturaExtendido
+  href: api/VerifactuSDK.DTO.RegistroFacturaExtendido.html
+  commentId: T:VerifactuSDK.DTO.RegistroFacturaExtendido
+  fullName: VerifactuSDK.DTO.RegistroFacturaExtendido
+  nameWithType: RegistroFacturaExtendido
+- uid: VerifactuSDK.DTO.RegistroFacturaExtendido.Huella
+  name: Huella
+  href: api/VerifactuSDK.DTO.RegistroFacturaExtendido.html#VerifactuSDK_DTO_RegistroFacturaExtendido_Huella
+  commentId: P:VerifactuSDK.DTO.RegistroFacturaExtendido.Huella
+  fullName: VerifactuSDK.DTO.RegistroFacturaExtendido.Huella
+  nameWithType: RegistroFacturaExtendido.Huella
+- uid: VerifactuSDK.DTO.RegistroFacturaExtendido.Huella*
+  name: Huella
+  href: api/VerifactuSDK.DTO.RegistroFacturaExtendido.html#VerifactuSDK_DTO_RegistroFacturaExtendido_Huella_
+  commentId: Overload:VerifactuSDK.DTO.RegistroFacturaExtendido.Huella
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.RegistroFacturaExtendido.Huella
+  nameWithType: RegistroFacturaExtendido.Huella
+- uid: VerifactuSDK.DTO.RegistroFacturaExtendido.SaveToFile(System.String)
+  name: SaveToFile(String)
+  href: api/VerifactuSDK.DTO.RegistroFacturaExtendido.html#VerifactuSDK_DTO_RegistroFacturaExtendido_SaveToFile_System_String_
+  commentId: M:VerifactuSDK.DTO.RegistroFacturaExtendido.SaveToFile(System.String)
+  fullName: VerifactuSDK.DTO.RegistroFacturaExtendido.SaveToFile(System.String)
+  nameWithType: RegistroFacturaExtendido.SaveToFile(String)
+- uid: VerifactuSDK.DTO.RegistroFacturaExtendido.SaveToFile*
+  name: SaveToFile
+  href: api/VerifactuSDK.DTO.RegistroFacturaExtendido.html#VerifactuSDK_DTO_RegistroFacturaExtendido_SaveToFile_
+  commentId: Overload:VerifactuSDK.DTO.RegistroFacturaExtendido.SaveToFile
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.RegistroFacturaExtendido.SaveToFile
+  nameWithType: RegistroFacturaExtendido.SaveToFile
+- uid: VerifactuSDK.DTO.RegistroFacturaExtendido.Xml
+  name: Xml
+  href: api/VerifactuSDK.DTO.RegistroFacturaExtendido.html#VerifactuSDK_DTO_RegistroFacturaExtendido_Xml
+  commentId: P:VerifactuSDK.DTO.RegistroFacturaExtendido.Xml
+  fullName: VerifactuSDK.DTO.RegistroFacturaExtendido.Xml
+  nameWithType: RegistroFacturaExtendido.Xml
+- uid: VerifactuSDK.DTO.RegistroFacturaExtendido.Xml*
+  name: Xml
+  href: api/VerifactuSDK.DTO.RegistroFacturaExtendido.html#VerifactuSDK_DTO_RegistroFacturaExtendido_Xml_
+  commentId: Overload:VerifactuSDK.DTO.RegistroFacturaExtendido.Xml
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.RegistroFacturaExtendido.Xml
+  nameWithType: RegistroFacturaExtendido.Xml
 - uid: VerifactuSDK.DTO.RegistroFacturaType
   name: RegistroFacturaType
   href: api/VerifactuSDK.DTO.RegistroFacturaType.html
@@ -4098,6 +4262,19 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.DTO.Respuesta.DatosPresentacionType.TimestampPresentacion
   nameWithType: DatosPresentacionType.TimestampPresentacion
+- uid: VerifactuSDK.DTO.Respuesta.DatosPresentacionType.TimestampPresentacionString
+  name: TimestampPresentacionString
+  href: api/VerifactuSDK.DTO.Respuesta.DatosPresentacionType.html#VerifactuSDK_DTO_Respuesta_DatosPresentacionType_TimestampPresentacionString
+  commentId: P:VerifactuSDK.DTO.Respuesta.DatosPresentacionType.TimestampPresentacionString
+  fullName: VerifactuSDK.DTO.Respuesta.DatosPresentacionType.TimestampPresentacionString
+  nameWithType: DatosPresentacionType.TimestampPresentacionString
+- uid: VerifactuSDK.DTO.Respuesta.DatosPresentacionType.TimestampPresentacionString*
+  name: TimestampPresentacionString
+  href: api/VerifactuSDK.DTO.Respuesta.DatosPresentacionType.html#VerifactuSDK_DTO_Respuesta_DatosPresentacionType_TimestampPresentacionString_
+  commentId: Overload:VerifactuSDK.DTO.Respuesta.DatosPresentacionType.TimestampPresentacionString
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.Respuesta.DatosPresentacionType.TimestampPresentacionString
+  nameWithType: DatosPresentacionType.TimestampPresentacionString
 - uid: VerifactuSDK.DTO.Respuesta.EstadoEnvioType
   name: EstadoEnvioType
   href: api/VerifactuSDK.DTO.Respuesta.EstadoEnvioType.html
@@ -4692,6 +4869,38 @@ references:
   commentId: F:VerifactuSDK.DTO.Respuesta.TipoOperacionType.Anulacion
   fullName: VerifactuSDK.DTO.Respuesta.TipoOperacionType.Anulacion
   nameWithType: TipoOperacionType.Anulacion
+- uid: VerifactuSDK.DTO.ResultadoOperacion
+  name: ResultadoOperacion
+  href: api/VerifactuSDK.DTO.ResultadoOperacion.html
+  commentId: T:VerifactuSDK.DTO.ResultadoOperacion
+  fullName: VerifactuSDK.DTO.ResultadoOperacion
+  nameWithType: ResultadoOperacion
+- uid: VerifactuSDK.DTO.ResultadoOperacion.Correcto
+  name: Correcto
+  href: api/VerifactuSDK.DTO.ResultadoOperacion.html#VerifactuSDK_DTO_ResultadoOperacion_Correcto
+  commentId: P:VerifactuSDK.DTO.ResultadoOperacion.Correcto
+  fullName: VerifactuSDK.DTO.ResultadoOperacion.Correcto
+  nameWithType: ResultadoOperacion.Correcto
+- uid: VerifactuSDK.DTO.ResultadoOperacion.Correcto*
+  name: Correcto
+  href: api/VerifactuSDK.DTO.ResultadoOperacion.html#VerifactuSDK_DTO_ResultadoOperacion_Correcto_
+  commentId: Overload:VerifactuSDK.DTO.ResultadoOperacion.Correcto
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.ResultadoOperacion.Correcto
+  nameWithType: ResultadoOperacion.Correcto
+- uid: VerifactuSDK.DTO.ResultadoOperacion.Error
+  name: Error
+  href: api/VerifactuSDK.DTO.ResultadoOperacion.html#VerifactuSDK_DTO_ResultadoOperacion_Error
+  commentId: P:VerifactuSDK.DTO.ResultadoOperacion.Error
+  fullName: VerifactuSDK.DTO.ResultadoOperacion.Error
+  nameWithType: ResultadoOperacion.Error
+- uid: VerifactuSDK.DTO.ResultadoOperacion.Error*
+  name: Error
+  href: api/VerifactuSDK.DTO.ResultadoOperacion.html#VerifactuSDK_DTO_ResultadoOperacion_Error_
+  commentId: Overload:VerifactuSDK.DTO.ResultadoOperacion.Error
+  isSpec: "True"
+  fullName: VerifactuSDK.DTO.ResultadoOperacion.Error
+  nameWithType: ResultadoOperacion.Error
 - uid: VerifactuSDK.DTO.SiNoType
   name: SiNoType
   href: api/VerifactuSDK.DTO.SiNoType.html
@@ -5067,6 +5276,32 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.InfoQR.Importe
   nameWithType: InfoQR.Importe
+- uid: VerifactuSDK.InfoQR.LastBuildErrors
+  name: LastBuildErrors
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_LastBuildErrors
+  commentId: P:VerifactuSDK.InfoQR.LastBuildErrors
+  fullName: VerifactuSDK.InfoQR.LastBuildErrors
+  nameWithType: InfoQR.LastBuildErrors
+- uid: VerifactuSDK.InfoQR.LastBuildErrors*
+  name: LastBuildErrors
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_LastBuildErrors_
+  commentId: Overload:VerifactuSDK.InfoQR.LastBuildErrors
+  isSpec: "True"
+  fullName: VerifactuSDK.InfoQR.LastBuildErrors
+  nameWithType: InfoQR.LastBuildErrors
+- uid: VerifactuSDK.InfoQR.LastBuildSuccess
+  name: LastBuildSuccess
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_LastBuildSuccess
+  commentId: P:VerifactuSDK.InfoQR.LastBuildSuccess
+  fullName: VerifactuSDK.InfoQR.LastBuildSuccess
+  nameWithType: InfoQR.LastBuildSuccess
+- uid: VerifactuSDK.InfoQR.LastBuildSuccess*
+  name: LastBuildSuccess
+  href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_LastBuildSuccess_
+  commentId: Overload:VerifactuSDK.InfoQR.LastBuildSuccess
+  isSpec: "True"
+  fullName: VerifactuSDK.InfoQR.LastBuildSuccess
+  nameWithType: InfoQR.LastBuildSuccess
 - uid: VerifactuSDK.InfoQR.NIF
   name: NIF
   href: api/VerifactuSDK.InfoQR.html#VerifactuSDK_InfoQR_NIF
@@ -5646,6 +5881,19 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.VerifactuManager.AltaRegistroXml
   nameWithType: VerifactuManager.AltaRegistroXml
+- uid: VerifactuSDK.VerifactuManager.GeneraRegistroXml(VerifactuSDK.DTO.RegFactuSistemaFacturacion)
+  name: GeneraRegistroXml(RegFactuSistemaFacturacion)
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_GeneraRegistroXml_VerifactuSDK_DTO_RegFactuSistemaFacturacion_
+  commentId: M:VerifactuSDK.VerifactuManager.GeneraRegistroXml(VerifactuSDK.DTO.RegFactuSistemaFacturacion)
+  fullName: VerifactuSDK.VerifactuManager.GeneraRegistroXml(VerifactuSDK.DTO.RegFactuSistemaFacturacion)
+  nameWithType: VerifactuManager.GeneraRegistroXml(RegFactuSistemaFacturacion)
+- uid: VerifactuSDK.VerifactuManager.GeneraRegistroXml*
+  name: GeneraRegistroXml
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_GeneraRegistroXml_
+  commentId: Overload:VerifactuSDK.VerifactuManager.GeneraRegistroXml
+  isSpec: "True"
+  fullName: VerifactuSDK.VerifactuManager.GeneraRegistroXml
+  nameWithType: VerifactuManager.GeneraRegistroXml
 - uid: VerifactuSDK.VerifactuManager.Plataforma
   name: Plataforma
   href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_Plataforma
@@ -5805,12 +6053,6 @@ references:
   commentId: F:VerifactuSDK.WebService.RegFactuSistemaFacturacionRequest.RegFactuSistemaFacturacion
   fullName: VerifactuSDK.WebService.RegFactuSistemaFacturacionRequest.RegFactuSistemaFacturacion
   nameWithType: RegFactuSistemaFacturacionRequest.RegFactuSistemaFacturacion
-- uid: VerifactuSDK.WebService.RespuestaEntrega
-  name: RespuestaEntrega
-  href: api/VerifactuSDK.WebService.RespuestaEntrega.html
-  commentId: T:VerifactuSDK.WebService.RespuestaEntrega
-  fullName: VerifactuSDK.WebService.RespuestaEntrega
-  nameWithType: RespuestaEntrega
 - uid: VerifactuSDK.WebService.ServiceClient
   name: ServiceClient
   href: api/VerifactuSDK.WebService.ServiceClient.html

@@ -119,7 +119,8 @@
   <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
   <h5 id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RegistroFacturacionAltaType</code></pre>
+    <pre><code class="lang-csharp hljs">[ClassInterface(ClassInterfaceType.AutoDual)]
+public class RegistroFacturacionAltaType</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -1151,6 +1152,112 @@ public TipoHuellaType TipoHuella { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarDesglose_" data-uid="VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDesglose*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarDesglose_VerifactuSDK_DTO_Alta_DetalleType_" data-uid="VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDesglose(VerifactuSDK.DTO.Alta.DetalleType)">AgregarDesglose(DetalleType)</h4>
+  <div class="markdown level1 summary"><p>Añade un desglose a la lista de desgloses</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AgregarDesglose(DetalleType desglose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Alta.DetalleType.html">DetalleType</a></td>
+        <td><span class="parametername">desglose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarDestinatario_" data-uid="VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDestinatario*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarDestinatario_VerifactuSDK_DTO_PersonaFisicaJuridicaType_" data-uid="VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarDestinatario(VerifactuSDK.DTO.PersonaFisicaJuridicaType)">AgregarDestinatario(PersonaFisicaJuridicaType)</h4>
+  <div class="markdown level1 summary"><p>Añade un destinatario a la lista de destinatarios</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AgregarDestinatario(PersonaFisicaJuridicaType destinatario)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.PersonaFisicaJuridicaType.html">PersonaFisicaJuridicaType</a></td>
+        <td><span class="parametername">destinatario</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarFacturaRectificada_" data-uid="VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaRectificada*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarFacturaRectificada_VerifactuSDK_DTO_Alta_IDFacturaARType_" data-uid="VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaRectificada(VerifactuSDK.DTO.Alta.IDFacturaARType)">AgregarFacturaRectificada(IDFacturaARType)</h4>
+  <div class="markdown level1 summary"><p>Añade una factura rectificada a la lista de facturas rectificadas</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AgregarFacturaRectificada(IDFacturaARType facturaRectificada)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Alta.IDFacturaARType.html">IDFacturaARType</a></td>
+        <td><span class="parametername">facturaRectificada</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarFacturaSustituida_" data-uid="VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaSustituida*"></a>
+  <h4 id="VerifactuSDK_DTO_Alta_RegistroFacturacionAltaType_AgregarFacturaSustituida_VerifactuSDK_DTO_Alta_IDFacturaARType_" data-uid="VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.AgregarFacturaSustituida(VerifactuSDK.DTO.Alta.IDFacturaARType)">AgregarFacturaSustituida(IDFacturaARType)</h4>
+  <div class="markdown level1 summary"><p>Añade una factura sustituida a la lista de facturas sustituidas</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AgregarFacturaSustituida(IDFacturaARType facturaSustituida)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Alta.IDFacturaARType.html">IDFacturaARType</a></td>
+        <td><span class="parametername">facturaSustituida</span></td>
         <td></td>
       </tr>
     </tbody>

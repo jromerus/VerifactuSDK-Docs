@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum TipoOperacionType
+    <title>Class SerializationUtils
    | Verifactu API SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum TipoOperacionType
+    <meta name="title" content="Class SerializationUtils
    | Verifactu API SDK ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,42 +78,145 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VerifactuSDK.DTO.Respuesta.TipoOperacionType">
+            <article class="content wrap" id="_content" data-uid="SIFCommon.Utils.SerializationUtils">
   
   
-  <h1 id="VerifactuSDK_DTO_Respuesta_TipoOperacionType" data-uid="VerifactuSDK.DTO.Respuesta.TipoOperacionType" class="text-break">Enum TipoOperacionType
+  <h1 id="SIFCommon_Utils_SerializationUtils" data-uid="SIFCommon.Utils.SerializationUtils" class="text-break">Class SerializationUtils
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.DTO.Respuesta.html">VerifactuSDK.DTO.Respuesta</a></h6>
-  <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
-  <h5 id="VerifactuSDK_DTO_Respuesta_TipoOperacionType_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-[Guid(&quot;A2CB7058-0421-4B09-8B74-752C190BB15B&quot;)]
-[ComVisible(true)]
-public enum TipoOperacionType</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SerializationUtils</span></div>
   </div>
-  <h3 id="fields">Fields
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SIFCommon.Utils.html">SIFCommon.Utils</a></h6>
+  <h6><strong>Assembly</strong>: SIFCommon.dll</h6>
+  <h5 id="SIFCommon_Utils_SerializationUtils_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SerializationUtils</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
+  <a id="SIFCommon_Utils_SerializationUtils_Deserialize_" data-uid="SIFCommon.Utils.SerializationUtils.Deserialize*"></a>
+  <h4 id="SIFCommon_Utils_SerializationUtils_Deserialize__1_System_String_" data-uid="SIFCommon.Utils.SerializationUtils.Deserialize``1(System.String)">Deserialize&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(string xml)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">xml</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="VerifactuSDK_DTO_Respuesta_TipoOperacionType_Alta">Alta</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td id="VerifactuSDK_DTO_Respuesta_TipoOperacionType_Anulacion">Anulacion</td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <a id="SIFCommon_Utils_SerializationUtils_Serialize_" data-uid="SIFCommon.Utils.SerializationUtils.Serialize*"></a>
+  <h4 id="SIFCommon_Utils_SerializationUtils_Serialize_System_Object_" data-uid="SIFCommon.Utils.SerializationUtils.Serialize(System.Object)">Serialize(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Serialize(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

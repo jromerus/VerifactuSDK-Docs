@@ -118,7 +118,8 @@
   <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
   <h5 id="VerifactuSDK_DTO_CabeceraRemisionVoluntaria_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CabeceraRemisionVoluntaria</code></pre>
+    <pre><code class="lang-csharp hljs">[ClassInterface(ClassInterfaceType.AutoDual)]
+public class CabeceraRemisionVoluntaria</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -199,7 +200,10 @@ public string FechaFinVeriFactu { get; set; }</code></pre>
   </table>
   <a id="VerifactuSDK_DTO_CabeceraRemisionVoluntaria_Incidencia_" data-uid="VerifactuSDK.DTO.CabeceraRemisionVoluntaria.Incidencia*"></a>
   <h4 id="VerifactuSDK_DTO_CabeceraRemisionVoluntaria_Incidencia" data-uid="VerifactuSDK.DTO.CabeceraRemisionVoluntaria.Incidencia">Incidencia</h4>
-  <div class="markdown level1 summary"><p>Especifica si la generación del registro de facturación se ha realizado durante algún tipo de incidencia</p>
+  <div class="markdown level1 summary"><p>Indicador que especifica si la remisión voluntaria de los registros de facturación se ha visto afectada por algún tipo de incidencia técnica
+(por ej. ausencia de corriente eléctrica, problemas de conexión a Internet, fallo del sistema informático de facturación…).
+Si no se informa este campo se entenderá que tiene valor “N”.
+Este campo forma parte del detalle de las circunstancias de generación de los registros de facturación.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

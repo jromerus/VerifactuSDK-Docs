@@ -120,7 +120,6 @@
   <h5 id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ClassInterface(ClassInterfaceType.AutoDual)]
-[ComVisible(true)]
 public class RegFactuSistemaFacturacion</code></pre>
   </div>
   <h3 id="properties">Properties
@@ -181,7 +180,65 @@ public class RegFactuSistemaFacturacion</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AgregarRegistroFactura(RegistroFacturaType registroFactura)</code></pre>
+    <pre><code class="lang-csharp hljs">public RegistroFacturaExtendido AgregarRegistroFactura(RegistroFacturaType registroFactura)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.RegistroFacturaType.html">RegistroFacturaType</a></td>
+        <td><span class="parametername">registroFactura</span></td>
+        <td><p>Este registro debe contener la huella del registro inmediatamente anterior</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.RegistroFacturaExtendido.html">RegistroFacturaExtendido</a></td>
+        <td><p>Devuelve un objeto de tipo RegistroFacturaExtendido que contiene tanto la huella como el Xml del registro</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFactura_old_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old*"></a>
+  <h4 id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFactura_old_VerifactuSDK_DTO_RegistroFacturaType_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old(VerifactuSDK.DTO.RegistroFacturaType)">AgregarRegistroFactura_old(RegistroFacturaType)</h4>
+  <div class="markdown level1 summary"><p>Añade un objeto de tipo RegistroFacturaType al array &quot;RegistroFactura&quot; instanciándolo o redimensionándolo</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AgregarRegistroFactura_old(RegistroFacturaType registroFactura)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,13 +288,16 @@ public class RegFactuSistemaFacturacion</code></pre>
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_GetHuellaFactura_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.GetHuellaFactura*"></a>
-  <h4 id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_GetHuellaFactura_System_String_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.GetHuellaFactura(System.String)">GetHuellaFactura(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFacturaFromXml_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml*"></a>
+  <h4 id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFacturaFromXml_System_String_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml(System.String)">AgregarRegistroFacturaFromXml(String)</h4>
+  <div class="markdown level1 summary"><p>Añade un objeto de tipo RegistroFacturaType a partir del xml serializado al array &quot;RegistroFactura&quot; instanciándolo o redimensionándolo.
+El uso de este método tiene sentido desde un proceso independiente para preparar un lote de registros que previamente han sido generados
+en el proceso de emisión, concatenados mediante la huella y serializados a xml.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetHuellaFactura(string numeroFactura)</code></pre>
+    <pre><code class="lang-csharp hljs">public ResultadoOperacion AgregarRegistroFacturaFromXml(string xml)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,7 +311,7 @@ public class RegFactuSistemaFacturacion</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">numeroFactura</span></td>
+        <td><span class="parametername">xml</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -266,7 +326,7 @@ public class RegFactuSistemaFacturacion</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="VerifactuSDK.DTO.ResultadoOperacion.html">ResultadoOperacion</a></td>
         <td></td>
       </tr>
     </tbody>
