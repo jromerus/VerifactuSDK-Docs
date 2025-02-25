@@ -4037,19 +4037,6 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura
   nameWithType: RegFactuSistemaFacturacion.AgregarRegistroFactura
-- uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old(VerifactuSDK.DTO.RegistroFacturaType)
-  name: AgregarRegistroFactura_old(RegistroFacturaType)
-  href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFactura_old_VerifactuSDK_DTO_RegistroFacturaType_
-  commentId: M:VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old(VerifactuSDK.DTO.RegistroFacturaType)
-  fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old(VerifactuSDK.DTO.RegistroFacturaType)
-  nameWithType: RegFactuSistemaFacturacion.AgregarRegistroFactura_old(RegistroFacturaType)
-- uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old*
-  name: AgregarRegistroFactura_old
-  href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFactura_old_
-  commentId: Overload:VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old
-  isSpec: "True"
-  fullName: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura_old
-  nameWithType: RegFactuSistemaFacturacion.AgregarRegistroFactura_old
 - uid: VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml(System.String)
   name: AgregarRegistroFacturaFromXml(String)
   href: api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html#VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFacturaFromXml_System_String_

@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.RegFactuSistemaFacturacion.html",
-          "hash": "YWFW3VDNTzDz3EzT9/RmhnS8ZEqH799a1oM70py67kI="
+          "hash": "n8p2eHkcVy5Sb8aZ3MvH7FervPfxvAJcNjL1H0R9/Es="
         }
       },
       "is_incremental": false,
@@ -1174,7 +1174,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 88,
-          "skipped_file_count": 20
+          "skipped_file_count": 87
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
