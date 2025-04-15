@@ -38,11 +38,59 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SIFCommon.Utils.SerializationUtils.yml",
+      "source_relative_path": "api/SIFCommon.Utils.Serialization.JsonHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SIFCommon.Utils.SerializationUtils.html",
-          "hash": "obvY2qnOipB84fF9lBLgYeRUZkj/GrcXVN8zphnPY6k="
+          "relative_path": "api/SIFCommon.Utils.Serialization.JsonHelper.html",
+          "hash": "17/C1lXRBj3q1pNRUGYGfsvyu2buiwP8ERk89uRGf+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SIFCommon.Utils.Serialization.SingleOrArrayConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SIFCommon.Utils.Serialization.SingleOrArrayConverter-1.html",
+          "hash": "bNYYD/EkipBnCAAiUzk+4WD/Uhj0kQZxZdSB1jQWp7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SIFCommon.Utils.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SIFCommon.Utils.Serialization.html",
+          "hash": "uEz9tCvtrLiRHWpjaYXgeCxi+y/duqr18jASb3dIo/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SIFCommon.Utils.ValidadorIdentificacionFiscal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SIFCommon.Utils.ValidadorIdentificacionFiscal.html",
+          "hash": "N0M54DBUiXVKg9ejz9k2nxA18tUhLJdk5Xy1RMr7cmE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SIFCommon.Utils.ValidadorIdentificacionFiscalType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SIFCommon.Utils.ValidadorIdentificacionFiscalType.html",
+          "hash": "YlaU4lYAWsDCX4QbGHDBS/nqxPjQYV/Fghkw7i7LTyg="
         }
       },
       "is_incremental": false,
@@ -54,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SIFCommon.Utils.html",
-          "hash": "nNSFClrF2RHGzVLtg5fWKN4fWP7ycO9zjpHkPL9QUxs="
+          "hash": "vRQrS/nrL9cbZi3uGlqmyINLHNVH6ZZvZZ+tNvvWm2Q="
         }
       },
       "is_incremental": false,
@@ -150,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.DetalleType.html",
-          "hash": "j6g88p5oL2rlUMsH3z9BZUyacXi4bgj5D4YhJAW5fkU="
+          "hash": "lyL+tZ27ky1BlR/IkrLqSZYzxMDMlaXNgtQcz0hjC/k="
         }
       },
       "is_incremental": false,
@@ -246,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Alta.RegistroFacturacionAltaType.html",
-          "hash": "pM7MvysjY3dDy7MSJFEAULpgXS2I9f5x7rAHOUKA69A="
+          "hash": "cvm34ECZJHyEMIKpHeEI1OcVbN/b2uhmJGg3UUtYGds="
         }
       },
       "is_incremental": false,
@@ -342,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Anulacion.RegistroFacturacionAnulacionType.html",
-          "hash": "XoPcutcFP0mBpt+h+kMCPf0rVgLgw9YWlNXTQfu35+w="
+          "hash": "PvLod7AcxGoTScVcRRW+aabTRkdCAPBpX5IcSld1uLQ="
         }
       },
       "is_incremental": false,
@@ -391,6 +439,582 @@
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.CabeceraType.html",
           "hash": "aRD8/yYaXmU1M8thF7AasXvO0IyAcO1Ve3ycaKGGwIs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.CabeceraConsultaSf.IndicadorRepresentanteType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.CabeceraConsultaSf.IndicadorRepresentanteType.html",
+          "hash": "sgf7ntkp/CEuYNJGvB/ssP16z/dtAyIKVoNqGchzW7w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.CabeceraConsultaSf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.CabeceraConsultaSf.html",
+          "hash": "fRwumvpBxqTAYibKF7rAxkfv/5N8KiTSe5C5vSIGVYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.ConsultaFactuSistemaFacturacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.ConsultaFactuSistemaFacturacionType.html",
+          "hash": "A6kiCg3sw91eCcqJW4aROyet8rFKzyL4OuxX9Q5/DXw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.ContraparteConsultaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.ContraparteConsultaType.html",
+          "hash": "TyDZAiWWh52cxPEN9EEGXaJWTPB5SPym2UVD+c1xXwQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.FechaExpedicionConsultaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.FechaExpedicionConsultaType.html",
+          "hash": "PvzH6xpN7crZPlLLT8F8YMggkheS6DzrDQZo9P/GUAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.IDFacturaExpedidaBCType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.IDFacturaExpedidaBCType.html",
+          "hash": "T5X8WuTtfLmR0j6EoC73PTKaYyMjQnElPGZUmI+1z10="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.html",
+          "hash": "TS/ZJw9mmgpQkQn4INNvHJgew3qXMFjJe30xOaiMLcc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.ObligadoEmisionConsultaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.ObligadoEmisionConsultaType.html",
+          "hash": "Sh07hsWRBttpw2NkBwP1pbEnzMiJUzbIlUXdPQP+kAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.PeriodoImputacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.PeriodoImputacionType.html",
+          "hash": "MsTDRXHB2XNt++3mRolLXx+VvtNkOOfqRI/ugShULvM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.RangoFechaExpedicionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.RangoFechaExpedicionType.html",
+          "hash": "E7BG1kH89f5bfaxn4/L0fdtrJZtMRmjhWWDsD1OX2HU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.CalificacionOperacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.CalificacionOperacionType.html",
+          "hash": "YLo8e08D+Vujv6+ik3zTsm5leX3kXjfG3wynfRSkEvU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.ClaveTipoFacturaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.ClaveTipoFacturaType.html",
+          "hash": "qH0p46Fl1V8V47/JvbOoeppgjDX4KNjUW6RNFxlP8O8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.ClaveTipoRectificativaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.ClaveTipoRectificativaType.html",
+          "hash": "UToUS3oWhvizo/bJsjnnBjZND16cC4LjCTuvzW90dIM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.CompletaSinDestinatarioType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.CompletaSinDestinatarioType.html",
+          "hash": "m9g6jsMaWAf6d57nMYqSgI/DXUPs3geMVtetX2X8sfU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.CuponType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.CuponType.html",
+          "hash": "pG6io6W3PX2p/VcjtmW1JxNsKIy8igoMy2xLKBvp0Gw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.DatosAdicionalesRespuestaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.DatosAdicionalesRespuestaType.html",
+          "hash": "On2PZDSx4c8N6m8oiQLwUgngmvyfPkUUtCyYH2bhGsU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.DatosPresentacion2Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.DatosPresentacion2Type.html",
+          "hash": "V1EDO2evtip74mfTiuDp4ZMEXBQ3CZzUXrbBseKpqCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.Desglose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.Desglose.html",
+          "hash": "Anu1DySYph1nyJFaS2jHTOWVA6AHRmyXxXOe98UMEgI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.DesgloseRectificacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.DesgloseRectificacionType.html",
+          "hash": "rtW453yhVNbYKpVvCkMVwAdF4LXENAthCB+UMFA+9A8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.Destinatario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.Destinatario.html",
+          "hash": "8lUHyfQ4iFVEIQ5XCLPTjJNvhr0xKXub1qNhc7qxYzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.DetalleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.DetalleType.html",
+          "hash": "S67BWAbyTYSWRGqDASaEJvuNxFF2ORx1e/w6xMnx1Mk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.EstadoRegFactuType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.EstadoRegFactuType.html",
+          "hash": "bvpfWeYoVQwFfmY4kTfjdsmPl7kORtCNm0rvJ3Zd6KU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.EstadoRegistroType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.EstadoRegistroType.html",
+          "hash": "pv9VJB7y3Su5cLnC//2em3Zo9vmxBBF7RAo5oLf7xRM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.GeneradoPorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.GeneradoPorType.html",
+          "hash": "VZQRJ7MKqrxD4xxN5RSU03Van/z88Agdmh38Px6+a5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.IDFacturaARType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.IDFacturaARType.html",
+          "hash": "kgtOzSRZfsXraWk+Np9MUCah1JhPJTFbUIONyE+tK6w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.IDFacturaExpedidaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.IDFacturaExpedidaType.html",
+          "hash": "WuvH6n/zMFDgB92zlZFKZROcBo49YjHVk1IfH6HC8qs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.IdOperacionesTrascendenciaTributariaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.IdOperacionesTrascendenciaTributariaType.html",
+          "hash": "QI7Lkthzk890eo+i2F99FYI8ei/hLlRw0ue/bVmJSLU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.ImpuestoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.ImpuestoType.html",
+          "hash": "T9npc+jttVW56EgDHKA9v+bekw/QDmRNHO+q5Y+7Q9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.IndicadorPaginacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.IndicadorPaginacionType.html",
+          "hash": "+RJKuLmQARwWtOtWop8ZijqQD2+C32WGpaCiS7f4hJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.MacrodatoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.MacrodatoType.html",
+          "hash": "zT9KjvFzbUWpZmCwWdvAuU4gIMQ9mpDLLqAzJ00/vvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.MostrarNombreRazonEmisorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.MostrarNombreRazonEmisorType.html",
+          "hash": "JYEqOOm6OC8GSrsEQLgZWXCUKCy32FRsXSotPDXHabc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.MostrarSistemaInformaticoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.MostrarSistemaInformaticoType.html",
+          "hash": "OTCkg4n8mzX6RRChZoLF5nE7Q+kcDTPVWwtG+lEAB4Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.html",
+          "hash": "PcpHC57eDKkplox87ZkXs9XyHqE+sFLTnt2VPLHj3n4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RechazoPrevioType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RechazoPrevioType.html",
+          "hash": "IxFy+KxrLeiT0OMTTsGi79lIxZIARbn6mIj8joZcVjU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RegistroRespuestaConsultaRegFacturacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RegistroRespuestaConsultaRegFacturacionType.html",
+          "hash": "36rz6qQ4P/T+QwrzhfNvpUZoCMz8RxcFppRgXxVapp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaFactuSistemaFacturacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaFactuSistemaFacturacionType.html",
+          "hash": "AyGytQNjtsRJW1tEoUZ7Q30dOlaeCMxSPO/ikjJwmmo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaType.html",
+          "hash": "Y50L3j8iTCV8jj13Jhbxr6/pC43z4URCvPWGwCvfXKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaTypePeriodoImputacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaTypePeriodoImputacion.html",
+          "hash": "OtJDMZQHI5yq63DSBmKsEcVvi5IjvpVNmSZR586MlBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaDatosRegistroFacturacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaDatosRegistroFacturacionType.html",
+          "hash": "6Mvp/0ZzRHhVPQAqXA7rciXIGWtlrSshnbAB1t1n8CI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaDatosRegistroFacturacionTypeEncadenamiento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.RespuestaDatosRegistroFacturacionTypeEncadenamiento.html",
+          "hash": "75oau9uBiuvt2BopkCtMFpdkEzHNuvZ6TjxyPz2EguE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.ResultadoConsultaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.ResultadoConsultaType.html",
+          "hash": "4cL/cf3be0scsr2XtXytbIIyGSu4g24htWDZp1LsG/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.SimplificadaCualificadaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.SimplificadaCualificadaType.html",
+          "hash": "I9/PsUPp+sAFyurxqdqs39NVMlbQH18ZJclzCmLVufI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.SinRegistroPrevioType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.SinRegistroPrevioType.html",
+          "hash": "Tb2uWKMmAM+sKIdN5lgc/dAe15NYNTUQ9ZajJldKUXI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.SubsanacionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.SubsanacionType.html",
+          "hash": "5zzNId4iKHIc1hIZ7jkxETeu2a5nbKUpJRarvQkuphM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.TercerosODestinatarioType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.TercerosODestinatarioType.html",
+          "hash": "Lz/JPkO2NBoThAUBN5B9A7VOePjX8sTXxxk0uloS0eI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.Respuesta.html",
+          "hash": "wcGpp0m10IlQR5pfP7ee44/z9Qtt9by7HzXdcNG5ghE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.TipoPeriodoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.TipoPeriodoType.html",
+          "hash": "IngcIj1wZlknXhx/JMnbT8FG5iqolAXq5e7eNxKzEsE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.DTO.Consulta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.DTO.Consulta.html",
+          "hash": "6CW9LRfyVcPV9aFIATaT1wH+CUfOl6WdvA/gnLFSOGM="
         }
       },
       "is_incremental": false,
@@ -474,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.PersonaFisicaJuridicaType.html",
-          "hash": "8NXL1iLNYiJWH+qZW503/JwR0efzRGs/A9u4XOVvXng="
+          "hash": "KnHDoItT6FtQnxi7jnvWwiJiYvEeNEOkPU6Y2bnGau4="
         }
       },
       "is_incremental": false,
@@ -642,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.Respuesta.ResponseParser.html",
-          "hash": "bwW4INPFgc5E+ZDlOA3pk4OckyLhQHwrvaWqyY7aeJA="
+          "hash": "jRhoIdu2McHqoVhnyU4+hxUtRHApsDgZhXkkjQ4+XlI="
         }
       },
       "is_incremental": false,
@@ -786,7 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.DTO.VersionType.html",
-          "hash": "QrApkkqWDN6IIud7EYbV3zJgzJ7HJEs43lD9zqzsNrc="
+          "hash": "SSmUhHqWZgBbW0PQiPjl7Zg/GudOa6+Pb4JTrqw99ec="
         }
       },
       "is_incremental": false,
@@ -847,6 +1471,78 @@
         ".html": {
           "relative_path": "api/VerifactuSDK.Utils.CertificateHelper.html",
           "hash": "9ydony4DOQgBQxtrpiu880anGrLIIFcMcALWryy2IAs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Utils.Converters.CabeceraConsultaItemConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Utils.Converters.CabeceraConsultaItemConverter.html",
+          "hash": "In63xEo5F7WBLyp3rONOJDD+cQKREYAy3i6RVhN/2KU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Utils.Converters.DestinatarioArrayConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Utils.Converters.DestinatarioArrayConverter.html",
+          "hash": "fyqlvF1NUpXZsq2FXOtPcaWs2cGH6bU/TqnxQW+flAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Utils.Converters.DetalleTypeItemConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Utils.Converters.DetalleTypeItemConverter.html",
+          "hash": "3MAshf1wKfkVDG3l7KjYLHb+BZKcmiguIMtlaLUWbDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Utils.Converters.ItemIDConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Utils.Converters.ItemIDConverter.html",
+          "hash": "ILWh6X3b5nwWf5QzutbpbihlANOWG3DBDMCgMDObfbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Utils.Converters.RespuestaEncadenamientoItemConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Utils.Converters.RespuestaEncadenamientoItemConverter.html",
+          "hash": "X20Zi1uZjPyyQy24ux8u1yJEhhnwfdjzYt6o9nclS9A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.Utils.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.Utils.Converters.html",
+          "hash": "mpLoUQc08NIZ1vMicvGK9ApwwKITq3r6nIuB7m8lfjw="
         }
       },
       "is_incremental": false,
@@ -978,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.VerifactuManager.html",
-          "hash": "Ns2H/SUXJ4PLhnZgcF/UTUYD7qRNBEfFGnMkCCXXSsY="
+          "hash": "mLWdZ5oCm0lb5WhcK5ryosIOhCe2fX37JSYpU7j5MNY="
         }
       },
       "is_incremental": false,
@@ -986,11 +1682,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VerifactuSDK.WebService.Body.yml",
+      "source_relative_path": "api/VerifactuSDK.WebService.BodyAlta.yml",
       "output": {
         ".html": {
-          "relative_path": "api/VerifactuSDK.WebService.Body.html",
-          "hash": "LkuiFBiuL3NXefDsWLH8HAhEuPWUbuKWogmJzMt10RY="
+          "relative_path": "api/VerifactuSDK.WebService.BodyAlta.html",
+          "hash": "bH5DLXePCFA1ciNth6E5mYtr2NG76yDrEcY4fulc6/w="
         }
       },
       "is_incremental": false,
@@ -998,11 +1694,71 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VerifactuSDK.WebService.Envelope.yml",
+      "source_relative_path": "api/VerifactuSDK.WebService.BodyConsulta.yml",
       "output": {
         ".html": {
-          "relative_path": "api/VerifactuSDK.WebService.Envelope.html",
-          "hash": "phMCewtNd5nrJAtJnlPNz+SF4j/Eb7SRnlaiCsrZIAw="
+          "relative_path": "api/VerifactuSDK.WebService.BodyConsulta.html",
+          "hash": "rjG2OJ8HrilkN41ccUGshUqQFXvZq267QSgF3x/J3sk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.WebService.BodyRespuestaConsulta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.WebService.BodyRespuestaConsulta.html",
+          "hash": "dzr3uehIn9Lpa2dyxydlEZQ11aYDiq0SsZI0nkOo9xM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.WebService.CommonEnvelope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.WebService.CommonEnvelope.html",
+          "hash": "av27nji+m16KBhnwkPHpIyGQWUZOI6sHKYYMHQS7oVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.WebService.EnvelopeAlta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.WebService.EnvelopeAlta.html",
+          "hash": "8skQIQgOkVuDKTSUENusccKjETp/SSbvVgKPqIxk7LA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.WebService.EnvelopeConsulta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.WebService.EnvelopeConsulta.html",
+          "hash": "JLroj0ltUS91r2xuCcsstKqKlV0p9tW6rImUXRCXq+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VerifactuSDK.WebService.EnvelopeRespuestaConsulta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VerifactuSDK.WebService.EnvelopeRespuestaConsulta.html",
+          "hash": "4bn3FASt3RAwcvQ+ie4T2DXKCDPBgzbVAtk2O445UI4="
         }
       },
       "is_incremental": false,
@@ -1022,23 +1778,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/VerifactuSDK.WebService.RegFactuSistemaFacturacionRequest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VerifactuSDK.WebService.RegFactuSistemaFacturacionRequest.html",
-          "hash": "9C3LwjPtVqWUJotgusnb7agL9qqpDmljNpR5LVcfuy4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/VerifactuSDK.WebService.ServiceClient.yml",
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.ServiceClient.html",
-          "hash": "GatPDddTBKqLm6sfhI+pAOfJBcs0PHDtivYhTRkVnec="
+          "hash": "xMsjk2VSCWajY3RdUwzv/akQKf0KIGSuUWDCTHSph18="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1794,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VerifactuSDK.WebService.html",
-          "hash": "lKnfd3cRc0AZag8py8f05EiKT23HKpJmzkCtNv+XlxI="
+          "hash": "BteSXx0M1HxnG/nCPqazKw5FZ5g1hi90ZZFWxtG+RYY="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KN7/2+qmiecoDvM6aah/EODzwewp9LO2sQY4fCV1zMc="
+          "hash": "uM6grKT8r6aYqV+rEB+UdsDMO3lgK/lS8UR4iFUe5K0="
         }
       },
       "is_incremental": false,
@@ -1173,8 +1917,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 88,
-          "skipped_file_count": 87
+          "total_file_count": 150,
+          "skipped_file_count": 147
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

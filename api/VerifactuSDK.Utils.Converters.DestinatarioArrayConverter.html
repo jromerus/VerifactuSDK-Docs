@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ResponseParser
+    <title>Class DestinatarioArrayConverter
    | Verifactu API SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ResponseParser
+    <meta name="title" content="Class DestinatarioArrayConverter
    | Verifactu API SDK ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,20 +78,52 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser">
+            <article class="content wrap" id="_content" data-uid="VerifactuSDK.Utils.Converters.DestinatarioArrayConverter">
   
   
-  <h1 id="VerifactuSDK_DTO_Respuesta_ResponseParser" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser" class="text-break">Class ResponseParser
+  <h1 id="VerifactuSDK_Utils_Converters_DestinatarioArrayConverter" data-uid="VerifactuSDK.Utils.Converters.DestinatarioArrayConverter" class="text-break">Class DestinatarioArrayConverter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ResponseParser</span></div>
+    <div class="level1"><span class="xref">Newtonsoft.Json.JsonConverter</span></div>
+    <div class="level2"><span class="xref">Newtonsoft.Json.JsonConverter</span>&lt;<a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.Destinatario.html">Destinatario</a>[]&gt;</div>
+    <div class="level3"><span class="xref">DestinatarioArrayConverter</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter&lt;VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[]&gt;.WriteJson(Newtonsoft.Json.JsonWriter, System.Object, Newtonsoft.Json.JsonSerializer)</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter&lt;VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[]&gt;.WriteJson(Newtonsoft.Json.JsonWriter, VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[], Newtonsoft.Json.JsonSerializer)</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter&lt;VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[]&gt;.ReadJson(Newtonsoft.Json.JsonReader, System.Type, System.Object, Newtonsoft.Json.JsonSerializer)</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter&lt;VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[]&gt;.ReadJson(Newtonsoft.Json.JsonReader, System.Type, VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[], System.Boolean, Newtonsoft.Json.JsonSerializer)</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter&lt;VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[]&gt;.CanConvert(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter.WriteJson(Newtonsoft.Json.JsonWriter, System.Object, Newtonsoft.Json.JsonSerializer)</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader, System.Type, System.Object, Newtonsoft.Json.JsonSerializer)</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter.CanConvert(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter.CanRead</span>
+    </div>
+    <div>
+      <span class="xref">Newtonsoft.Json.JsonConverter.CanWrite</span>
+    </div>
     <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
@@ -114,21 +146,21 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.DTO.Respuesta.html">VerifactuSDK.DTO.Respuesta</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.Utils.Converters.html">VerifactuSDK.Utils.Converters</a></h6>
   <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
-  <h5 id="VerifactuSDK_DTO_Respuesta_ResponseParser_syntax">Syntax</h5>
+  <h5 id="VerifactuSDK_Utils_Converters_DestinatarioArrayConverter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ResponseParser</code></pre>
+    <pre><code class="lang-csharp hljs">public class DestinatarioArrayConverter : JsonConverter&lt;Destinatario[]&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildAltaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildAltaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildAltaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildAltaResponse(System.String)">BuildAltaResponse(String)</h4>
+  <a id="VerifactuSDK_Utils_Converters_DestinatarioArrayConverter_ReadJson_" data-uid="VerifactuSDK.Utils.Converters.DestinatarioArrayConverter.ReadJson*"></a>
+  <h4 id="VerifactuSDK_Utils_Converters_DestinatarioArrayConverter_ReadJson_Newtonsoft_Json_JsonReader_System_Type_VerifactuSDK_DTO_Consulta_Respuesta_Destinatario___System_Boolean_Newtonsoft_Json_JsonSerializer_" data-uid="VerifactuSDK.Utils.Converters.DestinatarioArrayConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[],System.Boolean,Newtonsoft.Json.JsonSerializer)">ReadJson(JsonReader, Type, Destinatario[], Boolean, JsonSerializer)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RegFactuSistemaFacturacionResponse BuildAltaResponse(string xml)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Destinatario[] ReadJson(JsonReader reader, Type objectType, Destinatario[] existingValue, bool hasExistingValue, JsonSerializer serializer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,8 +173,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
+        <td><span class="xref">Newtonsoft.Json.JsonReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">objectType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.Destinatario.html">Destinatario</a>[]</td>
+        <td><span class="parametername">existingValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">hasExistingValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.JsonSerializer</span></td>
+        <td><span class="parametername">serializer</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -157,18 +209,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html">RegFactuSistemaFacturacionResponse</a></td>
+        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.Destinatario.html">Destinatario</a>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildConsultaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildConsultaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildConsultaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildConsultaResponse(System.String)">BuildConsultaResponse(String)</h4>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Newtonsoft.Json.JsonConverter&lt;VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[]&gt;.ReadJson(Newtonsoft.Json.JsonReader, System.Type, VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[], System.Boolean, Newtonsoft.Json.JsonSerializer)</span></div>
+  <a id="VerifactuSDK_Utils_Converters_DestinatarioArrayConverter_WriteJson_" data-uid="VerifactuSDK.Utils.Converters.DestinatarioArrayConverter.WriteJson*"></a>
+  <h4 id="VerifactuSDK_Utils_Converters_DestinatarioArrayConverter_WriteJson_Newtonsoft_Json_JsonWriter_VerifactuSDK_DTO_Consulta_Respuesta_Destinatario___Newtonsoft_Json_JsonSerializer_" data-uid="VerifactuSDK.Utils.Converters.DestinatarioArrayConverter.WriteJson(Newtonsoft.Json.JsonWriter,VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[],Newtonsoft.Json.JsonSerializer)">WriteJson(JsonWriter, Destinatario[], JsonSerializer)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RespuestaConsultaFactuSistemaFacturacionType BuildConsultaResponse(string xml)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void WriteJson(JsonWriter writer, Destinatario[] value, JsonSerializer serializer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,67 +235,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
+        <td><span class="xref">Newtonsoft.Json.JsonWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.Destinatario.html">Destinatario</a>[]</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.JsonSerializer</span></td>
+        <td><span class="parametername">serializer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaFactuSistemaFacturacionType.html">RespuestaConsultaFactuSistemaFacturacionType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildEnvelopeConsultaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildEnvelopeConsultaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildEnvelopeConsultaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildEnvelopeConsultaResponse(System.String)">BuildEnvelopeConsultaResponse(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static BodyRespuestaConsulta BuildEnvelopeConsultaResponse(string xml)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VerifactuSDK.WebService.BodyRespuestaConsulta.html">BodyRespuestaConsulta</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Newtonsoft.Json.JsonConverter&lt;VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[]&gt;.WriteJson(Newtonsoft.Json.JsonWriter, VerifactuSDK.DTO.Consulta.Respuesta.Destinatario[], Newtonsoft.Json.JsonSerializer)</span></div>
 </article>
           </div>
           

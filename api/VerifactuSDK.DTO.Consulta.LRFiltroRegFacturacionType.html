@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ResponseParser
+    <title>Class LRFiltroRegFacturacionType
    | Verifactu API SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ResponseParser
+    <meta name="title" content="Class LRFiltroRegFacturacionType
    | Verifactu API SDK ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,17 +78,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser">
+            <article class="content wrap" id="_content" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType">
   
   
-  <h1 id="VerifactuSDK_DTO_Respuesta_ResponseParser" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser" class="text-break">Class ResponseParser
+  <h1 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType" class="text-break">Class LRFiltroRegFacturacionType
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ResponseParser</span></div>
+    <div class="level1"><span class="xref">LRFiltroRegFacturacionType</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,40 +114,121 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.DTO.Respuesta.html">VerifactuSDK.DTO.Respuesta</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.DTO.Consulta.html">VerifactuSDK.DTO.Consulta</a></h6>
   <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
-  <h5 id="VerifactuSDK_DTO_Respuesta_ResponseParser_syntax">Syntax</h5>
+  <h5 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ResponseParser</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class LRFiltroRegFacturacionType</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildAltaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildAltaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildAltaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildAltaResponse(System.String)">BuildAltaResponse(String)</h4>
+  <a id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_ClavePaginacion_" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.ClavePaginacion*"></a>
+  <h4 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_ClavePaginacion" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.ClavePaginacion">ClavePaginacion</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RegFactuSistemaFacturacionResponse BuildAltaResponse(string xml)</code></pre>
+    <pre><code class="lang-csharp hljs">public IDFacturaExpedidaBCType ClavePaginacion { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.IDFacturaExpedidaBCType.html">IDFacturaExpedidaBCType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_Contraparte_" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.Contraparte*"></a>
+  <h4 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_Contraparte" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.Contraparte">Contraparte</h4>
+  <div class="markdown level1 summary"><p>Contraparte del NIF de la cabecera que realiza la consulta.
+Obligado si la cosulta la realiza el Destinatario de los registros de facturacion.
+Destinatario si la cosulta la realiza el Obligado dde los registros de facturacion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContraparteConsultaType Contraparte { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.html">ContraparteConsultaType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_FechaExpedicionFactura_" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.FechaExpedicionFactura*"></a>
+  <h4 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_FechaExpedicionFactura" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.FechaExpedicionFactura">FechaExpedicionFactura</h4>
+  <div class="markdown level1 summary"><p>Fecha de emisión del registro de facturacion</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FechaExpedicionConsultaType FechaExpedicionFactura { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.FechaExpedicionConsultaType.html">FechaExpedicionConsultaType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_NumSerieFactura_" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.NumSerieFactura*"></a>
+  <h4 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_NumSerieFactura" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.NumSerieFactura">NumSerieFactura</h4>
+  <div class="markdown level1 summary"><p>Nº Serie+Nº Factura de la Factura del Emisor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string NumSerieFactura { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <a id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_PeriodoImputacion_" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.PeriodoImputacion*"></a>
+  <h4 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_PeriodoImputacion" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.PeriodoImputacion">PeriodoImputacion</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PeriodoImputacionType PeriodoImputacion { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -157,77 +238,45 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html">RegFactuSistemaFacturacionResponse</a></td>
+        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.PeriodoImputacionType.html">PeriodoImputacionType</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildConsultaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildConsultaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildConsultaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildConsultaResponse(System.String)">BuildConsultaResponse(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_RefExterna_" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.RefExterna*"></a>
+  <h4 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_RefExterna" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.RefExterna">RefExterna</h4>
+  <div class="markdown level1 summary"><p>Dato adicional de contenido libre con el objetivo de que se pueda asociar opcionalmente información interna del sistema informático de facturación al registro de facturación</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RespuestaConsultaFactuSistemaFacturacionType BuildConsultaResponse(string xml)</code></pre>
+    <pre><code class="lang-csharp hljs">public string RefExterna { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaFactuSistemaFacturacionType.html">RespuestaConsultaFactuSistemaFacturacionType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildEnvelopeConsultaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildEnvelopeConsultaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildEnvelopeConsultaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildEnvelopeConsultaResponse(System.String)">BuildEnvelopeConsultaResponse(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_SistemaInformatico_" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.SistemaInformatico*"></a>
+  <h4 id="VerifactuSDK_DTO_Consulta_LRFiltroRegFacturacionType_SistemaInformatico" data-uid="VerifactuSDK.DTO.Consulta.LRFiltroRegFacturacionType.SistemaInformatico">SistemaInformatico</h4>
+  <div class="markdown level1 summary"><p>Datos del sistema informático de facturación utilizado</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static BodyRespuestaConsulta BuildEnvelopeConsultaResponse(string xml)</code></pre>
+    <pre><code class="lang-csharp hljs">public SistemaInformaticoType SistemaInformatico { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -237,7 +286,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VerifactuSDK.WebService.BodyRespuestaConsulta.html">BodyRespuestaConsulta</a></td>
+        <td><a class="xref" href="VerifactuSDK.DTO.SistemaInformaticoType.html">SistemaInformaticoType</a></td>
         <td></td>
       </tr>
     </tbody>

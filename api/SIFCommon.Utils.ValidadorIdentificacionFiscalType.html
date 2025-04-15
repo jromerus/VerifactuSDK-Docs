@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ResponseParser
+    <title>Class ValidadorIdentificacionFiscalType
    | Verifactu API SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ResponseParser
+    <meta name="title" content="Class ValidadorIdentificacionFiscalType
    | Verifactu API SDK ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,17 +78,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser">
+            <article class="content wrap" id="_content" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType">
   
   
-  <h1 id="VerifactuSDK_DTO_Respuesta_ResponseParser" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser" class="text-break">Class ResponseParser
+  <h1 id="SIFCommon_Utils_ValidadorIdentificacionFiscalType" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType" class="text-break">Class ValidadorIdentificacionFiscalType
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Clase para la validación de NIF de personas físicas y jurídicas.
+Invoca a la clase estática ValidadorIdentificacionFiscal sin aportar más funcionalidad,
+pero resulta necesaria cuando la librería se usa desde sistemas no .NET
+mediante interop/COM ya que no pueden invocar clases estáticas (precisan instanciar)</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ResponseParser</span></div>
+    <div class="level1"><span class="xref">ValidadorIdentificacionFiscalType</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,21 +118,25 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.DTO.Respuesta.html">VerifactuSDK.DTO.Respuesta</a></h6>
-  <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
-  <h5 id="VerifactuSDK_DTO_Respuesta_ResponseParser_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SIFCommon.Utils.html">SIFCommon.Utils</a></h6>
+  <h6><strong>Assembly</strong>: SIFCommon.dll</h6>
+  <h5 id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ResponseParser</code></pre>
+    <pre><code class="lang-csharp hljs">[ClassInterface(ClassInterfaceType.AutoDual)]
+public class ValidadorIdentificacionFiscalType</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildAltaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildAltaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildAltaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildAltaResponse(System.String)">BuildAltaResponse(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_EsCIF_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.EsCIF*"></a>
+  <h4 id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_EsCIF_System_String_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.EsCIF(System.String)">EsCIF(String)</h4>
+  <div class="markdown level1 summary"><p>Determina si el formato del código corresponde a un CIF
+** Estricamente el CIF no existe ya que el concepto de NIF engloba a persona física y jurídica
+desde el 1 de enero de 2008 en aplicación al Real Decreto 1065/2007</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RegFactuSistemaFacturacionResponse BuildAltaResponse(string xml)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool EsCIF(string codigo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,7 +150,93 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
+        <td><span class="parametername">codigo</span></td>
+        <td><p>Código CIF</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True si es un CIF válido</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_EsNIE_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.EsNIE*"></a>
+  <h4 id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_EsNIE_System_String_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.EsNIE(System.String)">EsNIE(String)</h4>
+  <div class="markdown level1 summary"><p>Determina si el formato del código corresponde a un NIE</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EsNIE(string codigo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">codigo</span></td>
+        <td><p>Código NIE</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True si es un NIE válido</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_EsNIF_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.EsNIF*"></a>
+  <h4 id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_EsNIF_System_String_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.EsNIF(System.String)">EsNIF(String)</h4>
+  <div class="markdown level1 summary"><p>Determina si el formato del código corresponde a un NIF</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EsNIF(string codigo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">codigo</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -157,18 +251,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VerifactuSDK.DTO.Respuesta.RegFactuSistemaFacturacionResponse.html">RegFactuSistemaFacturacionResponse</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildConsultaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildConsultaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildConsultaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildConsultaResponse(System.String)">BuildConsultaResponse(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_ObtenerTipoDocumento_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.ObtenerTipoDocumento*"></a>
+  <h4 id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_ObtenerTipoDocumento_System_String_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.ObtenerTipoDocumento(System.String)">ObtenerTipoDocumento(String)</h4>
+  <div class="markdown level1 summary"><p>Obtiene el tipo de documento a partir del código de identificación fiscal proporcionado.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static RespuestaConsultaFactuSistemaFacturacionType BuildConsultaResponse(string xml)</code></pre>
+    <pre><code class="lang-csharp hljs">public string ObtenerTipoDocumento(string codigo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,8 +277,9 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
-        <td></td>
+        <td><span class="parametername">codigo</span></td>
+        <td><p>Códido de identificación fiscal</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -197,18 +293,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.RespuestaConsultaFactuSistemaFacturacionType.html">RespuestaConsultaFactuSistemaFacturacionType</a></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Valores esperados: NIF, CIF o NIE</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildEnvelopeConsultaResponse_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildEnvelopeConsultaResponse*"></a>
-  <h4 id="VerifactuSDK_DTO_Respuesta_ResponseParser_BuildEnvelopeConsultaResponse_System_String_" data-uid="VerifactuSDK.DTO.Respuesta.ResponseParser.BuildEnvelopeConsultaResponse(System.String)">BuildEnvelopeConsultaResponse(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_Validar_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.Validar*"></a>
+  <h4 id="SIFCommon_Utils_ValidadorIdentificacionFiscalType_Validar_System_String_" data-uid="SIFCommon.Utils.ValidadorIdentificacionFiscalType.Validar(System.String)">Validar(String)</h4>
+  <div class="markdown level1 summary"><p>Valida si el código de identificación fiscal proporcionado es válido.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static BodyRespuestaConsulta BuildEnvelopeConsultaResponse(string xml)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Validar(string codigo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,8 +320,9 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">xml</span></td>
-        <td></td>
+        <td><span class="parametername">codigo</span></td>
+        <td><p>Código a validar (NIF, CIF o NIE)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -237,8 +336,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VerifactuSDK.WebService.BodyRespuestaConsulta.html">BodyRespuestaConsulta</a></td>
-        <td></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True si el código es válido, False en caso contrario</p>
+</td>
       </tr>
     </tbody>
   </table>
