@@ -292,41 +292,6 @@ references:
   commentId: N:SIFCommon.Utils.Serialization
   fullName: SIFCommon.Utils.Serialization
   nameWithType: SIFCommon.Utils.Serialization
-- uid: SIFCommon.Utils.Serialization.JsonHelper
-  name: JsonHelper
-  href: api/SIFCommon.Utils.Serialization.JsonHelper.html
-  commentId: T:SIFCommon.Utils.Serialization.JsonHelper
-  fullName: SIFCommon.Utils.Serialization.JsonHelper
-  nameWithType: JsonHelper
-- uid: SIFCommon.Utils.Serialization.JsonHelper.Deserialize*
-  name: Deserialize
-  href: api/SIFCommon.Utils.Serialization.JsonHelper.html#SIFCommon_Utils_Serialization_JsonHelper_Deserialize_
-  commentId: Overload:SIFCommon.Utils.Serialization.JsonHelper.Deserialize
-  isSpec: "True"
-  fullName: SIFCommon.Utils.Serialization.JsonHelper.Deserialize
-  nameWithType: JsonHelper.Deserialize
-- uid: SIFCommon.Utils.Serialization.JsonHelper.Deserialize``1(System.String)
-  name: Deserialize<T>(String)
-  href: api/SIFCommon.Utils.Serialization.JsonHelper.html#SIFCommon_Utils_Serialization_JsonHelper_Deserialize__1_System_String_
-  commentId: M:SIFCommon.Utils.Serialization.JsonHelper.Deserialize``1(System.String)
-  name.vb: Deserialize(Of T)(String)
-  fullName: SIFCommon.Utils.Serialization.JsonHelper.Deserialize<T>(System.String)
-  fullName.vb: SIFCommon.Utils.Serialization.JsonHelper.Deserialize(Of T)(System.String)
-  nameWithType: JsonHelper.Deserialize<T>(String)
-  nameWithType.vb: JsonHelper.Deserialize(Of T)(String)
-- uid: SIFCommon.Utils.Serialization.JsonHelper.Serialize(System.Object)
-  name: Serialize(Object)
-  href: api/SIFCommon.Utils.Serialization.JsonHelper.html#SIFCommon_Utils_Serialization_JsonHelper_Serialize_System_Object_
-  commentId: M:SIFCommon.Utils.Serialization.JsonHelper.Serialize(System.Object)
-  fullName: SIFCommon.Utils.Serialization.JsonHelper.Serialize(System.Object)
-  nameWithType: JsonHelper.Serialize(Object)
-- uid: SIFCommon.Utils.Serialization.JsonHelper.Serialize*
-  name: Serialize
-  href: api/SIFCommon.Utils.Serialization.JsonHelper.html#SIFCommon_Utils_Serialization_JsonHelper_Serialize_
-  commentId: Overload:SIFCommon.Utils.Serialization.JsonHelper.Serialize
-  isSpec: "True"
-  fullName: SIFCommon.Utils.Serialization.JsonHelper.Serialize
-  nameWithType: JsonHelper.Serialize
 - uid: SIFCommon.Utils.Serialization.SingleOrArrayConverter`1
   name: SingleOrArrayConverter<T>
   href: api/SIFCommon.Utils.Serialization.SingleOrArrayConverter-1.html
@@ -387,6 +352,41 @@ references:
   fullName.vb: SIFCommon.Utils.Serialization.SingleOrArrayConverter(Of T).WriteJson
   nameWithType: SingleOrArrayConverter<T>.WriteJson
   nameWithType.vb: SingleOrArrayConverter(Of T).WriteJson
+- uid: SIFCommon.Utils.Serialization.XmlSerializartionHelper
+  name: XmlSerializartionHelper
+  href: api/SIFCommon.Utils.Serialization.XmlSerializartionHelper.html
+  commentId: T:SIFCommon.Utils.Serialization.XmlSerializartionHelper
+  fullName: SIFCommon.Utils.Serialization.XmlSerializartionHelper
+  nameWithType: XmlSerializartionHelper
+- uid: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize*
+  name: Deserialize
+  href: api/SIFCommon.Utils.Serialization.XmlSerializartionHelper.html#SIFCommon_Utils_Serialization_XmlSerializartionHelper_Deserialize_
+  commentId: Overload:SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize
+  isSpec: "True"
+  fullName: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize
+  nameWithType: XmlSerializartionHelper.Deserialize
+- uid: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize``1(System.String)
+  name: Deserialize<T>(String)
+  href: api/SIFCommon.Utils.Serialization.XmlSerializartionHelper.html#SIFCommon_Utils_Serialization_XmlSerializartionHelper_Deserialize__1_System_String_
+  commentId: M:SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize``1(System.String)
+  name.vb: Deserialize(Of T)(String)
+  fullName: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize<T>(System.String)
+  fullName.vb: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize(Of T)(System.String)
+  nameWithType: XmlSerializartionHelper.Deserialize<T>(String)
+  nameWithType.vb: XmlSerializartionHelper.Deserialize(Of T)(String)
+- uid: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Serialize(System.Object)
+  name: Serialize(Object)
+  href: api/SIFCommon.Utils.Serialization.XmlSerializartionHelper.html#SIFCommon_Utils_Serialization_XmlSerializartionHelper_Serialize_System_Object_
+  commentId: M:SIFCommon.Utils.Serialization.XmlSerializartionHelper.Serialize(System.Object)
+  fullName: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Serialize(System.Object)
+  nameWithType: XmlSerializartionHelper.Serialize(Object)
+- uid: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Serialize*
+  name: Serialize
+  href: api/SIFCommon.Utils.Serialization.XmlSerializartionHelper.html#SIFCommon_Utils_Serialization_XmlSerializartionHelper_Serialize_
+  commentId: Overload:SIFCommon.Utils.Serialization.XmlSerializartionHelper.Serialize
+  isSpec: "True"
+  fullName: SIFCommon.Utils.Serialization.XmlSerializartionHelper.Serialize
+  nameWithType: XmlSerializartionHelper.Serialize
 - uid: SIFCommon.Utils.ValidadorIdentificacionFiscal
   name: ValidadorIdentificacionFiscal
   href: api/SIFCommon.Utils.ValidadorIdentificacionFiscal.html
@@ -8996,6 +8996,19 @@ references:
   isSpec: "True"
   fullName: VerifactuSDK.VerifactuManager.Plataforma
   nameWithType: VerifactuManager.Plataforma
+- uid: VerifactuSDK.VerifactuManager.Timeout
+  name: Timeout
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_Timeout
+  commentId: P:VerifactuSDK.VerifactuManager.Timeout
+  fullName: VerifactuSDK.VerifactuManager.Timeout
+  nameWithType: VerifactuManager.Timeout
+- uid: VerifactuSDK.VerifactuManager.Timeout*
+  name: Timeout
+  href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_Timeout_
+  commentId: Overload:VerifactuSDK.VerifactuManager.Timeout
+  isSpec: "True"
+  fullName: VerifactuSDK.VerifactuManager.Timeout
+  nameWithType: VerifactuManager.Timeout
 - uid: VerifactuSDK.VerifactuManager.ValidarVerifactuSoapXml(System.String)
   name: ValidarVerifactuSoapXml(String)
   href: api/VerifactuSDK.VerifactuManager.html#VerifactuSDK_VerifactuManager_ValidarVerifactuSoapXml_System_String_
@@ -9225,12 +9238,12 @@ references:
   commentId: T:VerifactuSDK.WebService.ServiceClient
   fullName: VerifactuSDK.WebService.ServiceClient
   nameWithType: ServiceClient
-- uid: VerifactuSDK.WebService.ServiceClient.#ctor(VerifactuSDK.TipoPlataforma,System.Security.Cryptography.X509Certificates.X509Certificate2)
-  name: ServiceClient(TipoPlataforma, X509Certificate2)
-  href: api/VerifactuSDK.WebService.ServiceClient.html#VerifactuSDK_WebService_ServiceClient__ctor_VerifactuSDK_TipoPlataforma_System_Security_Cryptography_X509Certificates_X509Certificate2_
-  commentId: M:VerifactuSDK.WebService.ServiceClient.#ctor(VerifactuSDK.TipoPlataforma,System.Security.Cryptography.X509Certificates.X509Certificate2)
-  fullName: VerifactuSDK.WebService.ServiceClient.ServiceClient(VerifactuSDK.TipoPlataforma, System.Security.Cryptography.X509Certificates.X509Certificate2)
-  nameWithType: ServiceClient.ServiceClient(TipoPlataforma, X509Certificate2)
+- uid: VerifactuSDK.WebService.ServiceClient.#ctor(VerifactuSDK.TipoPlataforma,System.Security.Cryptography.X509Certificates.X509Certificate2,System.Int32)
+  name: ServiceClient(TipoPlataforma, X509Certificate2, Int32)
+  href: api/VerifactuSDK.WebService.ServiceClient.html#VerifactuSDK_WebService_ServiceClient__ctor_VerifactuSDK_TipoPlataforma_System_Security_Cryptography_X509Certificates_X509Certificate2_System_Int32_
+  commentId: M:VerifactuSDK.WebService.ServiceClient.#ctor(VerifactuSDK.TipoPlataforma,System.Security.Cryptography.X509Certificates.X509Certificate2,System.Int32)
+  fullName: VerifactuSDK.WebService.ServiceClient.ServiceClient(VerifactuSDK.TipoPlataforma, System.Security.Cryptography.X509Certificates.X509Certificate2, System.Int32)
+  nameWithType: ServiceClient.ServiceClient(TipoPlataforma, X509Certificate2, Int32)
 - uid: VerifactuSDK.WebService.ServiceClient.#ctor*
   name: ServiceClient
   href: api/VerifactuSDK.WebService.ServiceClient.html#VerifactuSDK_WebService_ServiceClient__ctor_

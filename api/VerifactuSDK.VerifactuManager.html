@@ -187,8 +187,8 @@ public class VerifactuManager : CertificateBaseManager</code></pre>
   </h3>
   <a id="VerifactuSDK_VerifactuManager__ctor_" data-uid="VerifactuSDK.VerifactuManager.#ctor*"></a>
   <h4 id="VerifactuSDK_VerifactuManager__ctor" data-uid="VerifactuSDK.VerifactuManager.#ctor">VerifactuManager()</h4>
-  <div class="markdown level1 summary"><p>Constructor de VerifactuManager. Por defecto asigna la propiedad Plataforma a Produccion.
-Si se desea utilizar la plataforma de pruebas se debe asignar el valor TipoPlataforma.Pruebas a la propiedad Plataforma
+  <div class="markdown level1 summary"><p>Constructor de VerifactuManager. Por defecto asigna la propiedad Plataforma a Pruebas.
+Si se desea utilizar la plataforma de producción se debe asignar el valor TipoPlataforma.Produccion a la propiedad Plataforma
 o utilizar el constructor adecuado.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -227,7 +227,8 @@ o utilizar el constructor adecuado.</p>
   </h3>
   <a id="VerifactuSDK_VerifactuManager_Plataforma_" data-uid="VerifactuSDK.VerifactuManager.Plataforma*"></a>
   <h4 id="VerifactuSDK_VerifactuManager_Plataforma" data-uid="VerifactuSDK.VerifactuManager.Plataforma">Plataforma</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Tipo de plataforma a utilizar para la comunicación con el servicio Verifactu. Por defecto se asigna Pruebas.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -244,6 +245,30 @@ o utilizar el constructor adecuado.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="VerifactuSDK.TipoPlataforma.html">TipoPlataforma</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_VerifactuManager_Timeout_" data-uid="VerifactuSDK.VerifactuManager.Timeout*"></a>
+  <h4 id="VerifactuSDK_VerifactuManager_Timeout" data-uid="VerifactuSDK.VerifactuManager.Timeout">Timeout</h4>
+  <div class="markdown level1 summary"><p>Establece el timeout de la comunicación con el servicio Verifactu. Por defecto se asigna 100 segundos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Timeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -402,7 +427,8 @@ Si no se ha esteblecido un certificado ni se ha indicado una ruta, el sistema mo
   </table>
   <a id="VerifactuSDK_VerifactuManager_GeneraRegistroXml_" data-uid="VerifactuSDK.VerifactuManager.GeneraRegistroXml*"></a>
   <h4 id="VerifactuSDK_VerifactuManager_GeneraRegistroXml_VerifactuSDK_DTO_RegFactuSistemaFacturacion_" data-uid="VerifactuSDK.VerifactuManager.GeneraRegistroXml(VerifactuSDK.DTO.RegFactuSistemaFacturacion)">GeneraRegistroXml(RegFactuSistemaFacturacion)</h4>
-  <div class="markdown level1 summary"><p>Genera el mensaje SOAP xml a partir del objeto de registro de facturación</p>
+  <div class="markdown level1 summary"><p>Genera el mensaje SOAP xml a partir del objeto de registro de facturación.
+Es para uso interno, o pruebas, ya que representa el mensaje completo que se entrega al servicio.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

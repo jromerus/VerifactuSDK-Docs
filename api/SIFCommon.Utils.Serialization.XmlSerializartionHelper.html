@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ContraparteConsultaType
+    <title>Class XmlSerializartionHelper
    | Verifactu API SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ContraparteConsultaType
+    <meta name="title" content="Class XmlSerializartionHelper
    | Verifactu API SDK ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,17 +78,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType">
+            <article class="content wrap" id="_content" data-uid="SIFCommon.Utils.Serialization.XmlSerializartionHelper">
   
   
-  <h1 id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType" class="text-break">Class ContraparteConsultaType
+  <h1 id="SIFCommon_Utils_Serialization_XmlSerializartionHelper" data-uid="SIFCommon.Utils.Serialization.XmlSerializartionHelper" class="text-break">Class XmlSerializartionHelper
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ContraparteConsultaType</span></div>
+    <div class="level1"><span class="xref">XmlSerializartionHelper</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,53 +114,95 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.DTO.Consulta.html">VerifactuSDK.DTO.Consulta</a></h6>
-  <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
-  <h5 id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SIFCommon.Utils.Serialization.html">SIFCommon.Utils.Serialization</a></h6>
+  <h6><strong>Assembly</strong>: SIFCommon.dll</h6>
+  <h5 id="SIFCommon_Utils_Serialization_XmlSerializartionHelper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-[ClassInterface(ClassInterfaceType.AutoDual)]
-public class ContraparteConsultaType</code></pre>
+    <pre><code class="lang-csharp hljs">public static class XmlSerializartionHelper</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
-  <a id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_Item_" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.Item*"></a>
-  <h4 id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_Item" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.Item">Item</h4>
-  <div class="markdown level1 summary"><p>Propiedad que expresa un identificador fiscal a la que se debe asignar un elemento de IDOtro (IDOtroType) o un elemento NIF (asignar un string)
-Se pueden usar los métodos SetNIF y SetIDOtro para asignar el valor a la propiedad Item</p>
-</div>
+  <a id="SIFCommon_Utils_Serialization_XmlSerializartionHelper_Deserialize_" data-uid="SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize*"></a>
+  <h4 id="SIFCommon_Utils_Serialization_XmlSerializartionHelper_Deserialize__1_System_String_" data-uid="SIFCommon.Utils.Serialization.XmlSerializartionHelper.Deserialize``1(System.String)">Deserialize&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object Item { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static T Deserialize&lt;T&gt;(string xml)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">xml</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="SIFCommon_Utils_Serialization_XmlSerializartionHelper_Serialize_" data-uid="SIFCommon.Utils.Serialization.XmlSerializartionHelper.Serialize*"></a>
+  <h4 id="SIFCommon_Utils_Serialization_XmlSerializartionHelper_Serialize_System_Object_" data-uid="SIFCommon.Utils.Serialization.XmlSerializartionHelper.Serialize(System.Object)">Serialize(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Serialize(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_NombreRazon_" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.NombreRazon*"></a>
-  <h4 id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_NombreRazon" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.NombreRazon">NombreRazon</h4>
-  <div class="markdown level1 summary"><p>Nombre-razón social de la contraparte del NIF de la cabecera que realiza la consulta.
-Obligado emisor si la cosulta la realiza el Destinatario de los registros de facturacion.
-Destinatario si la cosulta la realiza el Obligado dde los registros de facturacion</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NombreRazon { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -171,61 +213,6 @@ Destinatario si la cosulta la realiza el Obligado dde los registros de facturaci
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_SetIDOtro_" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.SetIDOtro*"></a>
-  <h4 id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_SetIDOtro_VerifactuSDK_DTO_IDOtroType_" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.SetIDOtro(VerifactuSDK.DTO.IDOtroType)">SetIDOtro(IDOtroType)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetIDOtro(IDOtroType idOtro)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VerifactuSDK.DTO.IDOtroType.html">IDOtroType</a></td>
-        <td><span class="parametername">idOtro</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_SetNIF_" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.SetNIF*"></a>
-  <h4 id="VerifactuSDK_DTO_Consulta_ContraparteConsultaType_SetNIF_System_String_" data-uid="VerifactuSDK.DTO.Consulta.ContraparteConsultaType.SetNIF(System.String)">SetNIF(String)</h4>
-  <div class="markdown level1 summary"><p>Identificador del NIF de la contraparte del NIF de la cabecera que realiza la consulta.
-Obligado emisor si la cosulta la realiza el Destinatario de los registros de facturacion.
-Destinatario si la cosulta la realiza el Obligado dde los registros de facturacion.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetNIF(string nif)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">nif</span></td>
         <td></td>
       </tr>
     </tbody>
