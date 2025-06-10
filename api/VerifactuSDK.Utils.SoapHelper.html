@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Desglose
+    <title>Class SoapHelper
    | Verifactu API SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Desglose
+    <meta name="title" content="Class SoapHelper
    | Verifactu API SDK ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,17 +78,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VerifactuSDK.DTO.Consulta.Respuesta.Desglose">
+            <article class="content wrap" id="_content" data-uid="VerifactuSDK.Utils.SoapHelper">
   
   
-  <h1 id="VerifactuSDK_DTO_Consulta_Respuesta_Desglose" data-uid="VerifactuSDK.DTO.Consulta.Respuesta.Desglose" class="text-break">Class Desglose
+  <h1 id="VerifactuSDK_Utils_SoapHelper" data-uid="VerifactuSDK.Utils.SoapHelper" class="text-break">Class SoapHelper
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Desglose</span></div>
+    <div class="level1"><span class="xref">SoapHelper</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -114,25 +114,41 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.html">VerifactuSDK.DTO.Consulta.Respuesta</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VerifactuSDK.Utils.html">VerifactuSDK.Utils</a></h6>
   <h6><strong>Assembly</strong>: VerifactuSDK.dll</h6>
-  <h5 id="VerifactuSDK_DTO_Consulta_Respuesta_Desglose_syntax">Syntax</h5>
+  <h5 id="VerifactuSDK_Utils_SoapHelper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ClassInterface(ClassInterfaceType.AutoDual)]
-public class Desglose</code></pre>
+    <pre><code class="lang-csharp hljs">public static class SoapHelper</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
-  <a id="VerifactuSDK_DTO_Consulta_Respuesta_Desglose_DetalleDesglose_" data-uid="VerifactuSDK.DTO.Consulta.Respuesta.Desglose.DetalleDesglose*"></a>
-  <h4 id="VerifactuSDK_DTO_Consulta_Respuesta_Desglose_DetalleDesglose" data-uid="VerifactuSDK.DTO.Consulta.Respuesta.Desglose.DetalleDesglose">DetalleDesglose</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="VerifactuSDK_Utils_SoapHelper_BuildEnvelopeConsultaXml_" data-uid="VerifactuSDK.Utils.SoapHelper.BuildEnvelopeConsultaXml*"></a>
+  <h4 id="VerifactuSDK_Utils_SoapHelper_BuildEnvelopeConsultaXml_VerifactuSDK_WebService_EnvelopeConsulta_" data-uid="VerifactuSDK.Utils.SoapHelper.BuildEnvelopeConsultaXml(VerifactuSDK.WebService.EnvelopeConsulta)">BuildEnvelopeConsultaXml(EnvelopeConsulta)</h4>
+  <div class="markdown level1 summary"><p>Construye el soap xml de consulta Verifactu</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(SingleOrArrayConverter&lt;DetalleType&gt;))]
-public DetalleType[] DetalleDesglose { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static string BuildEnvelopeConsultaXml(EnvelopeConsulta envelope)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.WebService.EnvelopeConsulta.html">EnvelopeConsulta</a></td>
+        <td><span class="parametername">envelope</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -142,7 +158,88 @@ public DetalleType[] DetalleDesglose { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VerifactuSDK.DTO.Consulta.Respuesta.DetalleType.html">DetalleType</a>[]</td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_Utils_SoapHelper_BuildEnvelopeRequestXml_" data-uid="VerifactuSDK.Utils.SoapHelper.BuildEnvelopeRequestXml*"></a>
+  <h4 id="VerifactuSDK_Utils_SoapHelper_BuildEnvelopeRequestXml_VerifactuSDK_WebService_EnvelopeAlta_" data-uid="VerifactuSDK.Utils.SoapHelper.BuildEnvelopeRequestXml(VerifactuSDK.WebService.EnvelopeAlta)">BuildEnvelopeRequestXml(EnvelopeAlta)</h4>
+  <div class="markdown level1 summary"><p>Construye el soap xml de comunicación con Verifactu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BuildEnvelopeRequestXml(EnvelopeAlta envelope)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.WebService.EnvelopeAlta.html">EnvelopeAlta</a></td>
+        <td><span class="parametername">envelope</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_Utils_SoapHelper_GeneraRegistroParcialXml_" data-uid="VerifactuSDK.Utils.SoapHelper.GeneraRegistroParcialXml*"></a>
+  <h4 id="VerifactuSDK_Utils_SoapHelper_GeneraRegistroParcialXml_VerifactuSDK_DTO_RegFactuSistemaFacturacion_" data-uid="VerifactuSDK.Utils.SoapHelper.GeneraRegistroParcialXml(VerifactuSDK.DTO.RegFactuSistemaFacturacion)">GeneraRegistroParcialXml(RegFactuSistemaFacturacion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GeneraRegistroParcialXml(RegFactuSistemaFacturacion registroFactura)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VerifactuSDK.DTO.RegFactuSistemaFacturacion.html">RegFactuSistemaFacturacion</a></td>
+        <td><span class="parametername">registroFactura</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>

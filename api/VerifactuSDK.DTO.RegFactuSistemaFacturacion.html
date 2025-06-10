@@ -171,6 +171,53 @@ public class RegFactuSistemaFacturacion</code></pre>
       </tr>
     </tbody>
   </table>
+  <a id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_RegistrosXml_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.RegistrosXml*"></a>
+  <h4 id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_RegistrosXml" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.RegistrosXml">RegistrosXml</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RegistrosXml { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_Replace_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.Replace*"></a>
+  <h4 id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_Replace" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.Replace">Replace</h4>
+  <div class="markdown level1 summary"><p>Propiedad auxiliar cuyo único cometido es serializar un nodo que será reemplazado en su caso por la cadena que representa los registros de factura</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Replace { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <a id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFactura_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFactura*"></a>
@@ -233,8 +280,9 @@ public class RegFactuSistemaFacturacion</code></pre>
   </table>
   <a id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFacturaFromXml_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml*"></a>
   <h4 id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_AgregarRegistroFacturaFromXml_System_String_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.AgregarRegistroFacturaFromXml(System.String)">AgregarRegistroFacturaFromXml(String)</h4>
-  <div class="markdown level1 summary"><p>Añade un objeto de tipo RegistroFacturaType a partir del xml serializado al array &quot;RegistroFactura&quot; instanciándolo o redimensionándolo.
-El uso de este método tiene sentido desde un proceso independiente para preparar un lote de registros que previamente han sido generados
+  <div class="markdown level1 summary"><p>Añade un objeto de tipo RegistroFacturaType a partir de la información parcial de un registro serializado (en formato xml) a la lista interna registrosXml (en la propiedad RegistrosXm obtendremos la representación en cadena de la concatenación de los registros).</p>
+<p>Es importante remarcar que en este caso no se añadirá el registro al array &quot;RegistroFactura&quot; y por tanto no lo instanciará o redimensionará.</p>
+<p>El uso de este método tiene sentido desde un proceso independiente para preparar un lote de registros que previamente han sido generados
 en el proceso de emisión, concatenados mediante la huella y serializados a xml.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -270,6 +318,30 @@ en el proceso de emisión, concatenados mediante la huella y serializados a xml.
     <tbody>
       <tr>
         <td><a class="xref" href="VerifactuSDK.DTO.ResultadoOperacion.html">ResultadoOperacion</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_ShouldSerializeReplace_" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.ShouldSerializeReplace*"></a>
+  <h4 id="VerifactuSDK_DTO_RegFactuSistemaFacturacion_ShouldSerializeReplace" data-uid="VerifactuSDK.DTO.RegFactuSistemaFacturacion.ShouldSerializeReplace">ShouldSerializeReplace()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+public bool ShouldSerializeReplace()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
