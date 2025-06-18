@@ -281,9 +281,11 @@ o utilizar el constructor adecuado.</p>
 Si no se indica un certificado exportado se usará el último certificado establecido (ver EstableceCertificado).
 Si no se ha esteblecido un certificado ni se ha indicado una ruta, el sistema mostrará un diálogo de selección de certificado (sólo en plataforma windows).</p>
 <ul>
-<li>Si los registros se han añadido mediante AgregarRegistroFactura como objetos de tipo RegistroFacturaType, y por tanto el array RegistroFactura tiene valores, el mensaje SOAP de comunicación del lote se construirá serializando cada registro.</li>
+<li><p>Si los registros se han añadido mediante AgregarRegistroFactura como objetos de tipo RegistroFacturaType, y por tanto el array RegistroFactura tiene valores, el mensaje SOAP de comunicación del lote se construirá serializando cada registro.</p>
+</li>
+<li><p>Si los registros se han añadido mediante AgregarRegistroFacturaFromXml, RegistroFactura no tiene valores y RegistrosXml no es nulo o vacío, el mensaje SOAP de comunicación del lote se construirá utilizando el contenido de RegistrosXml, que debe contener un XML válido con los registros de facturación a enviar. En este caso, el array RegistroFactura no se utilizará y no se serializará ningún registro adicional.</p>
+</li>
 </ul>
-<p>** Si los registros se han añadido mediante AgregarRegistroFacturaFromXml, RegistroFactura no tiene valores y RegistrosXml no es nulo o vacío, el mensaje SOAP de comunicación del lote se construirá utilizando el contenido de RegistrosXml, que debe contener un XML válido con los registros de facturación a enviar. En este caso, el array RegistroFactura no se utilizará y no se serializará ningún registro adicional.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

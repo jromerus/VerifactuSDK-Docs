@@ -1498,6 +1498,18 @@ references:
   commentId: F:VerifactuSDK.DTO.Alta.OperacionExentaType.E6
   fullName: VerifactuSDK.DTO.Alta.OperacionExentaType.E6
   nameWithType: OperacionExentaType.E6
+- uid: VerifactuSDK.DTO.Alta.OperacionExentaType.E7
+  name: E7
+  href: api/VerifactuSDK.DTO.Alta.OperacionExentaType.html#VerifactuSDK_DTO_Alta_OperacionExentaType_E7
+  commentId: F:VerifactuSDK.DTO.Alta.OperacionExentaType.E7
+  fullName: VerifactuSDK.DTO.Alta.OperacionExentaType.E7
+  nameWithType: OperacionExentaType.E7
+- uid: VerifactuSDK.DTO.Alta.OperacionExentaType.E8
+  name: E8
+  href: api/VerifactuSDK.DTO.Alta.OperacionExentaType.html#VerifactuSDK_DTO_Alta_OperacionExentaType_E8
+  commentId: F:VerifactuSDK.DTO.Alta.OperacionExentaType.E8
+  fullName: VerifactuSDK.DTO.Alta.OperacionExentaType.E8
+  nameWithType: OperacionExentaType.E8
 - uid: VerifactuSDK.DTO.Alta.RechazoPrevioType
   name: RechazoPrevioType
   href: api/VerifactuSDK.DTO.Alta.RechazoPrevioType.html
@@ -4153,6 +4165,18 @@ references:
   commentId: F:VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.E6
   fullName: VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.E6
   nameWithType: OperacionExentaType.E6
+- uid: VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.E7
+  name: E7
+  href: api/VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.html#VerifactuSDK_DTO_Consulta_Respuesta_OperacionExentaType_E7
+  commentId: F:VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.E7
+  fullName: VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.E7
+  nameWithType: OperacionExentaType.E7
+- uid: VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.E8
+  name: E8
+  href: api/VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.html#VerifactuSDK_DTO_Consulta_Respuesta_OperacionExentaType_E8
+  commentId: F:VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.E8
+  fullName: VerifactuSDK.DTO.Consulta.Respuesta.OperacionExentaType.E8
+  nameWithType: OperacionExentaType.E8
 - uid: VerifactuSDK.DTO.Consulta.Respuesta.RechazoPrevioType
   name: RechazoPrevioType
   href: api/VerifactuSDK.DTO.Consulta.Respuesta.RechazoPrevioType.html
